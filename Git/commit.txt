@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-06-15T16:33:21+03:00
+
+====== commit ======
+Created Friday 15 June 2018
+
+можно не делать [git add] а сразу 
+git commit -a -m 'comment'
+
+один нюанс - на новые файлы не действует
