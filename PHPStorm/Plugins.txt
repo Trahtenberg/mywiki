@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-06-15T16:09:35+03:00
+
+====== Plugins ======
+Created Friday 15 June 2018
+
+Php Inspections:
+поставить курсор на класс с namespace-ом и нажать на Alt+Enter->Enter: namespace перейдет наверх в зону use
+
+Yii2 Support
