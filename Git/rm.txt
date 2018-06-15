@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-06-15T16:44:13+03:00
+
+====== rm ======
+Created Friday 15 June 2018
+
+удаление файла из репозитория
+
+если надо удалить из репы, но оставить на диске, то
+git rm --cached filename
