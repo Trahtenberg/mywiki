@@ -1,2 +1,3 @@
 # mywiki
-основан на программе zim
+based on zim
+http://zim-wiki.org/
