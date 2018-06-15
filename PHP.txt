@@ -5,3 +5,12 @@ Creation-Date: 2018-06-15T16:25:35+03:00
 ====== PHP ======
 Created Friday 15 June 2018
 
+типизация функции
+
+class [[ClassB]] {
+}
+class [[ClassA]] {
+	function funcA(): [[ClassB]] {
+		// возвращает результат типа [[ClassB]]
+	}
+}
