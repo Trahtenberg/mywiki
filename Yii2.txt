@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-06-15T16:21:24+03:00
+
+====== Yii2 ======
+Created Friday 15 June 2018
+

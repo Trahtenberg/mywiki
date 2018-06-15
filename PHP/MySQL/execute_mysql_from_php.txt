@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-06-15T16:26:12+03:00
+
+====== execute mysql from php ======
+Created Friday 15 June 2018
+
+запуск mysql команды из PHP:
+exec('mysql -h yak.shinservice.ru -u td_usr -ptd td -e "LOAD DATA LOCAL INFILE \'/app/vagrant/mysql/brands3.csv\' INTO TABLE aps.model_exception character set cp1251;"');

@@ -5,4 +5,5 @@ Creation-Date: 2018-06-15T16:13:03+03:00
 ====== SSL certificates ======
 Created Friday 15 June 2018
 
+обновление/загрузка новых сертификатов
 update-ca-certificates

@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-06-15T16:27:17+03:00
+
+====== composer self-update ======
+Created Friday 15 June 2018
+
+Если OpenServer composer self-update ругается на сертификаты,
+то надо скопировать ключи 
+из shinservice-KOLCS-CA.crt и subordinate_cert_PA.crt
+в файл cacert.pem папки PHP (D:\OSPanel\modules\php\PHP-7.1-x64\cacert.pem)
+и перезапустить openserver
+(http://ruphp.com/ssl-ssl3_get_server_certificate-x4.html)

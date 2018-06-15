@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-06-15T16:20:53+03:00
+
+====== screen ======
+Created Friday 15 June 2018
+
+утилита screen в linux по ssh:
+
+Установка:
+sudo apt-get install screen
+
+Список окон:
+screen -ls
+screen -list
+
+Вход (неименной):
+td@zebra:~$ screen
+(откроется приветственное окно)
+
+Создание именного окна:
+screen -S dima
+
+Выход с сохранением работы (свернуть):
+Ctrl + a -> d
+
+Выйти/убить экран:
+td@zebra:~$ exit 
+Ctrl + d
+(появится сообщение [screen is terminating])

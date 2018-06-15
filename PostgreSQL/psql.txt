@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-06-15T16:19:13+03:00
+
+====== psql ======
+Created Friday 15 June 2018
+
+вход в среду postgresql:
+psql autopartserv -h 127.0.0.1 -d autopartserv
+
+расширенный дисплей:
+\x
+
+установка показа "null"
+\pset null null
+
+список таблиц:
+\dt
+
+информация о таблице:
+\d имя_таблицы
+
+список функций:
+\df
+вызов функции:
+\df имя_функции
+
+выход:
+\q

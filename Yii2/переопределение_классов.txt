@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-06-15T16:22:28+03:00
+
+====== переопределение классов ======
+Created Friday 15 June 2018
+
+переопределение yii2 классов:
+
+например,
+команда консоли migrate/fresh выдавала ошибку при truncate database
+суть ошибки: система не различала вьюсы от таблиц и всем пихала "drop table" и получала ошибку
+
+понадобилось переопределить "заводскую" функцию "truncateDatabase()" класса
+\yii\console\controllers\MigrateController
+который находится в \vendor\yiisoft\yii2\console\controllers\MigrateController.php
+
+1. переопределяем класс "MigrateController"
+	1.1. в папке "console" создаем папку "components"
+		в "console" - потому что переопределяем консольную команду
+	1.2. создаем в ней файл MigrateController.php 
+	1.3. пишем класс "MigrateController"
+	1.4. расширяем \yii\console\controllers\MigrateController
+2. переопределяем настройку контроллера "MigrateController"
+	2.1. открываем файл конфигурации консоли /console/config/main.php
+	2.2. добавляем ключ "migrate" под "controllerMap"
+	2.3. добавляем ключ "class" под "migrate"
+	2.4. указываем что новый класс "console\components\MigrateController::class"
+3. копируем всю функцию "truncateDatabase()" из оригинала в новый класс
+4. правим так, как нам надо.

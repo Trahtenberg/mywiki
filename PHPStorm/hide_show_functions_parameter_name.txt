@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-06-15T16:24:44+03:00
+
+====== hide show functions parameter name ======
+Created Friday 15 June 2018
+
+чтобы убрать названия параметров функций:
+	Editor -> General -> Apperance -> Show parameter name hint
