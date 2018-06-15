@@ -7,10 +7,10 @@ Created Friday 15 June 2018
 
 типизация функции
 
-class [[ClassB]] {
+class ClassB {
 }
-class [[ClassA]] {
-	function funcA(): [[ClassB]] {
-		// возвращает результат типа [[ClassB]]
+class ClassA {
+	function funcA(): ClassB {
+		// возвращает результат типа ClassB
 	}
 }

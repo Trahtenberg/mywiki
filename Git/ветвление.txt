@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-06-15T18:26:21+03:00
+
+====== ветвление ======
+Created Friday 15 June 2018
+
+создание новой ветки из текущей
+git branch testing
+
+переход на другую ветку
+git checkout testing
+
+слияние веток
+находясь на ветке master
+git merge hotfix
+
+визуальное разрешение конфликтов
+git mergetool
+
+список веток
+git branch
+
+последний коммит на каждой ветке
+git branch -v

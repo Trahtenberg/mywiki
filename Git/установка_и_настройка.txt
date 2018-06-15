@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-06-15T18:26:01+03:00
+
+====== установка и настройка ======
+Created Friday 15 June 2018
+
+Начало работы
+-установить git
+-настроить git
+	git config --global user.name "ds"
+	git config --global user.email "1@1.ru"
+		под этим именем будут регистрироваться изменения в ветках
+		если есть --global, то должно быть и --local, и оно есть
+
+Для начала надо либо создать новый репозиторий, либо склонировать его 
+
+-новый репозиторий в рабочей папке
+	git init
+
+-клон существующего из сети посредством HTTP, например из github.com
+	git clone https://github.com/dimastoy/wiki.git
+
+-клон существующего из внешней или внутренней сети посредством SSH
+	git clone git@github.com:dimastoy/wiki.git - из внешней сети
+	
+	git clone git@git.sst.su:/srv/git/autopartserv.git - из внутренней сети, где git.sst.su это 185.185.68.65
+	в этом случае возможно придется прописать в /etc/hosts: git.sst.su 185.185.68.65
