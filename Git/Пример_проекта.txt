@@ -1,0 +1,100 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-06-20T17:05:33+03:00
+
+====== Пример проекта ======
+Created Wednesday 20 June 2018
+
+**Задача:**
+-создать репозиторий на локальном компьютере
+-в openserver создать боевой каталог (pro) и рабочий каталог девелопера (dev)
+
+**предусловия:**
+папка всех репозиториев d:\git\
+рабочие папки:
+D:\ospanel\domains\mysite\pro - в этой папке существует всего одна ветка master, чтобы коммиты в master сразу были видны
+D:\ospanel\domains\mysite\dev - 
+
+**создание репозитория**
+-переходим в папку d:\git\ (cmd.exe, git bash, openserver console)
+-создаем репозиторий
+	git init --bare yii2advanced.git
+
+**создание проекта в боевой папке**
+-переходим в D:\ospanel\domains\mysite\pro и клонируем пустой репозиторий
+	git clone ../../../../git/yii2advanced.git .
+-скачать проект yii2advanced и загрузить все в папку D:\ospanel\domains\mysite\pro
+	(скачиваем и копируем вручную т.к. composer ругается что папка непуста)
+-инициализируем yii2 как development
+	init
+-закоментировать строку /vendor в файле .gitignore
+-индексируем все
+	git add -A
+	(ругается много много про переносы строк:)
+-коммитим все
+	git commit -m "upload project files"
+-пушим все на сервер репо
+	git push origin master
+-проверяем
+	сайт http://mysite/pro/frontend/web/ должен показывать стартовую страницу yii2
+
+**создание папки разработчика**
+-переходим в D:\ospanel\domains\mysite\dev и клонируем репозиторий
+	git clone ../../../../git/yii2advanced.git .
+-инициализируем yii2 как development
+	init
+-проверяем
+	сайт http://mysite/pro/frontend/%D0%B2%D1%83%D0%BC/ должен показывать стартовую страницу yii2
+-создаем новую ветку dev и переходим на нее
+	git branch dev
+	git checkout dev
+	или
+	git checkout -b dev
+-пушим в репозиторий чтобы он знал о новой ветке
+	git push origin dev
+
+**пример работы**
+
+**задача1**: работа над стартовой страницей
+условие: создать ветку по работе с задачей
+
+-переходим в папку dev
+-переключаемся на ветку dev
+	git checkout dev
+-создаем новую ветку problem1
+	git checkout -b problem1
+-пушим в репо
+	git push origin problem1
+-изменяем главную страницу
+	D:\OSPanel\domains\mysite\dev\frontend\views\site\index.php
+-индексируем и коммитим изменения
+	git commit -a -m "change homepage"
+
+**задача2**: работа над страницей о нас
+условие: создать ветку по работе с задачей
+
+-переходим в папку dev
+-переключаемся на ветку dev
+	git checkout dev
+-создаем новую ветку problem2
+	git checkout -b problem1
+-изменяем страницу о нас
+	D:\OSPanel\domains\mysite\dev\frontend\views\site\about.php
+-индексируем и коммитим изменения
+	git commit -a -m "change about page"
+
+**задача3**: 
+-собрать все наработки в ветке dev
+	git checkout dev
+	git merge problem1
+	git merge problem2
+-протестировать работу сайта на ветке dev
+-выгрузить в master
+	git checkout master
+	git merge dev
+-выгрузить на боевую
+	git push origin master
+-перейти в боевую папку
+	cd ../pro
+-забрать все изменения
+	git pull origin master
