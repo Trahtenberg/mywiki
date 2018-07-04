@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-07-03T17:45:05+03:00
+
+====== debug print r ======
+Created Tuesday 03 July 2018
+
+\Yii::warning(print_r($this->data, true));

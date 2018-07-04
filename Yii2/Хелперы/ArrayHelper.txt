@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-06-28T12:58:08+03:00
+
+====== ArrayHelper ======
+Created Thursday 28 June 2018
+
+getValue
+setValue
+remove
+keyExists
+getColumn
+index
+map
+multisort
+isIndexed
+isAssociative
+htmlEncode
+htmlDecode
+merge
+toArray
+isIn
+isSubset

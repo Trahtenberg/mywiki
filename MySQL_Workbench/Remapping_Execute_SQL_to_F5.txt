@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-07-03T10:50:57+03:00
+
+====== Remapping Execute SQL to F5 ======
+Created Tuesday 03 July 2018
+
+Locate your “main_menu.xml” MySQL configuration file – mine was in “C:\Program Files (x86)\MySQL\MySQL Workbench CE 6.0.6\data\main_menu.xml”.  Find the following XML.
+ 
+   1:  <value type="object" struct-name="app.MenuItem" id="com.mysql.wb.menu.query.execute_current_statementwin"> 
+   2:    <link type="object" key="owner" struct-name="app.MenuItem">com.mysql.wb.menu.query</link> 
+   3:    <value type="string" key="caption">Execute Current Statement</value> 
+   4:    <value type="string" key="name">query.execute_current_statement</value> 
+   5:    <value type="string" key="command">builtin:query.execute_current_statement</value> 
+   6:    <value type="string" key="itemType">action</value> 
+   7:    <value type="string" key="shortcut">Modifier+Return</value>
+   8:    <value type="string" key="platform">windows</value>
+   9:  </value> 
+Replace the “shortcut” xml (line 7 above) with the following, exit and reopen MySQL Workbench – and you’re rocking with F5!
+
+<value type="string" key="shortcut">F5</value>
+
+(http://lancelarsen.com/remapping-mysql-workbench-execute-sql-to-f5/)

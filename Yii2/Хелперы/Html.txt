@@ -1,0 +1,63 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-06-28T12:58:17+03:00
+
+====== Html ======
+Created Thursday 28 June 2018
+
+tag
+encode
+decode
+beginTag
+endTag
+removeCssClass
+addCssClass
+addCssStyle
+removeCssStyle
+beginForm
+endForm
+button
+submitButton
+resetButton
+input
+activeInput
+buttonInput()
+submitInput()
+resetInput()
+textInput()
+activeTextInput()
+hiddenInput()
+activeHiddenInput()
+passwordInput()
+activePasswordInput()
+fileInput()
+activeFileInput()
+textarea()
+activeTextarea()
+radio
+activeRadio
+checkbox
+activeDropDownList
+listBox
+activeListBox
+checkboxList
+activeCheckboxList
+radioList
+activeRadioList
+label
+activeLabel
+errorSummary
+error
+getInputName
+getInputId
+getAttributeValue
+getAttributeName
+style
+script
+cssFile
+jsFile
+a
+mailto
+img
+ul
+ol
