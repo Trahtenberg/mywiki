@@ -1,7 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2018-06-28T12:57:58+03:00
-
-====== Хелперы ======
-Created Thursday 28 June 2018
-
