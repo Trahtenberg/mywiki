@@ -44,7 +44,7 @@ D:\ospanel\domains\mysite\dev -
 -инициализируем yii2 как development
 	init
 -проверяем
-	сайт http://mysite/pro/frontend/%D0%B2%D1%83%D0%BC/ должен показывать стартовую страницу yii2
+	сайт http://mysite/pro/frontend/web/ должен показывать стартовую страницу yii2
 -создаем новую ветку dev и переходим на нее
 	git branch dev
 	git checkout dev
