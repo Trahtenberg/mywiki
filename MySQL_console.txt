@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-07-13T16:14:50+03:00
+
+====== MySQL console ======
+Created Friday 13 July 2018
+
+**Дамп удаленной БД к себе**
+
+открыть консоль [[OpenServer]] (а наверняка отработает и в SSH сессии) и набрать команду:
+
+mysqldump -h 192.168.75.154 -u td_usr -p ss > ss.sql
+
+дамп отдельной таблицы
+mysqldump -u имя_пользователя -p имя_базы имя_таблицы> имя_файла.sql
+
+дамп все бд без одной
+mysqldump -u имя_пользователя -p --ignore-table=db_table database > dump.sql
+
+файл дампа сохранится в текущую папку
+
+**Загрузка БД на свою локалку:**
+
+mysql -h localhost -u root ss < ss.sql
+
+загрузка одной таблицы так же!:
+mysql -h localhost -u root dbname < table_or_file_name.sql
