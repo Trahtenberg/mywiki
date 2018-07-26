@@ -444,12 +444,23 @@ yiiframework
 				? Лучшие практики
 		**КЕШИРОВАНИЕ**
 			+Обзор
-			Кэширование данных
+			+Кэширование данных
 				-$cache->getOrSet($key, function() { return someValue(); })
 				-параметр: $cache->getOrSet($key, function() use ($user_id) { return someValue($user_id); })
-			Кэширование фрагментов
-			Кэширование страниц
-			HTTP кэширование
+			+Кэширование фрагментов
+				-if ($this->beginCache($id)) { // ... здесь создаём содержимое ...   $this->endCache(); }
+				-срок хранения
+				-зависимости
+				-вариации (например язык вывода)
+				-вложенное кеширование - могут быть 
+				-динамическое кеширование - некоторые части большого блока м.б. динамическими, например, php-кодом
+			+Кэширование страниц
+				-в контроллер->behaviors() - описывается массивом, класс: yii\filters\PageCache
+				-кеширует страницу (вид), а кеширов. фрагментов - это как-бы кеш виджета
+			+HTTP кэширование
+				-Last-Modified - контроллер -> behaviors() - yii\filters\HttpCache - lastModified = function()... - зависимость от результатов запроса
+				-ETag - хеш содержимого страницы - ... - etagSeed = function () ...
+				-Cache-Control - ... - sessionCacheLimiter = //public, private, private_no_expire //и// nocache//
 		**ВЕБ-СЕРВИСЫ REST**
 			Быстрый старт
 			Ресурсы

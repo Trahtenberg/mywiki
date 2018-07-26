@@ -1,0 +1,121 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-07-26T17:58:36+03:00
+
+====== ActiveProject ======
+Created Thursday 26 July 2018
+
+ilk olarak sadece olanlari gosteriyoruz
+=======================================
+1.erkek 
+	yarak, parmak, dil
+	sikiyor, oksuyor, yaliyor, sokuyor, dibine kadar bogaz icine sokuyor, patlatiyor
+--------------------
+11.ayakta yatak kenarinda
+17.yerde ayakta
+12.ayakta yatak yustunde
+13.ayakta banyo icinde
+14.yatak kenarinda oturuyor
+15.yatakta sirtustu
+16.yatakta dizustu
+17.yerde yatak kenarinda dizustu
+18.yatakta sirtustu bacaklari yayik ve bukuk
+
+2.kadin
+	amcik, gotdeligi, agiz, parmak, el, dil
+	emiyor, oksuyor, sokuyor, 31 cekiyor, yaliyor, bogazina derin sokuyor
+--------------------
+21.yatak kenarinda oturuyor
+22.yerde dizustu
+23.yatakta dizustu
+24.yerde dizustu yatak kenarinda
+25.banyoya egilmis elleri uzerine
+26.yatakta sirt ustu yatiyor herhangi bir tarafa
+27.yatak kenarinda sirt ustu yatiyor, kici yatak kenarinda, bacaklari yukarida yayik
+28.yatakta, sirt ustu yatiyor, kici yatak kenarinda, bacaklari yayik yukarida dizlerinden bukuk
+29.yatak kenarinda domalmis dizustu
+30.yatakta dizustu domalmis
+31.yatakta dizustu domalmis kici yukarida
+32.yerde domalmis
+33.yatakta yuzustu
+
+ikinci olarak gelisme - mesela hayal edilen seyler
+==================================================
+
+kadin
+--------------------
+34.yatakta yuz ustu yatiyor herhangi bir tarafa - masaj icin
+35.yatakta sirtustu yatiyor basi kenardan sarkiyor - agizina derin sokmak icin
+
+olay
+====
+her zaman biri aktif dieri pasif
+
+kim pasif? pasif durusu? aktif kim? aktif durusu? actifin tarafi? aktif neyle? pasifin neresine? aktif ne yapiyor?
+===============================================================
+d=new person(erkek,'d')
+e=new person(kadin, 'l', derinemmekyok, gotvermekaz)
+[d][13.ayakta banyo icinde][e][25.banyoya egilmis elleri uzerine][denin onunde][agizla][yaragi][emiyor]
+[e][27.yatak kenarinda sirt ustu yatiyor, kici yatak kenarinda, bacaklari yukarida yayik][d][17.yerde yatak kenarinda dizustu][enin onunde][diliyle][amini][yaliyor]
+[d][15.yatakta sirtustu][e][33.yatakta yuzustu][d'nin onunde][agizla][yaragi][emiyor]
+oks=new person(kadin, 'oks', derinemer, gorverir)
+[d][18.yatakta sirtustu bacaklari yayik ve bukuk][e][30.yatakta dizustu domalmis][d'nin yaninda][eliyle][yaragi][31 cekiyor]
+[d][18.yatakta sirtustu bacaklari yayik ve bukuk][oks][30.yatakta dizustu domalmis][d'nin onunde][diliyle][yaragi][yaliyor]
+[d][18.yatakta sirtustu bacaklari yayik ve bukuk][oks][30.yatakta dizustu domalmis][d'nin onunde][agizla][yaragi][emiyor]
+[d][18.yatakta sirtustu bacaklari yayik ve bukuk][oks][30.yatakta dizustu domalmis][d'nin onunde][agizla][yaragi][bogazina derin sokuyor]
+[d][16.yatakta dizustu][oks][30.yatakta dizustu domalmis][d'nin onunde][][agizla][yaragi][bogazina derin sokuyor]
+[oks][35.yatakta sirtustu yatiyor basi kenardan sarkiyor][d][11.ayakta yatak kenarinda][oks ustunde][yarakla][agizina][dibine kadar bogaz icine sokuyor]
+[oks][31.yatakta dizustu domalmis kici yukarida][d][16.yatakta dizustu][oks'in arkasinda][parmakla][gotdeligini][oksuyor]
+[d][16.yatakta dizustu][e][30.yatakta dizustu domalmis][d'nin onunde][agizla][yaragi][emiyor]
+[oks][31.yatakta dizustu domalmis kici yukarida][d][16.yatakta dizustu][oks'in arkasinda][parmagini][gotdeligine][sokuyor]
+[d][16.yatakta dizustu][e][30.yatakta dizustu domalmis][d'nin onunde]kucuk d popo seviyor biz ona bir zevk verelim
+[d][16.yatakta dizustu][oks][31.yatakta dizustu domalmis kici yukarida][d'nin onunde]yavasca sok yavasca dibine kadar gitgel sonunda dibine kadar bastir ve patlat
+[oks][31.yatakta dizustu domalmis kici yukarida][d][16.yatakta dizustu][oks'in arkasinda][yaragi][gotdeligine][sokuyor]
+[oks][31.yatakta dizustu domalmis kici yukarida][d][16.yatakta dizustu][oks'in arkasinda][yarakla][gotdeligini][sikiyor]
+[oks][31.yatakta dizustu domalmis kici yukarida][e]30.yatakta dizustu domalmis][oks'in yaninda][eliyle][kalcalarini][yayiyor]
+[d][16.yatakta dizustu][e][30.yatakta dizustu domalmis][d'nin onunde]kucuk d'nin kafasi buyudu - sok onu dibine kadar
+[oks][31.yatakta dizustu domalmis kici yukarida][d][12.ayakta yatak yustunde][oks'in ustunde][yarakla][gotdeligini][sikiyor]
+[oks][31.yatakta dizustu domalmis kici yukarida][d][12.ayakta yatak yustunde][oks'in ustunde][yaragi][gotdeliginde][patlatiyor]
+...
+[e]bir daha olacak mi
+[d]tabi ki, hele oks burada
+[d][18.yatakta sirtustu bacaklari yayik ve bukuk][e][30.yatakta dizustu domalmis][d'nin onunde][agizla][yaragi][emiyor]
+[e]bak suna kalkti
+[d][18.yatakta sirtustu bacaklari yayik ve bukuk][oks][30.yatakta dizustu domalmis][d'nin ustunde 69][agizla][yaragi][emiyor]
+[e]d yala bakayim oks'yi, bak ne genc bir amcik
+[oks][30.yatakta dizustu domalmis][d][18.yatakta sirtustu bacaklari yayik ve bukuk][oks'nin altinda 69][diliyle][amini][yaliyor]
+[e]su popoda sen gezdin
+[oks][30.yatakta dizustu domalmis][d][18.yatakta sirtustu bacaklari yayik ve bukuk][oks'nin altinda 69][diliyle][amini][yaliyor]+[parmakla][gotdeligine][sokuyor]
+[d][18.yatakta sirtustu bacaklari yayik ve bukuk][oks][30.yatakta dizustu domalmis][d'nin ustunde 69][agizla][yaragi][bogazina derin sokuyor]
+[oks][30.yatakta dizustu domalmis][d][18.yatakta sirtustu bacaklari yayik ve bukuk][oks'nin altinda 69][yarakla][agizina][titreyerek patlatiyor]
+[d][18.yatakta sirtustu bacaklari yayik ve bukuk][e][30.yatakta dizustu domalmis][d'nin onunde][eliyle][yaragi]oks'nin agizina[31 cekiyor]
+[d][18.yatakta sirtustu bacaklari yayik ve bukuk][oks][30.yatakta dizustu domalmis][d'nin ustunde 69][agizla][yaragi][emiyor]+yumusak olana kadar agizinda tutuyor
+[e]nasil opucuk nasil popo
+[d]super
+[oks]ben boyle diri patlayis gormedim, yarak ta tam benim gotdeligime gore duz giriyor ve duz yatiyor icine, 
+	 yarak kafasi da gotun dibini bastarip masaj ve zevk veriyor sanki prostatayi bastiriyormus gibi, bir daha denesek mi e?
+	 ben soyleyecegim nasil ve ne kadar sokasin
+===============================================================
+koc = new person(erkek, 'koc')
+bebek = new person(kadin, 'bebek')
+aslan = new person(erkek, 'aslan')
+--
+[koc][17.yerde ayakta][bebek][22.yerde dizustu][kocun onunde][agizla][yaragi][yemiyor]
+[aslan][11.ayakta yatak kenarinda][bebek][22.yerde dizustu][aslanin onunde][agizla][yaragi][yemiyor]
+[bebek][22.yerde dizustu][koc][17.yerde ayakta][bebegin onunde][yarakla][agizini][sikiyor]
+[bebek][22.yerde dizustu][aslan][17.yerde ayakta][bebegin onunde][yarakla][agizini][sikiyor]
+[bebek][32.yerde domalmis]
+[bebek][32.yerde domalmis][koc][17.yerde ayakta][bebegin arkasinda][yarakla][amini][sikiyor]
+--
+[bebek][30.yatakta dizustu domalmis]
+--
+[koc][15.yatakta sirtustu][bebek][30.yatakta dizustu domalmis][kocun onunde][agizla][yaragi][emiyor]
+[bebek][30.yatakta dizustu domalmis][aslan][16.yatakta dizustu][bebegin arkasinda][yarakla][amini][sikiyor]
+[bebek][30.yatakta dizustu domalmis][koc][16.yatakta dizustu][bebegin onunde][yarakla][agizini][sikiyor]
+[bebek][30.yatakta dizustu domalmis][aslan][16.yatakta dizustu][bebegin arkasinda][yarakla][gotdeligine][sokuyor]
+--
+[bebek][30.yatakta dizustu domalmis][koc][15.yatakta sirtustu][bebegin altinda][yarakla][amini][sikiyor]
+[bebek][30.yatakta dizustu domalmis][aslan][16.yatakta dizustu][bebegin arkasinda][yarakla][gotdeligini][sikiyor]
+--
+[bebek][30.yatakta dizustu domalmis][koc][15.yatakta sirtustu][bebegin altinda][yarakla][amini][sikiyor]
+[bebek][30.yatakta dizustu domalmis][aslan][16.yatakta dizustu][bebegin arkasinda][yarakla][gotdeligini][sikiyor]
