@@ -473,7 +473,7 @@ yiiframework
 			Обработка ошибок
 		**ИНСТРУМЕНТЫ РАЗРАБОТЧИКА**
 			Отладочная панель и отладчик
-			Генерация кода с Gii
+			+Генерация кода с Gii
 			Генератор документации API
 		**ТЕСТИРОВАНИЕ**
 			Обзор
@@ -483,51 +483,137 @@ yiiframework
 			Приёмочные тесты
 			Фикстуры
 		**СПЕЦИАЛЬНЫЕ ТЕМЫ**
-			Шаблон приложения advanced
-			Создание приложения с нуля
-			Консольные команды
-			Встроенные валидаторы
-			Интернационализация
-			Отправка почты
-			Оптимизация производительности
-			Окружение виртуального хостинга
-			Шаблонизаторы
-			Работа со сторонним кодом
-			Использование Yii в качестве микро-framework'а		
+			+Шаблон приложения advanced
+			+Создание приложения с нуля
+			+Консольные команды
+				+создание команд с опциями: например, yii hello -m=сообщение
+				+принято возвращать коды: 0-все норм, 1-неизвестная ошибка, и далее свои описания
+				+вывод можно форматировать: echo $this->stdout($this->message, Console::FG_RED);
+			+Встроенные валидаторы
+				-все возможные валидаторы для model::rules() находятся в yii\validators\Validator::$builtInValidators
+				-используется как проверка данных для моделей данных и моделей форм
+				-compare - сравнение и контроль значений
+					['password', 'compare', 'compareAttribute' => 'password_repeat'], - сравнивает password с password_repeat
+					['age', 'compare', 'compareValue' => 30, 'operator' => '>=', 'type' => 'number'], - проверка соответствия значения
+					можно перечислить несколько полей одного типа: [['from', 'to'], 'date'],
+				-default - установка значений по умолчанию
+					['age', 'default', 'value' => null], - в качестве value м.б. обратная функция
+				-double - число
+				-email
+				-exist - должно существовать
+				-file
+				-filter - применяет фильтр к значению, trim или обратная функция
+				-image
+				-ip - проверяет валидность ip адреса
+				-in - значение в списке указанных
+				-integer
+				-match - проверка по регулярному выражению
+				-number
+				-required
+				-safe
+				-string - ['username', 'string', 'length' => [4, 24]] - означает длинной от 4 до 24
+				-trim
+				-unique - только в ActiveRecord - проверяет уникальность в столбце таблицы
+				-url
+			+Интернационализация
+				-исходный язык
+				-язык перевода
+				-переопределение на ходу : \Yii::$app->language = 'ru-RU';
+				-переводы лежат в отдельных файлах, внутри return ['фраза' => 'перевод', ...];
+			+Отправка почты
+				-Yii::$app->mailer->compose();
+				-письмо м.б. в файле виде в @app/mail
+				-можно создать свой класс майла и указать его в конфигурационном файле, но надо наследовать их от yii\mail\MailerInterface и yii\mail\MessageInterface
+			+Оптимизация производительности
+				-кеширование схемы - бд подключается к кешу
+				-объединение и минимизация ресурсов - css, js
+				-сессии - в маленьких проектах сессии в файлах достаточны, а в больших надо в бд 
+					-'components' => 'session' => 'class' => 'yii\web\DbSession'
+					-и создать таблицу session в бд
+				-бд
+					-индексы
+					-views
+				-ActiveRecord - если много данных то лучше брать массивом asArray() вместо объекта
+			+Окружение виртуального хостинга
+				-установка на виртуальный хостинг yii2basic
+					-сперва установить локально
+					-потом переименовать web так как на хостинге - docs, www, public_html
+					-перенести проект на хостинг
+				-чтобы перенести yii2advanced, надо расположить backend в frontend/admin и так переносить
+			+Шаблонизаторы
+				-Smarty
+				-Twig
+			+Работа со сторонним кодом
+				-если сторонний модуль есть в виде пакета composer то подключение через composer
+				-если нет, то скачивается в папку vendor и подключается автозагрузчик если надо
+				-если у библиотеки нет автозагрузчика то возможно надо прописать в include_path
+				-можно использовать yii в качестве вспомогательного к другой системе/фреймворку
+			+Использование Yii в качестве микро-framework'а		
+				-можно установить ядро и создать свою структуру со своей конфигурацией
 		**ВИДЖЕТЫ**
-			GridView
-			ListView
-			DetailView
-			ActiveForm
-			Pjax
-			Menu
-			LinkPager
-			LinkSorter
-			Виджеты Bootstrap
-			Виджеты Jquery UI
+			+Widgets
+				GridView - yii\widgets\GridView
+				ListView - yii\widgets\ListView
+				DetailView - yii\widgets\DetailView - показ атрибутов модели, то бишь полей таблицы бд
+				ActiveForm - yii\widgets\ActiveForm - составление форм на основе модели
+				Pjax - yii\widgets\Pjax - ajax в отдельном блоке (не всей страницы)
+				Menu - yii\widgets\Menu - можно делать многоуровневое меню, в том числе на nested sets
+				LinkPager - yii\widgets\LinkPager - paging
+				LinkSorter - yii\widgets\LinkSorter - сортировщик колонок например в grid
+			+Виджеты Bootstrap - в основном похожи на HtmlHelper , но от bootstrap
+				yii\bootstrap\ActiveForm
+				yii\bootstrap\Alert - зона вывода сообщений
+				yii\bootstrap\Button
+				yii\bootstrap\ButtonDropdown
+				yii\bootstrap\ButtonGroup
+				yii\bootstrap\Carousel
+				yii\bootstrap\Collapse
+				yii\bootstrap\Dropdown
+				yii\bootstrap\Modal - модальное окно, в настройках можно задать свою кнопкуу запуска
+				yii\bootstrap\Nav
+				yii\bootstrap\NavBar
+				yii\bootstrap\Progress
+				yii\bootstrap\Tabs
+			+Виджеты Jquery UI
+				Accordion
+				AutoComplete
+				DatePicker
+				Dialog
+				Draggable
+				Droppable
+				Menu
+				ProgressBar
+				Resizable
+				Selectable
+				Slider - ползунок
+				SliderInput
+				Sortable
+				Spinner
+				Tabs
 		**ХЕЛПЕРЫ**
-			Обзор
-			ArrayHelper
-			Html
-			Url хелпер
+			+Обзор
+				-можно расширить клас хелпера своей реализацией и подключить в yii.php
+			+ArrayHelper
+				-позволяет делать операции с массивами но удобнее чем в нативном php
+				-например переопределение класса ArrayHelper: app\components\ArrayHelper extends BaseArrayHelper
+				-запуск автозагрузчика на новый класс: yii.php: Yii::$classMap['yii\helpers\ArrayHelper'] = '@app/components/ArrayHelper.php';
+			+Html
+				-вывод стандартных HTML тэгов с текстом, классом, стилем, и вообще опциями
+					<?= yii\helpers\Html::tag('p', $a, ['class'=>'vayvay', 'style'=>'color:red;']) ?>
+				-Html::tag, Html::beginTag, Html::endTag
+				-Html::addCssClass(), Html::removeCssClass() - добавление существующего класса, например из bootstrap
+				-Html::addCssStyle()
+				-Html::encode(); - экранирование контента
+				-Html::beginForm(), Html::endForm()
+				-Html::button(), ...submitButton(), ...resetButton()
+				-Html::input, ...activeInput()
+				-<?= Html::style('.danger { color: #f00; }') ?> - подключение стиля - выведет <style>.danger { color: #f00; }</style>
+				-Html::script() - выведет <script>...</script>
+				-Html::a()
+			+Url хелпер
+				-Url::home(), base(), toRoute(), to(), current(), remember(), previous(), isRelative()
 	API - документация по namespace-ам
 	Wiki - как сделать то-то
-	Extensions - расширения для yii2 - некоторые уже есть в коробке, 
-		например можно скачать "yiisoft/yii2-jui" включающий такие виджеты как 
-			Accordion
-			AutoComplete
-			DatePicker
-			Dialog
-			Draggable
-			Droppable
-			Menu
-			ProgressBar
-			Resizable
-			Selectable
-			Slider
-			SliderInput
-			Sortable
-			Spinner
-			Tabs
+	Extensions - расширения для yii2 - некоторые уже есть в коробке
 		
 	
