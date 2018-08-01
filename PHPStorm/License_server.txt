@@ -7,3 +7,4 @@ Created понедельник 23 Июль 2018
 
 23.07.2018 - https://idea.qmanga.com/
 01.08.2018 - http://180.76.140.202:9123
+(новые сервера см. на https://gist.github.com/andrei0807/a0e7e4f22d6f3d42c88d489a7d303771)
