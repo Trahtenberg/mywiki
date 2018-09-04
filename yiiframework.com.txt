@@ -53,9 +53,10 @@ yiiframework
 			+Обзор
 				-приложение - веб или консольное
 			+Входные скрипты - место запуска приложения - место объявления констант
-					-basic 
-					-web - yii.php, yii
-					-console - config/console.php
+					-basic; -web - yii.php, yii; -console - config/console.php
+					-/frontend/web/index.php - входной скрипт приложения "frontend"
+					-/backend/web/index.php - входной скрипт приложения "backend"
+					-./yii - входной скрипт приложения "console"
 				-в "bootstrap" конфигурации можно "положить" некий компонент и он будет загружаться.создаваться при старте
 			+Приложения
 				-конфигурация приложений

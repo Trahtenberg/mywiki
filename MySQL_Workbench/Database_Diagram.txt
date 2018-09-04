@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-09-03T10:23:27+03:00
+
+====== Database Diagram ======
+Created Monday 03 September 2018
+
+Menu -> Database -> Reverse Engineer
