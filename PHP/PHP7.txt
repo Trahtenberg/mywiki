@@ -1,0 +1,44 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-09-11T18:03:37+03:00
+
+====== PHP7 ======
+Created Tuesday 11 September 2018
+
+-типизация параметров функций
+interface I {}
+class C {}
+function f(int $a, string $b, bool $c, array $d, C $e, I $f) {}
+
+-многоточие для доступа к параметрам(...)
+function f2(...$params) { foreach ($params as $param) {} }
+echo f2(1,2,3,4,6);
+
+return type declaration
+объявление возвращаемого типа
+function sum(array ...$arr): array { return [1,2]; }
+echo sum([3,4]);
+
+оператор объединения с null
+echo $_GET['a'] ?? $_GET['a'] ?? 'notset';
+
+оператор "космический корабль"
+echo 1 <=> 1; // 0
+echo 1 <=> 2; // -1
+echo 2 <=> 1; // 1
+
+константа-массив
+declare(ANIMALS, [1,2,3]);
+
+// namespace autoloader
+function __autoload($className)
+{
+	$filename = str_replace("\\", '/', $className) . ".php";
+	if (file_exists($filename)) {
+		include($filename);
+		if (class_exists($className)) {
+			return TRUE;
+		}
+	}
+	return FALSE;
+}
