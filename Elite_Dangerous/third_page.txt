@@ -5,8 +5,51 @@ Creation-Date: 2018-09-20T16:34:39+03:00
 ====== third page ======
 Created Thursday 20 September 2018
 
+Стыковаться можно к космопорту или станции.
+
+Station Type: 
+	Orbis Starport - крутящиеся круги - вход внутрь
+	Mining Outpost - внешние посадочные площадки, длинные
+	Industrial Outpost - внешние посадочные площадки - как Mining но маленькие сжатые не длинные
+	Coriolis Starport - куб как в старой элите - вход внутрь
+
+Космопорт
+	Orbis Starport, Coriolis Starport
+Станция
+	Mining Outpost, Industrial Outpost
+
+Economies (Экономика):
+	Agriculture, Extraction, Colony, Military
+
+Пример системы:
+System LHS 3447 Economy: Agriculture (Colony, None, Extraction, Military)
+	Stations:
+	Orbital
+	 Bluford Orbital  L  2,110 ls	Economies: Agriculture		Station Type: Orbis Starport - крутящиеся круги - вход внутрь
+	 Dalton Gateway  L  92,016 ls	Economies: Agriculture		Station Type: Orbis Starport
+	 Fairbairn Station  M  91,859 ls	Economies: Extraction	добыча	Station Type: Mining Outpost - внешние посадочные площадки
+	 Lawson Orbital  M  3,600 ls	Economies: Extraction		Station Type: Mining Outpost
+	 Oleskiw Station  M  92,186 ls	Economies: Extraction		Station Type: Industrial Outpost - внешние посадочные площадки
+	 Trevithick Dock  M  91,743 ls	Economies: Extraction		Station Type: Mining Outpost
+	 Worlidge Terminal  L  91,820 ls	Economies: Extraction	Coriolis Starport	- куб как в старой элите - вход внутрь
+	 Yaping Enterprise  L  91,776 ls	Economies: Extraction
+	Planetary
+	 Avdeyev Laboratory   L  2,739 ls	Economies: Colony		Planetary Outpost
+	 la Cosa Base   L  91,850 ls	Economies: Colony			*
+	 Leinster Survey   L  2,699 ls	Economies: Military			*
+	Planetary Settlements
+	 Babcock Enterprise +   91,747 ls	Economies: None			Planetary Settlement
+	 Barnes Landing   2,747 ls	Economies: None					*******
+	 Dana Prospect ++   91,771 ls	Economies: None
+	 Edwards Enterprise +   2,111 ls
+	 Gwynn Installation ++   2,111 ls
+	 Kozin's Inheritance +++   2,747 ls
+
 Elite: Dangerous Pilot Training Tutorials: https://www.youtube.com/playlist?list=PL7glm5rbPHKxnltQU1SLxdqQrENIXJGUr
 EDDB: https://eddb.io/
+
+Для исследований подойдет корабль с большим расстоянием прыжка, например, ADDER: вместимость 8т, прыжок на 15 св.л.
+https://pikabu.ru/story/elite_dangerous_uchimsya_issledovat_3533390
 
 вы должны внимательно изучать рыночные экономики систем через которые вы пролетаете
 
