@@ -1,0 +1,120 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-10-02T17:12:32+03:00
+
+====== system - station ======
+Created Tuesday 02 October 2018
+
+Refinery import Minerals ?
+Industrial import Metals ?
+High Tech import Mashinary ?
+
+System **LHS 3447**
+ Bluford Orbital  L  2,114 ls		Agriculture	Import: Animal Monitors, Aquaponic Systems, Biowaste
+ Dalton Gateway  L  91,947 ls	Agriculture	Import: Animal Monitors, Aquaponic Systems, Biowaste
+ Fairbairn Station  M  91,821 ls	Extraction	Import: Mineral Extractors, Bioreducing Lichen, H.E. Suits
+ Lawson Orbital  M  3,601 ls	Extraction	Import: ?
+ Oleskiw Station  M  92,190 ls	Extraction	Import: Mineral Extractors, Bioreducing Lichen, H.E. Suits
+ Trevithick Dock  M  91,873 ls	Extraction	Import: Fish, Grain, Meta-Alloys
+ Worlidge Terminal  L  91,823 ls	Extraction	Import: Mineral Extractors, Bioreducing Lichen, H.E. Suits
+ Yaping Enterprise  L  91,904 ls	Extraction	Import: Mineral Extractors, Bioreducing Lichen, H.E. Suits
+
+System **Eravate** (Corporate)
+ Ackerman Market  L  273 ls	Agriculture	Import: Animal Monitors, Aquaponic Systems, Biowaste
+ Cleve Hub  L  37 ls			Industrial	Import: Aluminium (Metals), Leather (Textiles), Synthetic Fabrics (Textiles)
+ Maine Hub  M  496 ls			Industrial	Import: Copper (Metals), Leather (Textiles), Natural Fabrics (Textiles)
+ McMahon Dock  M  149 ls		Industrial	Import: Aluminium (Metals), Leather (Textiles), Synthetic Fabrics (Textiles)
+ Russell Ring  L  99 ls			Industrial	Import: Aluminium (Metals), Leather (Textiles), Synthetic Fabrics (Textiles)
+ Sylvester City  M  497 ls		Industrial	Import: Copper (Metals), Leather (Textiles), Natural Fabrics (Textiles)
+
+System **Kini** (Anarchy)
+ Kadenyuk Orbital			Refinery	Import: Mineral Oil (Chemicals), Bauxite (Minerals), Lepidolite (Minerals)
+	
+**Frigaha** (Corporate)
+ Aubakirov Orbital  M  227 ls	Extraction, Refinery	Import: Mineral Oil (Chemicals), Microbial Furnaces (Machinery), Rutile (Minerals)
+ Engle Orbital  M  75 ls			Extraction, Refinery	Import: Mineral Oil (Chemicals), Bauxite (Minerals), Rutile (Minerals)
+ Onizuka Landing  M  136 ls	Extraction, Refinery	Import: ?
+
+**LTT 18486** (Corporate)
+ Boswell Platform  M  11,318 ls		Refinery	Import: Microbial Furnaces, Bauxite (Minerals), Rutile
+ Macarthur Terminal  M  11,298 ls	Refinery	Import: ?
+
+**Chamunda** (Democracy)
+ Gidzenko Ring  L  2,715 ls 		Industrial	Import: Polymers, Aluminium (Metals), Synthetic Fabrics (Textiles)
+
+**Potriti**
+ Hartsfield Plant  M  167 ls		Extraction, Refinery	Import: Mineral Oil (Chemicals), Bauxite (Minerals), Lepidolite (Minerals)
+ Tuan Orbital  M  279 ls		Extraction, Refinery	Import: ?
+
+**Alrai Sector KH-V b2-7**
+ Mercy's Hammer  L  2,052 ls	Prison	Import: ?
+
+**Yakabugai**
+ Aristotle Gateway  M  689 ls		Industrial, Refinery	Import: Polymers
+ Levi-Montalcini City  M  508 ls		Industrial, Refinery	Import: Copper (Metals), Bauxite (Minerals), Natural Fabrics (Textiles)
+ Serebrov Station  L  365 ls			Industrial, Refinery	Import: Polymers, Natural Fabrics, Synthetic Fabrics (Textiles)
+
+Kremainn
+ Volta Station  M  5,455 ls			Industrial, Refinery	Import: ?
+ Wohler Terminal  L  2,860 ls		Industrial, Refinery	Import: Mineral Oil (Chemicals), Bauxite (Minerals), Lepidolite (Minerals)
+
+LHS 3479
+
+Apoyota
+
+Ekonir
+
+LFT 1448
+
+Uzumeru
+
+Ngaliba
+
+Mbukuravi
+
+GD 215
+
+Ekuru
+
+Sun Takush
+
+BD-01 3500
+
+Ngolibardu
+
+Calor
+
+Eta Serpentis
+
+LP 510-10
+
+V1688 Aquilae
+
+Zeta Aquilae
+
+LTT 7421
+
+LHS 3437
+
+Obambivas
+
+BD-10 5238
+
+Liaedin
+
+LP 575-38
+
+Verbigeni
+
+Ross 733
+
+Swaza
+
+Liu Baja
+
+LHS 3505
+
+Mikinn
+
+Belu
+

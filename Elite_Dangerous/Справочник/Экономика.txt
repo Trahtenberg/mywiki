@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-10-02T14:47:47+03:00
+
+====== Экономика ======
+Created Tuesday 02 October 2018
+
+Agriculture (Сельское хозяйство)
+Extraction (Добыча ископаемых)
+High Tech (Высокие технологии)
+Industrial (Промышленность)
+Military (Военная)
+Prison (Тюрьма)
+Refinery (Переработка)
+Service (Сфера услуг)
+Terraforming (Терраформирование)
+Tourism (Туризм)
+Colony (Колония)
+Damaged (Повреждённый)
+Repair (Ремонт)
+Rescue (Спасение)
+None
