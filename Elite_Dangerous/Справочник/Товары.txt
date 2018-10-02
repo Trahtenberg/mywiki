@@ -1,0 +1,394 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-10-02T14:19:18+03:00
+
+====== Товары ======
+Created Tuesday 02 October 2018
+
+Товары
+
+Chemicals (Химикаты)
+	Anduliga Fire Works 
+	Delta Phoenicis Palms
+	Explosives           
+	HIP Organophosphates
+	Hydrogen Fuel        
+	Hydrogen Peroxide    
+	Koro Kung Pellets
+	Liquid Oxygen        
+	Mineral Oil          
+	Nerve Agents         
+	Pesticides           
+	Surface Stabilisers  
+	Synthetic Reagents   
+	Toxandji Virocide*   
+	Water                
+
+Consumer Items (Потребительские товары)
+	Alacarakmo Skin Art       
+	Altairian Skin*           
+	Bucky Ball Beer Mats      
+	Clothing                  
+	Consumer Technology       
+	Crystalline Spheres*      
+	Domestic Appliances       
+	Eleu Thermals             
+	Eshu Umbrellas            
+	Evacuation Shelter        
+	Havasupai Drcher*  
+	Jaques Quinentian Still*  
+	Jaradharre Puzzle Box*    
+	Jotun Mookah*             
+	Karetii Couture           
+	Kinago Violins            
+	Leathery Eggs*            
+	Momus Bog Spaniel*        
+	Nguna Modern Antiques     
+	Njangari Saddles          
+	Ophiuch Exino Artefacts   
+	Ophiuch Exino Artefacts*  
+	Personal Gifts                     
+	Rajukru Multi-Stoves               
+	Shan's Charis Orchid               
+	Soontill Relics*                   
+	Survival Equipment                 
+	The Hutton Mug*                    
+	Tiolce Waste2Paste Units           
+	Ultra-Compact Processor Prototypes 
+	Uzumoku Low-G Wings*               
+	Vidavantian Lace*                  
+	Zeessze Ant Grub Glue*             
+
+Foods (Продукты)
+	Aepyornis Egg*             
+	Albino Quechua Mammoth     
+	Algae                      
+	Animal Meat                
+	Any Na Coffee              
+	Arouca Conventual Sweets*  
+	Baked Greebles             
+	Baltah Sine Vacuum Krill   
+	CD-75 Kitten Brand Coffee   
+	Ceremonial Heike Tea*       
+	Ceti Rabbits                
+	Chi Eridani Marine Paste    
+	Coffee                      
+	Coquim Spongiform Victuals  
+	Deuringas Truffles          
+	Diso Ma Corn*               
+	Eden Apples Of Aerial       
+	Esuseku Caviar              
+	Ethgreze Tea Buds*          
+	Fish                        
+	Food Cartridges             
+	Fruit and Vegetables        
+	Giant Irukama Snails        
+	Goman Yaupon Coffee         
+	Grain                       
+	HIP 10175 Bush Meat         
+	HIP Proto-Squid             
+	HR 7221 Wheat               
+	Haidne Black Brew*          
+	Helvetitj Pearls            
+	Jaroua Rice                 
+	Karsuki Locusts             
+	LTT Hypersweet*             
+	Live Hecate Sea Worms       
+	Mechucos High Tea*          
+	Mokojing Beast Feast*       
+	Mukusubii Chitin-Os*        
+	Mulachi Giant Fungus*       
+	Neritus Berries             
+	Ochoeng Chillies            
+	Orrerian Vicious Brew*      
+	Sanuma Decorative Meat*     
+	Synthetic Meat              
+	Tanmark Tranquil Tea*       
+	Tea                         
+	Uszaian Tree Grub*          
+	Utgaroar Millennial Eggs    
+	Void Extract Coffee*        
+	Wheemete Wheat Cakes*       
+	Witchhaul Kobe Beef         
+
+Industrial Materials (Промышленные материалы)
+	CMM Composite             
+	Ceramic Composites        
+	Insulating Membrane       
+	Medb Starlube*            
+	Meta-Alloys               
+	Micro-Weave Cooling Hoses 
+	Neofabric Insulation      
+	Polymers                  
+	Semiconductors            
+	Superconductors           
+
+Legal Drugs (Легальные одурманивающие вещества)
+	Azure Milk*              
+	Bast Snake Gin*          
+	Beer                     
+	Bootleg Liquor           
+	Burnham Bile Distillate* 
+	Centauri Mega Gin*       
+	Chateau De Aegaeon*      
+	Crom Silver Fesh         
+	Eranin Pearl Whisky      
+	Geawen Dance Dust*       
+	Gerasian Gueuze Beer*    
+	Harma Silver Sea Rum     
+	Indi Bourbon*            
+	Kamitra Cigars*          
+	Kongga Ale               
+	Lavian Brandy            
+	Leestian Evil Juice*     
+	Liquor                   
+	Lucan Onion Head         
+	Lyrae Weed               
+	Motrona Experience Jelly 
+	Narcotics                
+	Onion Head               
+	Onionhead Alpha Strain*  
+	Onionhead Beta Strain*   
+	Pavonis Ear Grubs*       
+	Rusani Old Smokey        
+	Saxon Wine*              
+	Tarach Spice             
+	Thrutis Cream*           
+	Tobacco                  
+	Wine                     
+	Wolf Fesh                
+	Wuthielo Ku Froth        
+	Yaso Kondi Leaf*         
+
+Machinery (Станки)
+	Articulation Motors       
+	Atmospheric Processors    
+	Building Fabricators      
+	Crop Harvesters           
+	Emergency Power Cells     
+	Energy Grid Assembly      
+	Exhaust Manifold          
+	Geological Equipment      
+	Giant Verrix*             
+	HN Shock Mount            
+	Heatsink Interlink        
+	Magnetic Emitter Coil     
+	Marine Equipment          
+	Microbial Furnaces        
+	Mineral Extractors        
+	Modular Terminals         
+	Non Euclidian Exotanks*   
+	Power Converter           
+	Power Generators          
+	Power Transfer Bus        
+	Radiation Baffle          
+	Reinforced Mounting Plate 
+	Skimmer Components        
+	Thermal Cooling Units     
+	Volkhab Bee Drones        
+	Water Purifiers           
+	Wulpa Hyperbore Systems*  
+
+Medicines (Медикаменты)
+	Advanced Medicines         
+	Aganippe Rush*             
+	Agri-Medicines             
+	Alya Body Soap*            
+	Basic Medicines            
+	Combat Stabilisers         
+	Fujin Tea*                 
+	Honesty Pills*             
+	Kachirigin Filter Leeches  
+	Pantaa Prayer Sticks*      
+	Performance Enhancers      
+	Progenitor Cells           
+	Tauri Chimes*              
+	Terra Mater Blood Bores    
+	V Herculis Body Rub*       
+	Vega Slimweed*             
+	Waters Of Shintara*        
+
+Metals (Металлы)
+	Aluminium              
+	Beryllium              
+	Bismuth                
+	Cobalt                 
+	Copper                 
+	Gallium                
+	Gold                   
+	Hafnium 178            
+	Indium                 
+	Lanthanum              
+	Lithium                
+	Osmium                 
+	Palladium              
+	Platinum               
+	Platinum Alloy         
+	Praseodymium           
+	Samarium               
+	Silver                 
+	Sothis Crystalline Gold
+	Tantalum               
+	Thallium               
+	Thorium                
+	Titanium               
+	Uranium                
+
+Minerals (Минералы)
+	Bauxite                 
+	Bertrandite             
+	Bromellite              
+	Cherbones Blood Crystals
+	Coltan                  
+	Cryolite                
+	Gallite                 
+	Goslarite               
+	Indite                  
+	Jadeite                 
+	Lepidolite              
+	Lithium Hydroxide       
+	Low Temperature Diamonds
+	Methane Clathrate       
+	Methanol Monohydrate    
+	Moissanite              
+	Ngadandari Fire Opals*  
+	Painite                 
+	Pyrophyllite            
+	Rutile                  
+	Taaffeite               
+	Uraninite               
+
+Salvage (Трофеи)
+	Ai Relics                    
+	Ancient Artefact             
+	Ancient Artifact             
+	Ancient Casket               
+	Ancient Key                  
+	Ancient Orb                  
+	Ancient Relic                
+	Ancient Tablet               
+	Ancient Totem                
+	Ancient Urn                  
+	Antimatter Containment Unit  
+	Antimatter Containment Unit  
+	Antique Jewellery            
+	Antiquities                  
+	Assault Plans                
+	Black Box                    
+	Commercial Samples           
+	Damaged Escape Pod           
+	Data Core                    
+	Data Core                    
+	Diplomatic Bag               
+	Earth Relics                 
+	Encrypted Correspondence     
+	Encrypted Data Storage       
+	Experimental Chemicals       
+	Fertiliser                   
+	Fossil Remnants              
+	Fossil Remnants              
+	Galactic Travel Guide        
+	Gene Bank                    
+	Geological Samples           
+	Hostage                      
+	Insectoid Livestock          
+	Large Survey Data Cache      
+	Military Intelligence        
+	Military Plans               
+	Mysterious Idol              
+	Mysterious Idol              
+	Occupied CryoPod             
+	Occupied Escape Pod          
+	Personal Effects             
+	Political Prisoner           
+	Precious Gems                
+	Prohibited Research Materials
+	Prohibited Research Materials
+	Prototype Tech               
+	Rare Artwork                 
+	Rebel Transmissions          
+	Salvageable Wreckage         
+	Sap 8 Core Container         
+	Scientific Research          
+	Scientific Samples           
+	Small Survey Data Cache      
+	Space Pioneer Relics         
+	Space Pioneer Relics         
+	Tactical Data                
+	Technical Blueprints         
+	Thargoid Basilisk Tissue Sample   
+	Thargoid Biological Matter        
+	Thargoid Cyclops Tissue Sample    
+	Thargoid Heart                    
+	Thargoid Hydra Tissue Sample      
+	Thargoid Link                     
+	Thargoid Medusa Tissue Sample     
+	Thargoid Probe                    
+	Thargoid Resin                    
+	Thargoid Scout Tissue Sample      
+	Thargoid Sensor                   
+	Thargoid Technology Samples       
+	Time Capsule                      
+	Trade Data                        
+	Trinkets Of Hidden Fortune        
+	Unstable Data Core                
+	Wreckage Components               
+
+Slavery (Рабство)
+	Imperial Slaves
+	Master Chefs*  
+	Slaves         
+
+Technology (Технологии)
+	Advanced Catalysers          
+	Animal Monitors              
+	Aquaponic Systems            
+	Auto-Fabricators             
+	Az Cancri Formula 42*        
+	Bioreducing Lichen           
+	Computer Components          
+	H.E. Suits                   
+	Hardware Diagnostic Sensor   
+	Ion Distributor              
+	Land Enrichment Systems      
+	Medical Diagnostic Equipment 
+	Micro Controllers            
+	Muon Imager                  
+	Nanobreakers                 
+	Resonating Separators        
+	Robotics                     
+	Structural Regulators        
+	Telemetry Suite              
+	Xihe Biomorphic Companions*  
+
+Textiles (Текстиль)
+	Banki Amphibious Leather*    
+	Belalans Ray Leather*        
+	Chameleon Cloth*             
+	Conductive Fabrics           
+	Damna Carapaces*             
+	Leather                      
+	Military Grade Fabrics       
+	Natural Fabrics              
+	Rapa Bao Snake Skins*        
+	Synthetic Fabrics            
+	Tiegfries Synth Silk*        
+	Vanayequi Ceratomorpha Fur*  
+
+Waste (Отходы)
+	Biowaste                 
+	Chemical Waste           
+	Scrap                    
+	Toxic Waste              
+
+Weapons (Оружие)
+	Battle Weapons           
+	Borasetani Pathogenetics 
+	Gilya Signature Weapons* 
+	HIP 118311 Swarm         
+	Holva Duelling Blades*   
+	Kamorin Historic Weapons 
+	Landmines                
+	Non-lethal Weapons       
+	Personal Weapons         
+	Reactive Armour          

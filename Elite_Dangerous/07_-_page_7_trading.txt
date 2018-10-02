@@ -2,29 +2,30 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2018-10-02T11:54:10+03:00
 
-====== page 7 trading ======
+====== 07 - page 7 trading ======
 Created Tuesday 02 October 2018
 
 см карту галактики view - торговые направления
 --------------------
-1) Dock in Station. 
+1) Dock in Station. (Пристыковаться к станции.)
+2) Bring up Galaxy Map. (Открыть галактическую карту)
 
-2) Bring up Galaxy Map. 
+3) Check a nearby system: (Проверить ближайшие системы)
+a) If the system is an Industrial System - they will buy metal (Если система индустриальная/промышленная - то они купят металлы)
+b) If the system is a refinery system - they will buy minerals (Если система перерабатывающая - то будуту покупать минералы)
+c) If it is an Extraction system - they will buy Mineral Extractors and Explosives. (если система добыча ископаемых - то они купят взрывчатку и извлекатели минералов)
 
-3) Check a nearby system: 
-a) If the system is an Industrial System - they will buy metal 
-b) If the system is a refinery system - they will buy minerals 
-c) If it is an Extraction system - they will buy Mineral Extractors and Explosives. 
-
-4) Now while at the Galactic Map, check the system you are in: 
-a) An Industrial System sells machinery cheap. 
-b) A refinery sells metal cheap 
-c) An Extraction site sells minerals cheap 
+4) Now while at the Galactic Map, check the system you are in: (исследуйте текущую систему)
+a) An Industrial System sells machinery cheap. (промышленные системы продают дешево machinery/станки)
+b) A refinery sells metal cheap (Перерабатывающие системы продают дешево металлы)
+c) An Extraction site sells minerals cheap (Системы добычи ископаемых продают дешево минералы)
 
 5) The connection between points 4 and 5 should now be completely obvious! 
 a) Buy Minerals from and Extraction system and sell in a Refinery System 
 b) Buy Machinary in a Industrial System and Sell in a High Tech System. 
 c) Buy Metal at a Refinary system and sell to an Industrial System. 
+
+**(Extraction system (Minerals) -> Refinery System (Metal) -> Industrial System (Machinary) -> High Tech System)**
 
 No need for a galactic wide price list - this is far, far easier!!! You instantly know what the system is going to buy before even visiting. And you instantly know where to buy a product cheap without even visiting a system. 
 

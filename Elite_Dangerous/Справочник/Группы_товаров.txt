@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-10-02T14:19:01+03:00
+
+====== Группы товаров ======
+Created Tuesday 02 October 2018
+
+Chemicals (Химикаты)
+Consumer Items (Потребительские товары)
+Foods (Продукты)
+Industrial Materials (Промышленные материалы)
+Legal Drugs (Легальные одурманивающие вещества)
+Machinery (Станки)
+Medicines (Медикаменты)
+Metals (Металлы)
+Minerals (Минералы)
+Salvage (Трофеи)
+Slavery (Рабство)
+Technology (Технологии)
+Textiles (Текстиль)
+Waste (Отходы)
+Weapons (Оружие)
