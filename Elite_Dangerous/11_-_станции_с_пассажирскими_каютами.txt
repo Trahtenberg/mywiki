@@ -1,0 +1,707 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-10-09T14:11:30+03:00
+
+====== 11 - станции с пассажирскими каютами ======
+Created Tuesday 09 October 2018
+
+== =================================== ==
+https://roguey.co.uk/elite-dangerous/equipment/internal/economy-class-passenger-cabin/2e
+https://roguey.co.uk/elite-dangerous/equipment/internal/economy-class-passenger-cabin/3e
+https://roguey.co.uk/elite-dangerous/equipment/internal/economy-class-passenger-cabin/4e
+https://roguey.co.uk/elite-dangerous/equipment/internal/economy-class-passenger-cabin/5e
+https://roguey.co.uk/elite-dangerous/equipment/internal/economy-class-passenger-cabin/6e
+
+https://roguey.co.uk/elite-dangerous/equipment/internal/business-class-passenger-cabin/3d
+https://roguey.co.uk/elite-dangerous/equipment/internal/business-class-passenger-cabin/4d
+https://roguey.co.uk/elite-dangerous/equipment/internal/business-class-passenger-cabin/5d
+https://roguey.co.uk/elite-dangerous/equipment/internal/business-class-passenger-cabin/6d
+
+https://roguey.co.uk/elite-dangerous/equipment/internal/first-class-passenger-cabin/4c
+https://roguey.co.uk/elite-dangerous/equipment/internal/first-class-passenger-cabin/5c
+https://roguey.co.uk/elite-dangerous/equipment/internal/first-class-passenger-cabin/6c
+
+https://roguey.co.uk/elite-dangerous/equipment/internal/luxury-class-passenger-cabin/5b
+https://roguey.co.uk/elite-dangerous/equipment/internal/luxury-class-passenger-cabin/6b
+
+==============================================
+Try Sol, Abraham Lincoln - EZ Aquarii, Magnus Gateway - Kruger 60, Keplar Gateway
+These have passenger cabins size 5D at least.
+==========================================
+EDDB: но не везде есть!!!
+
+6B Economy Class Passenger Cabin
+ Haxel Port	 LTT 15574	Federation	L	668 ls	4 mins	16.43 ly
+ Weyn Port	 BD-10 5238	Federation	L	3,142 ls	3 days	21.05 ly
+ Olivas City	 LHS 3505	Federation	L	2,703 ls	26 mins	22.47 ly
+ Wallace Dock	 Mikinn	Independent	L	331 ls	17 hours	22.64 ly
+ Boltzmann Gateway	 LTT 7548	Independent	L	1,005 ls	10 hours	23.61 ly
+ Swigert Port	 Chowei	Federation	L	57 ls	5 hours	24.51 ly
+ Benyovszky Ring	 HR 7793	Independent	L	3,653 ls	17 hours	32.43 ly
+ Tarelkin City	 Ross 163	Federation	L	667 ls	1 day	33.33 ly
+ Lubin Orbital	 Mokosh	Federation	L	1,004 ls	2 days	36.49 ly
+ Bulleid Orbital	 HR 7386	Federation	L	2,007 ls	6 hours	36.73 ly
+ Bisson Hub	 Delta Equulei	Independent	L	1,711 ls	4 days	36.95 ly
+ Andreas Ring	 Kalumar	Federation	L	388 ls	2 hours	37.40 ly
+ Bass Port	 Wailladyan	Federation	L	11,088 ls	4 days	37.41 ly
+ de Andrade Dock	 V2213 Ophiuchii	Independent	L	2,622 ls	16 hours	38.10 ly
+ Readdy Orbital	 LP 390-16	Federation	L	2,970 ls	6 hours	38.87 ly
+ McCulley Gateway	 Meticuli	Federation	L	3,259 ls	1 day	39.42 ly
+ Ivanov Terminal	 LHS 3589	Federation	M	1,613 ls	8 days	39.59 ly
+ Rushd Gateway	 LFT 1492	Independent	L	29,416 ls	13 hours	40.14 ly
+ Ramanujan Dock	 Ninsun	Independent	L	971 ls	2 days	40.35 ly
+ Lee City	 LP 926-40	Independent	L	1,449 ls	5 days	41.18 ly
+ Semeonis Dock	 LHS 6326	Federation	L	355 ls	3 days	41.79 ly
+ Wheeler Horizons	 Asgaa	Federation	L	870 ls	10 hours	42.50 ly
+ Rawn City	 Vertumnus	Federation	L	140 ls	19 hours	42.90 ly
+ Aksyonov Orbital	 Yu Di Yi	Federation	L	16 ls	2 days	44.34 ly
+ Dutton Station	 Ho Hsien	Federation	L	670 ls	18 hours	46.30 ly
+ Ferguson Hub	 63 G. Capricorni	Federation	L	1,111 ls	1 day	46.39 ly
+ Duffy Dock	 Ascella	Federation	L	1,655 ls	2 days	46.94 ly
+ Sarafanov Landing	 V749 Herculis	Federation	M	211,876 ls	119 days	48.87 ly
+ Savinykh Station	 BD+01 3574	Federation	L	39,671 ls	84 days	49.15 ly
+ Mastracchio Orbital	 5 G. Capricorni	Independent	L	187 ls	19 hours	49.19 ly
+ Lie Ring	 LP 685-43	Federation	L	2,353 ls	14 hours	49.33 ly
+ Messerschmid City	 Haghole	Federation	L	12,642 ls	4 days	49.75 ly
+ Eilenberg Ring	 Valda	Federation	L	1,030 ls	21 days	49.92 ly
+ Watson Horizons	 Hyroks	Federation	L	548 ls	10 hours	49.95 ly
+ Vela Port	 Amarak	Federation	L	1,151 ls	17 hours	49.97 ly
+ Thompson Gateway	 Achelous	Federation	L	2,072 ls	17 hours	50.26 ly
+ Byrd Station	 BD-17 5832	Independent	L	90 ls	13 hours	50.39 ly
+ Bretnor Terminal	 Manbatz	Independent	L	650 ls	7 hours	50.63 ly
+ Banks Port	 Idununn	Federation	L	635 ls	74 days	51.04 ly
+ Grissom Gateway	 Medj He	Federation	L	15,976 ls	1 day	51.17 ly
+ Thuot Dock	 Tembala	Independent	L	11 ls	7 days	51.61 ly
+ Blodgett Gateway	 Kappa Ophiuchi	Federation	L	467 ls	45 days	51.74 ly
+ Koch Dock	 Kappa Ophiuchi	Independent	L	856 ls	93 days	51.74 ly
+ Chadwick Orbital	 Kharinda	Independent	L	312 ls	4 days	51.96 ly
+ Garcia Station	 LO Pegasi	Independent	L	1,973 ls	5 hours	52.44 ly
+ Leeuwenhoek Hub	 LTT 6563	Federation	L	184,338 ls	10 days	53.23 ly
+ Bosch Station	 V2578 Ophiuchii	Federation	L	350 ls	19 hours	53.51 ly
+ Bluford Dock	 LTT 16522	Federation	L	113 ls	22 days	53.71 ly
+ Schmitt Station	 LTT 7138	Federation	L	1,524 ls	4 days	54.12 ly
+ Satcher City	 LHS 5333	Federation	L	710 ls	19 hours	54.14 ly
+ 
+6D Economy Class Passenger Cabin
+ Gidzenko Ring	 Chamunda	Federation	L	2,644 ls	14 hours	7.36 ly
+ McKee Ring	 GD 219	Federation	L	938 ls	14 hours	16.39 ly
+ Qurra Ring	 Eta Serpentis	Federation	L	2,122 ls	11 hours	18.87 ly
+ Clebsch Terminal	 Obambivas	Federation	L	593 ls	3 days	21.00 ly
+ Galouye Terminal	 Obambivas	Independent	L	431 ls	1 day	21.00 ly
+ Weyn Port	 BD-10 5238	Federation	L	3,142 ls	3 days	21.05 ly
+ McCulley Ring	 Wolf 865	Federation	L	1,553 ls	21 hours	23.01 ly
+ Kekule Orbital	 LTT 15899	Independent	L	12,375 ls	15 hours	23.08 ly
+ Kaleri Gateway	 Clayakarma	Independent	L	445 ls	11 hours	23.14 ly
+ Alexandria Ring	 LTT 7548	Federation	M	1,664 ls	4 days	23.61 ly
+ Ising Vision	 Neto	Independent	L	662 ls	7 hours	23.77 ly
+ Chapman Terminal	 LP 694-16	Federation	L	359 ls	4 days	24.00 ly
+ Thompson Vision	 GAT 2	Independent	L	20,193 ls	8 days	24.46 ly
+ Swigert Port	 Chowei	Federation	L	57 ls	5 hours	24.51 ly
+ Julian Gateway	 Malloc	Federation	L	2,094 ls	2 days	24.85 ly
+ Raleigh Orbital	 Ross 720	Federation	L	7 ls	3 hours	25.62 ly
+ Vonarburg Port	 Maridal	Independent	L	505 ls	6 mins	26.37 ly
+ Filipchenko City	 G 139-50	Independent	L	7 ls	4 hours	29.82 ly
+ Bose Orbital	 51 Aquilae	Independent	L	32,441 ls	3 days	29.90 ly
+ Andreas Hub	 StHA 181	Federation	L	813 ls	4 days	31.14 ly
+ Bounds Hub	 Hrisastshi	Independent	L	19,641 ls	2 days	32.04 ly
+ Harbaugh Gateway	 Wolf 867	Federation	M	478 ls	4 days	32.41 ly
+ Benyovszky Ring	 HR 7793	Independent	L	3,653 ls	17 hours	32.43 ly
+ Cavalieri Station	 LAWD 80	Federation	L	5,115 ls	17 hours	33.68 ly
+ Lubin Orbital	 Mokosh	Federation	L	1,004 ls	2 days	36.49 ly
+ Bulleid Orbital	 HR 7386	Federation	L	2,007 ls	6 hours	36.73 ly
+ Bisson Hub	 Delta Equulei	Independent	L	1,711 ls	4 days	36.95 ly
+ Herbert Dock	 Wolf 906	Federation	L	504 ls	6 mins	37.35 ly
+ Cleve Vision	 Fusang	Federation	L	1,440 ls	10 hours	37.35 ly
+ Andreas Ring	 Kalumar	Federation	L	388 ls	2 hours	37.40 ly
+ Bass Port	 Wailladyan	Federation	L	11,088 ls	4 days	37.41 ly
+ Sternberg Ring	 Grabrigpa	Independent	L	51 ls	20 hours	37.69 ly
+ Birkeland Enterprise	 Ross 718	Federation	L	4,487 ls	38 days	38.06 ly
+ de Andrade Dock	 V2213 Ophiuchii	Independent	L	2,622 ls	16 hours	38.10 ly
+ Readdy Orbital	 LP 390-16	Federation	L	2,970 ls	6 hours	38.87 ly
+ Chapman Hub	 LP 339-7	Federation	M	4,385 ls	10 days	39.11 ly
+ McCulley Gateway	 Meticuli	Federation	L	3,259 ls	1 day	39.42 ly
+ Blackman Station	 17 Cygni	Federation	L	10,031 ls	11 days	39.46 ly
+ Oliver Enterprise	 Lwen	Federation	L	44 ls	19 hours	39.57 ly
+ Ivanov Terminal	 LHS 3589	Federation	M	1,613 ls	8 days	39.59 ly
+ Roosa Gateway	 LHS 3589	Federation	L	1,603 ls	20 hours	39.59 ly
+ Reynolds Ring	 Lencali	Federation	L	275 ls	3 days	39.70 ly
+ Rushd Gateway	 LFT 1492	Independent	L	29,416 ls	13 hours	40.14 ly
+ Ramanujan Dock	 Ninsun	Independent	L	971 ls	2 days	40.35 ly
+ Bondar Terminal	 Togher	Independent	L	109,193 ls	2 days	40.66 ly
+ Meitner Ring	 Dimoco	Federation	L	454 ls	59 days	41.09 ly
+ Blackwell Hub	 Yorua	Independent	L	103 ls	9 hours	41.25 ly
+ Aksyonov Orbital	 Pacalite	Federation	L	345,269 ls	6 hours	41.32 ly
+ Leavitt Port	 VVO 19	Independent	L	147 ls	17 days	42.08 ly
+ Viktorenko Station	 VVO 19	Federation	L	115 ls	1 day	42.08 ly
+ 
+6E Economy Class Passenger Cabin
+ Gidzenko Ring	 Chamunda	Federation	L	2,644 ls	14 hours	7.36 ly
+ McKee Ring	 GD 219	Federation	L	938 ls	14 hours	16.39 ly
+ Qurra Ring	 Eta Serpentis	Federation	L	2,122 ls	11 hours	18.87 ly
+ Blaylock Enterprise	 V1688 Aquilae	Federation	L	515 ls	2 days	19.53 ly
+ Clebsch Terminal	 Obambivas	Federation	L	593 ls	3 days	21.00 ly
+ Galouye Terminal	 Obambivas	Independent	L	431 ls	1 day	21.00 ly
+ Weyn Port	 BD-10 5238	Federation	L	3,142 ls	3 days	21.05 ly
+ Olivas City	 LHS 3505	Federation	L	2,703 ls	22 mins	22.47 ly
+ Kekule Orbital	 LTT 15899	Independent	L	12,375 ls	15 hours	23.08 ly
+ Kaleri Gateway	 Clayakarma	Independent	L	445 ls	11 hours	23.14 ly
+ Roentgen Gateway	 Clayakarma	Federation	L	575 ls	1 day	23.14 ly
+ Boltzmann Gateway	 LTT 7548	Independent	L	1,005 ls	10 hours	23.61 ly
+ Alexandria Ring	 LTT 7548	Federation	M	1,664 ls	4 days	23.61 ly
+ Ising Vision	 Neto	Independent	L	662 ls	7 hours	23.77 ly
+ Citroen Hub	 Neto	Federation	M	891 ls	2 days	23.77 ly
+ Chapman Terminal	 LP 694-16	Federation	L	359 ls	4 days	24.00 ly
+ Thompson Vision	 GAT 2	Independent	L	20,193 ls	8 days	24.46 ly
+ Swigert Port	 Chowei	Federation	L	57 ls	5 hours	24.51 ly
+ Julian Gateway	 Malloc	Federation	L	2,094 ls	2 days	24.85 ly
+ Fawcett Gateway	 Ongkampan	Federation	L	359 ls	3 days	25.71 ly
+ Vonarburg Port	 Maridal	Independent	L	505 ls	4 mins	26.37 ly
+ Jenner Hub	 Zaragas	Federation	L	1,523 ls	6 hours	27.13 ly
+ Filipchenko City	 G 139-50	Independent	L	7 ls	4 hours	29.82 ly
+ Bose Orbital	 51 Aquilae	Independent	L	32,441 ls	3 days	29.90 ly
+ Andreas Hub	 StHA 181	Federation	L	813 ls	4 days	31.14 ly
+ Benyovszky Ring	 HR 7793	Independent	L	3,653 ls	17 hours	32.43 ly
+ Admiral Thirsk	 Nuakea	Federation	L	1,051 ls	14 hours	32.62 ly
+ Froude Enterprise	 LHS 3564	Federation	L	89 ls	2 hours	32.74 ly
+ Cavalieri Station	 LAWD 80	Federation	L	5,115 ls	17 hours	33.68 ly
+ Kube-McDowell Enterprise	 Kakas	Federation	L	108 ls	15 hours	36.09 ly
+ Lubin Orbital	 Mokosh	Federation	L	1,004 ls	2 days	36.49 ly
+ Bulleid Orbital	 HR 7386	Federation	L	2,007 ls	6 hours	36.73 ly
+ Bisson Hub	 Delta Equulei	Independent	L	1,711 ls	4 days	36.95 ly
+ Herbert Dock	 Wolf 906	Federation	L	504 ls	3 mins	37.35 ly
+ Cleve Vision	 Fusang	Federation	L	1,440 ls	10 hours	37.35 ly
+ Andreas Ring	 Kalumar	Federation	L	388 ls	2 hours	37.40 ly
+ Sternberg Ring	 Grabrigpa	Independent	L	51 ls	20 hours	37.69 ly
+ Ali Ring	 Kokojina	Federation	L	598 ls	3 hours	37.97 ly
+ Birkeland Enterprise	 Ross 718	Federation	L	4,487 ls	38 days	38.06 ly
+ de Andrade Dock	 V2213 Ophiuchii	Independent	L	2,622 ls	16 hours	38.10 ly
+ Readdy Orbital	 LP 390-16	Federation	L	2,970 ls	6 hours	38.87 ly
+ McCulley Gateway	 Meticuli	Federation	L	3,259 ls	1 day	39.42 ly
+ Blackman Station	 17 Cygni	Federation	L	10,031 ls	11 days	39.46 ly
+ Phillips Terminal	 Lwen	Federation	M	2,848 ls	15 days	39.57 ly
+ Roosa Gateway	 LHS 3589	Federation	L	1,603 ls	20 hours	39.59 ly
+ Ivanov Terminal	 LHS 3589	Federation	M	1,613 ls	8 days	39.59 ly
+ Rushd Gateway	 LFT 1492	Independent	L	29,416 ls	13 hours	40.14 ly
+ Ramanujan Dock	 Ninsun	Independent	L	971 ls	2 days	40.35 ly
+ Bixby Port	 G 139-21	Alliance	L	7 ls	2 days	40.48 ly
+ Bondar Terminal	 Togher	Independent	L	109,193 ls	2 days	40.66 ly 
+
+ 5B Economy Class Passenger Cabin
+  McKee Ring	 GD 219	Federation	L	938 ls	14 hours	16.39 ly
+ Roentgen Gateway	 Clayakarma	Federation	L	575 ls	1 day	23.14 ly
+ Ising Vision	 Neto	Independent	L	662 ls	7 hours	23.77 ly
+ Chapman Terminal	 LP 694-16	Federation	L	359 ls	4 days	24.00 ly
+ Swigert Port	 Chowei	Federation	L	57 ls	5 hours	24.51 ly
+ Vonarburg Port	 Maridal	Independent	L	505 ls	11 mins	26.37 ly
+ Jenner Hub	 Zaragas	Federation	L	1,523 ls	7 hours	27.13 ly
+ Cavalieri Station	 LAWD 80	Federation	L	5,115 ls	17 hours	33.68 ly
+ Bulleid Orbital	 HR 7386	Federation	L	2,007 ls	6 hours	36.73 ly
+ Bisson Hub	 Delta Equulei	Independent	L	1,711 ls	4 days	36.95 ly
+ Cleve Vision	 Fusang	Federation	L	1,440 ls	10 hours	37.35 ly
+ Ali Ring	 Kokojina	Federation	L	598 ls	3 hours	37.97 ly
+ de Andrade Dock	 V2213 Ophiuchii	Independent	L	2,622 ls	16 hours	38.10 ly
+ McCulley Gateway	 Meticuli	Federation	L	3,259 ls	1 day	39.42 ly
+ Oliver Enterprise	 Lwen	Federation	L	44 ls	19 hours	39.57 ly
+ Ivanov Terminal	 LHS 3589	Federation	M	1,613 ls	8 days	39.59 ly
+ Roosa Gateway	 LHS 3589	Federation	L	1,603 ls	20 hours	39.59 ly
+ Rushd Gateway	 LFT 1492	Independent	L	29,416 ls	13 hours	40.14 ly
+ Ramanujan Dock	 Ninsun	Independent	L	971 ls	2 days	40.35 ly
+ Bixby Port	 G 139-21	Alliance	L	7 ls	2 days	40.48 ly
+ Garratt Station	 Frey	Federation	L	2,627 ls	1 hour	40.81 ly
+ Aksyonov Orbital	 Pacalite	Federation	L	345,269 ls	6 hours	41.32 ly
+ Viktorenko Station	 VVO 19	Federation	L	115 ls	1 day	42.08 ly
+ Watts Co-operative	 Skinfaxi	Independent	L	903 ls	4 mins	43.02 ly
+ Wallace Hub	 Sveinbarn	Federation	M	1,067 ls	23 days	43.13 ly
+ Levchenko City	 Ross 145	Federation	L	2,282 ls	3 days	43.30 ly
+ Hand Ring	 Ho Hsi	Independent	L	19 ls	7 hours	43.50 ly
+ Steiner Hub	 Ho Hsi	Independent	M	34 ls	3 days	43.50 ly
+ Tull Orbital	 Bandjigali	Independent	L	41 ls	10 hours	43.54 ly
+ Regiomontanus Hub	 Derrim	Federation	M	3,725 ls	17 days	45.37 ly
+ Ride Ring	 Rotanev	Independent	L	3,283 ls	8 hours	46.63 ly
+ Ordway Ring	 Arigens	Independent	L	369 ls	5 hours	47.95 ly
+ Pauling Gateway	 V749 Herculis	Federation	L	213,076 ls	3 days	48.87 ly
+ Messerschmid City	 Haghole	Federation	L	12,642 ls	4 days	49.75 ly
+ Watson Horizons	 Hyroks	Federation	L	548 ls	10 hours	49.95 ly
+ Vela Port	 Amarak	Federation	L	1,151 ls	17 hours	49.97 ly
+ Milnor Gateway	 BD-17 5832	Independent	L	165 ls	31 days	50.39 ly
+ Bao Gateway	 Idununn	Independent	L	472 ls	20 days	51.04 ly
+ Timofeyevich Co-operative	 Avan	Independent	L	206 ls	3 days	51.09 ly
+ Crown Orbital	 Pareco	Independent	L	11,538 ls	6 hours	51.78 ly
+ Feynman Terminal	 Bhritzameno	Federation	L	1,364 ls	2 hours	51.96 ly
+ Chadwick Orbital	 Kharinda	Independent	L	312 ls	4 days	51.96 ly
+ Leeuwenhoek Hub	 LTT 6563	Federation	L	184,338 ls	10 days	53.23 ly
+ Dalton Orbital	 Mulachi	Independent	M	594,516 ls	68 days	53.41 ly
+ Schmitt Station	 LTT 7138	Federation	L	1,524 ls	4 days	54.12 ly
+ Zholobov Enterprise	 LTT 15278	Independent	L	764 ls	8 hours	54.28 ly
+ Eyharts Orbital	 LFT 1723	Independent	L	371 ls	2 days	54.83 ly
+ Jones Dock	 Caelottixa	Federation	L	57 ls	1 day	54.89 ly
+ Ham Port	 Meskhenga	Federation	L	804 ls	8 days	55.34 ly
+ Grunsfeld Port	 Imhotian	Independent	L	1,676 ls	2 days	55.65 ly
+ 
+ 5C Economy Class Passenger Cabin
+ Blaylock Enterprise	 V1688 Aquilae	Federation	L	515 ls	2 days	19.53 ly
+ Clebsch Terminal	 Obambivas	Federation	L	593 ls	3 days	21.00 ly
+ Weyn Port	 BD-10 5238	Federation	L	3,142 ls	3 days	21.05 ly
+ Kekule Orbital	 LTT 15899	Independent	L	12,375 ls	15 hours	23.08 ly
+ Kaleri Gateway	 Clayakarma	Independent	L	445 ls	11 hours	23.14 ly
+ Ising Vision	 Neto	Independent	L	662 ls	7 hours	23.77 ly
+ Chapman Terminal	 LP 694-16	Federation	L	359 ls	4 days	24.00 ly
+ Thompson Vision	 GAT 2	Independent	L	20,193 ls	8 days	24.46 ly
+ Julian Gateway	 Malloc	Federation	L	2,094 ls	2 days	24.85 ly
+ Raleigh Orbital	 Ross 720	Federation	L	7 ls	3 hours	25.62 ly
+ Vonarburg Port	 Maridal	Independent	L	505 ls	11 mins	26.37 ly
+ Filipchenko City	 G 139-50	Independent	L	7 ls	4 hours	29.82 ly
+ Bose Orbital	 51 Aquilae	Independent	L	32,441 ls	3 days	29.90 ly
+ Bounds Hub	 Hrisastshi	Independent	L	19,641 ls	2 days	32.04 ly
+ Benyovszky Ring	 HR 7793	Independent	L	3,653 ls	18 hours	32.43 ly
+ Admiral Thirsk	 Nuakea	Federation	L	1,051 ls	14 hours	32.62 ly
+ Froude Enterprise	 LHS 3564	Federation	L	89 ls	2 hours	32.74 ly
+ Herbert Dock	 Wolf 906	Federation	L	504 ls	4 mins	37.35 ly
+ Cleve Vision	 Fusang	Federation	L	1,440 ls	10 hours	37.35 ly
+ Bass Port	 Wailladyan	Federation	L	11,088 ls	4 days	37.41 ly
+ Ali Ring	 Kokojina	Federation	L	598 ls	3 hours	37.97 ly
+ Readdy Orbital	 LP 390-16	Federation	L	2,970 ls	7 hours	38.87 ly
+ McCulley Gateway	 Meticuli	Federation	L	3,259 ls	1 day	39.42 ly
+ Phillips Terminal	 Lwen	Federation	M	2,848 ls	15 days	39.57 ly
+ Oliver Enterprise	 Lwen	Federation	L	44 ls	19 hours	39.57 ly
+ Ivanov Terminal	 LHS 3589	Federation	M	1,613 ls	8 days	39.59 ly
+ Rushd Gateway	 LFT 1492	Independent	L	29,416 ls	13 hours	40.14 ly
+ Ramanujan Dock	 Ninsun	Independent	L	971 ls	2 days	40.35 ly
+ Bondar Terminal	 Togher	Independent	L	109,193 ls	2 days	40.66 ly
+ Meitner Ring	 Dimoco	Federation	L	454 ls	59 days	41.09 ly
+ Lee City	 LP 926-40	Independent	L	1,449 ls	5 days	41.18 ly
+ Blackwell Hub	 Yorua	Independent	L	103 ls	9 hours	41.25 ly
+ Aksyonov Orbital	 Pacalite	Federation	L	345,269 ls	6 hours	41.32 ly
+ Wheeler Horizons	 Asgaa	Federation	L	870 ls	10 hours	42.50 ly
+ Rawn City	 Vertumnus	Federation	L	140 ls	19 hours	42.90 ly
+ Watts Co-operative	 Skinfaxi	Independent	L	903 ls	3 mins	43.02 ly
+ Wallace Hub	 Sveinbarn	Federation	M	1,067 ls	23 days	43.13 ly
+ Levchenko City	 Ross 145	Federation	L	2,282 ls	3 days	43.30 ly
+ Hand Ring	 Ho Hsi	Independent	L	19 ls	7 hours	43.50 ly
+ Steiner Hub	 Ho Hsi	Independent	M	34 ls	3 days	43.50 ly
+ Zhen Dock	 Xihe	Federation	L	1,950 ls	11 mins	44.08 ly
+ Aksyonov Orbital	 Yu Di Yi	Federation	L	16 ls	2 days	44.34 ly
+ Gerst Ring	 BD+22 3579	Independent	L	341 ls	111 days	45.29 ly
+ Dobrovolski Ring	 G 126-31	Federation	L	105 ls	9 days	45.31 ly
+ Nachtigal Hub	 Derrim	Federation	L	1,568 ls	2 days	45.37 ly
+ Ride Ring	 Rotanev	Independent	L	3,283 ls	8 hours	46.63 ly
+ Sarafanov Landing	 V749 Herculis	Federation	M	211,876 ls	119 days	48.87 ly
+ Strekalov Hub	 Punna	Federation	L	15 ls	17 hours	48.89 ly
+ Cavendish Station	 Ananke	Federation	L	73,180 ls	19 days	49.21 ly
+ Lie Ring	 LP 685-43	Federation	L	2,353 ls	14 hours	49.33 ly
+ 
+ 5D Economy Class Passenger Cabin
+  McKee Ring	 GD 219	Federation	L	938 ls	14 hours	16.39 ly
+ Galouye Terminal	 Obambivas	Independent	L	431 ls	1 day	21.00 ly
+ Olivas City	 LHS 3505	Federation	L	2,703 ls	28 mins	22.47 ly
+ Alexandria Ring	 LTT 7548	Federation	M	1,664 ls	4 days	23.61 ly
+ Ising Vision	 Neto	Independent	L	662 ls	7 hours	23.77 ly
+ Chapman Terminal	 LP 694-16	Federation	L	359 ls	4 days	24.00 ly
+ Thompson Vision	 GAT 2	Independent	L	20,193 ls	8 days	24.46 ly
+ Julian Gateway	 Malloc	Federation	L	2,094 ls	2 days	24.85 ly
+ Vonarburg Port	 Maridal	Independent	L	505 ls	9 mins	26.37 ly
+ Jenner Hub	 Zaragas	Federation	L	1,523 ls	6 hours	27.13 ly
+ Filipchenko City	 G 139-50	Independent	L	7 ls	4 hours	29.82 ly
+ Benyovszky Ring	 HR 7793	Independent	L	3,653 ls	18 hours	32.43 ly
+ Cavalieri Station	 LAWD 80	Federation	L	5,115 ls	17 hours	33.68 ly
+ Bulleid Orbital	 HR 7386	Federation	L	2,007 ls	6 hours	36.73 ly
+ Herbert Dock	 Wolf 906	Federation	L	504 ls	3 mins	37.35 ly
+ Cleve Vision	 Fusang	Federation	L	1,440 ls	10 hours	37.35 ly
+ Bass Port	 Wailladyan	Federation	L	11,088 ls	4 days	37.41 ly
+ Sternberg Ring	 Grabrigpa	Independent	L	51 ls	20 hours	37.69 ly
+ Ali Ring	 Kokojina	Federation	L	598 ls	3 hours	37.97 ly
+ McCulley Gateway	 Meticuli	Federation	L	3,259 ls	1 day	39.42 ly
+ Phillips Terminal	 Lwen	Federation	M	2,848 ls	15 days	39.57 ly
+ Oliver Enterprise	 Lwen	Federation	L	44 ls	19 hours	39.57 ly
+ Ivanov Terminal	 LHS 3589	Federation	M	1,613 ls	8 days	39.59 ly
+ Bondar Terminal	 Togher	Independent	L	109,193 ls	2 days	40.66 ly
+ Garratt Station	 Frey	Federation	L	2,627 ls	1 hour	40.81 ly
+ Blackwell Hub	 Yorua	Independent	L	103 ls	9 hours	41.25 ly
+ Aksyonov Orbital	 Pacalite	Federation	L	345,269 ls	6 hours	41.32 ly
+ Leavitt Port	 VVO 19	Independent	L	147 ls	17 days	42.08 ly
+ Wheeler Horizons	 Asgaa	Federation	L	870 ls	10 hours	42.50 ly
+ Rawn City	 Vertumnus	Federation	L	140 ls	19 hours	42.90 ly
+ Levchenko City	 Ross 145	Federation	L	2,282 ls	3 days	43.30 ly
+ Hand Ring	 Ho Hsi	Independent	L	19 ls	7 hours	43.50 ly
+ Zhen Dock	 Xihe	Federation	L	1,950 ls	10 mins	44.08 ly
+ Aksyonov Orbital	 Yu Di Yi	Federation	L	16 ls	2 days	44.34 ly
+ Gerst Ring	 BD+22 3579	Independent	L	341 ls	111 days	45.29 ly
+ Dobrovolski Ring	 G 126-31	Federation	L	105 ls	9 days	45.31 ly
+ Regiomontanus Hub	 Derrim	Federation	M	3,725 ls	17 days	45.37 ly
+ Ride Ring	 Rotanev	Independent	L	3,283 ls	8 hours	46.63 ly
+ Pauling Gateway	 V749 Herculis	Federation	L	213,076 ls	3 days	48.87 ly
+ Strekalov Hub	 Punna	Federation	L	15 ls	17 hours	48.89 ly
+ Cavendish Station	 Ananke	Federation	L	73,180 ls	19 days	49.21 ly
+ Lie Ring	 LP 685-43	Federation	L	2,353 ls	14 hours	49.33 ly
+ Messerschmid City	 Haghole	Federation	L	12,642 ls	4 days	49.75 ly
+ Watson Horizons	 Hyroks	Federation	L	548 ls	10 hours	49.95 ly
+ Feustel Gateway	 44 b Ophiuchi	Federation	L	233 ls	1 day	49.97 ly
+ Neumann Gateway	 Wolf 750	Federation	M	1,541 ls	70 days	51.43 ly
+ Gregory Orbital	 Wolf 750	Federation	L	1,536 ls	16 days	51.43 ly
+ Nikolayev Settlement	 Wolf 750	Federation	M	1,871 ls	24 days	51.43 ly
+ Feynman Terminal	 Bhritzameno	Federation	L	1,364 ls	2 hours	51.96 ly
+ Goetze Meister County [GMC HQ]	 Toor	Federation	L	389 ls	22 days	52.22 ly
+ 
+ 5E Economy Class Passenger Cabin
+ Galouye Terminal	 Obambivas	Independent	L	431 ls	1 day	21.00 ly
+ Clebsch Terminal	 Obambivas	Federation	L	593 ls	3 days	21.00 ly
+ Weyn Port	 BD-10 5238	Federation	L	3,142 ls	3 days	21.05 ly
+ Olivas City	 LHS 3505	Federation	L	2,703 ls	22 mins	22.47 ly
+ Kekule Orbital	 LTT 15899	Independent	L	12,375 ls	15 hours	23.08 ly
+ Roentgen Gateway	 Clayakarma	Federation	L	575 ls	1 day	23.14 ly
+ Kaleri Gateway	 Clayakarma	Independent	L	445 ls	11 hours	23.14 ly
+ Boltzmann Gateway	 LTT 7548	Independent	L	1,005 ls	10 hours	23.61 ly
+ Alexandria Ring	 LTT 7548	Federation	M	1,664 ls	4 days	23.61 ly
+ Ising Vision	 Neto	Independent	L	662 ls	7 hours	23.77 ly
+ Citroen Hub	 Neto	Federation	M	891 ls	2 days	23.77 ly
+ Thompson Vision	 GAT 2	Independent	L	20,193 ls	8 days	24.46 ly
+ Julian Gateway	 Malloc	Federation	L	2,094 ls	2 days	24.85 ly
+ Vonarburg Port	 Maridal	Independent	L	505 ls	3 mins	26.37 ly
+ Jenner Hub	 Zaragas	Federation	L	1,523 ls	6 hours	27.13 ly
+ Filipchenko City	 G 139-50	Independent	L	7 ls	4 hours	29.82 ly
+ Benyovszky Ring	 HR 7793	Independent	L	3,653 ls	17 hours	32.43 ly
+ Oblivion	 Nuakea	Federation	L	1,056 ls	14 hours	32.62 ly
+ Admiral Thirsk	 Nuakea	Federation	L	1,051 ls	14 hours	32.62 ly
+ Froude Enterprise	 LHS 3564	Federation	L	89 ls	2 hours	32.74 ly
+ Cavalieri Station	 LAWD 80	Federation	L	5,115 ls	17 hours	33.68 ly
+ Lubin Orbital	 Mokosh	Federation	L	1,004 ls	2 days	36.49 ly
+ Bulleid Orbital	 HR 7386	Federation	L	2,007 ls	6 hours	36.73 ly
+ Bisson Hub	 Delta Equulei	Independent	L	1,711 ls	4 days	36.95 ly
+ Herbert Dock	 Wolf 906	Federation	L	504 ls	3 mins	37.35 ly
+ Cleve Vision	 Fusang	Federation	L	1,440 ls	10 hours	37.35 ly
+ Bass Port	 Wailladyan	Federation	L	11,088 ls	4 days	37.41 ly
+ Sternberg Ring	 Grabrigpa	Independent	L	51 ls	20 hours	37.69 ly
+ Ali Ring	 Kokojina	Federation	L	598 ls	3 hours	37.97 ly
+ Readdy Orbital	 LP 390-16	Federation	L	2,970 ls	6 hours	38.87 ly
+ McCulley Gateway	 Meticuli	Federation	L	3,259 ls	1 day	39.42 ly
+ Blackman Station	 17 Cygni	Federation	L	10,031 ls	11 days	39.46 ly
+ Phillips Terminal	 Lwen	Federation	M	2,848 ls	15 days	39.57 ly
+ Oliver Enterprise	 Lwen	Federation	L	44 ls	19 hours	39.57 ly
+ Roosa Gateway	 LHS 3589	Federation	L	1,603 ls	20 hours	39.59 ly
+ Ivanov Terminal	 LHS 3589	Federation	M	1,613 ls	8 days	39.59 ly
+ Bondar Terminal	 Togher	Independent	L	109,193 ls	2 days	40.66 ly
+ Garratt Station	 Frey	Federation	L	2,627 ls	1 hour	40.81 ly
+ Lee City	 LP 926-40	Independent	L	1,449 ls	5 days	41.18 ly
+ Aksyonov Orbital	 Pacalite	Federation	L	345,269 ls	6 hours	41.32 ly
+ Leavitt Port	 VVO 19	Independent	L	147 ls	17 days	42.08 ly
+ Wheeler Horizons	 Asgaa	Federation	L	870 ls	10 hours	42.50 ly
+ Levchenko City	 Ross 145	Federation	L	2,282 ls	3 days	43.30 ly
+ Steiner Hub	 Ho Hsi	Independent	M	34 ls	3 days	43.50 ly
+ Zhen Dock	 Xihe	Federation	L	1,950 ls	3 mins	44.08 ly
+ Gerst Ring	 BD+22 3579	Independent	L	341 ls	111 days	45.29 ly
+ Dobrovolski Ring	 G 126-31	Federation	L	105 ls	9 days	45.31 ly
+ Regiomontanus Hub	 Derrim	Federation	M	3,725 ls	17 days	45.37 ly
+ Nachtigal Hub	 Derrim	Federation	L	1,568 ls	2 days	45.37 ly
+ Dutton Station	 Ho Hsien	Federation	L	670 ls	18 hours	46.30 ly
+ 
+ 4C Economy Class Passenger Cabin
+ Gidzenko Ring	 Chamunda	Federation	L	2,644 ls	15 hours	7.36 ly
+ Qurra Ring	 Eta Serpentis	Federation	L	2,122 ls	11 hours	18.87 ly
+ Galouye Terminal	 Obambivas	Independent	L	431 ls	1 day	21.00 ly
+ Clebsch Terminal	 Obambivas	Federation	L	593 ls	3 days	21.00 ly
+ Weyn Port	 BD-10 5238	Federation	L	3,142 ls	3 days	21.05 ly
+ Kekule Orbital	 LTT 15899	Independent	L	12,375 ls	15 hours	23.08 ly
+ Roentgen Gateway	 Clayakarma	Federation	L	575 ls	1 day	23.14 ly
+ Boltzmann Gateway	 LTT 7548	Independent	L	1,005 ls	10 hours	23.61 ly
+ Alexandria Ring	 LTT 7548	Federation	M	1,664 ls	4 days	23.61 ly
+ Ising Vision	 Neto	Independent	L	662 ls	7 hours	23.77 ly
+ Chapman Terminal	 LP 694-16	Federation	L	359 ls	4 days	24.00 ly
+ Julian Gateway	 Malloc	Federation	L	2,094 ls	2 days	24.85 ly
+ Raleigh Orbital	 Ross 720	Federation	L	7 ls	3 hours	25.62 ly
+ Vonarburg Port	 Maridal	Independent	L	505 ls	13 mins	26.37 ly
+ Jenner Hub	 Zaragas	Federation	L	1,523 ls	7 hours	27.13 ly
+ Filipchenko City	 G 139-50	Independent	L	7 ls	4 hours	29.82 ly
+ Bose Orbital	 51 Aquilae	Independent	L	32,441 ls	3 days	29.90 ly
+ Andreas Hub	 StHA 181	Federation	L	813 ls	4 days	31.14 ly
+ Benyovszky Ring	 HR 7793	Independent	L	3,653 ls	18 hours	32.43 ly
+ Oblivion	 Nuakea	Federation	L	1,056 ls	14 hours	32.62 ly
+ Cavalieri Station	 LAWD 80	Federation	L	5,115 ls	17 hours	33.68 ly
+ Lubin Orbital	 Mokosh	Federation	L	1,004 ls	2 days	36.49 ly
+ Herbert Dock	 Wolf 906	Federation	L	504 ls	7 mins	37.35 ly
+ Cleve Vision	 Fusang	Federation	L	1,440 ls	10 hours	37.35 ly
+ Bass Port	 Wailladyan	Federation	L	11,088 ls	4 days	37.41 ly
+ Sternberg Ring	 Grabrigpa	Independent	L	51 ls	20 hours	37.69 ly
+ Ali Ring	 Kokojina	Federation	L	598 ls	3 hours	37.97 ly
+ Sullivan Orbital	 Ross 718	Independent	M	389 ls	38 days	38.06 ly
+ de Andrade Dock	 V2213 Ophiuchii	Independent	L	2,622 ls	16 hours	38.10 ly
+ Roosa Gateway	 LHS 3589	Federation	L	1,603 ls	20 hours	39.59 ly
+ Ivanov Terminal	 LHS 3589	Federation	M	1,613 ls	8 days	39.59 ly
+ Ramanujan Dock	 Ninsun	Independent	L	971 ls	2 days	40.35 ly
+ Garratt Station	 Frey	Federation	L	2,627 ls	1 hour	40.81 ly
+ Bradley Station	 Gunnovale	Independent	L	861 ls	9 hours	41.02 ly
+ Meitner Ring	 Dimoco	Federation	L	454 ls	59 days	41.09 ly
+ Aksyonov Orbital	 Pacalite	Federation	L	345,269 ls	6 hours	41.32 ly
+ Leavitt Port	 VVO 19	Independent	L	147 ls	17 days	42.08 ly
+ Viktorenko Station	 VVO 19	Federation	L	115 ls	1 day	42.08 ly
+ Watts Co-operative	 Skinfaxi	Independent	L	903 ls	6 mins	43.02 ly
+ Levchenko City	 Ross 145	Federation	L	2,282 ls	3 days	43.30 ly
+ Hand Ring	 Ho Hsi	Independent	L	19 ls	7 hours	43.50 ly
+ Zhen Dock	 Xihe	Federation	L	1,950 ls	14 mins	44.08 ly
+ Aksyonov Orbital	 Yu Di Yi	Federation	L	16 ls	2 days	44.34 ly
+ Dobrovolski Ring	 G 126-31	Federation	L	105 ls	9 days	45.31 ly
+ Nachtigal Hub	 Derrim	Federation	L	1,568 ls	2 days	45.37 ly
+ Regiomontanus Hub	 Derrim	Federation	M	3,725 ls	17 days	45.37 ly
+ Vaugh Enterprise	 Seurrion	Federation	L	112 ls	1 day	45.94 ly
+ Dutton Station	 Ho Hsien	Federation	L	670 ls	18 hours	46.30 ly
+ Ride Ring	 Rotanev	Independent	L	3,283 ls	8 hours	46.63 ly
+ Ordway Ring	 Arigens	Independent	L	369 ls	5 hours	47.95 ly
+ 
+ 4D Economy Class Passenger Cabin
+ McKee Ring	 GD 219	Federation	L	938 ls	14 hours	16.39 ly
+ Qurra Ring	 Eta Serpentis	Federation	L	2,122 ls	11 hours	18.87 ly
+ Galouye Terminal	 Obambivas	Independent	L	431 ls	1 day	21.00 ly
+ Weyn Port	 BD-10 5238	Federation	L	3,142 ls	3 days	21.05 ly
+ Olivas City	 LHS 3505	Federation	L	2,703 ls	31 mins	22.47 ly
+ Kekule Orbital	 LTT 15899	Independent	L	12,375 ls	15 hours	23.08 ly
+ Kaleri Gateway	 Clayakarma	Independent	L	445 ls	11 hours	23.14 ly
+ Roentgen Gateway	 Clayakarma	Federation	L	575 ls	1 day	23.14 ly
+ Alexandria Ring	 LTT 7548	Federation	M	1,664 ls	4 days	23.61 ly
+ Citroen Hub	 Neto	Federation	M	891 ls	2 days	23.77 ly
+ Ising Vision	 Neto	Independent	L	662 ls	7 hours	23.77 ly
+ Chapman Terminal	 LP 694-16	Federation	L	359 ls	4 days	24.00 ly
+ Thompson Vision	 GAT 2	Independent	L	20,193 ls	8 days	24.46 ly
+ Julian Gateway	 Malloc	Federation	L	2,094 ls	2 days	24.85 ly
+ Vonarburg Port	 Maridal	Independent	L	505 ls	13 mins	26.37 ly
+ Filipchenko City	 G 139-50	Independent	L	7 ls	4 hours	29.82 ly
+ Bose Orbital	 51 Aquilae	Independent	L	32,441 ls	3 days	29.90 ly
+ Bounds Hub	 Hrisastshi	Independent	L	19,641 ls	2 days	32.04 ly
+ Benyovszky Ring	 HR 7793	Independent	L	3,653 ls	18 hours	32.43 ly
+ Admiral Thirsk	 Nuakea	Federation	L	1,051 ls	14 hours	32.62 ly
+ Oblivion	 Nuakea	Federation	L	1,056 ls	14 hours	32.62 ly
+ Froude Enterprise	 LHS 3564	Federation	L	89 ls	2 hours	32.74 ly
+ Cavalieri Station	 LAWD 80	Federation	L	5,115 ls	17 hours	33.68 ly
+ Lubin Orbital	 Mokosh	Federation	L	1,004 ls	2 days	36.49 ly
+ Bulleid Orbital	 HR 7386	Federation	L	2,007 ls	6 hours	36.73 ly
+ Bisson Hub	 Delta Equulei	Independent	L	1,711 ls	4 days	36.95 ly
+ Herbert Dock	 Wolf 906	Federation	L	504 ls	6 mins	37.35 ly
+ Cleve Vision	 Fusang	Federation	L	1,440 ls	10 hours	37.35 ly
+ Bass Port	 Wailladyan	Federation	L	11,088 ls	4 days	37.41 ly
+ Ali Ring	 Kokojina	Federation	L	598 ls	3 hours	37.97 ly
+ de Andrade Dock	 V2213 Ophiuchii	Independent	L	2,622 ls	16 hours	38.10 ly
+ Readdy Orbital	 LP 390-16	Federation	L	2,970 ls	7 hours	38.87 ly
+ McCulley Gateway	 Meticuli	Federation	L	3,259 ls	1 day	39.42 ly
+ Blackman Station	 17 Cygni	Federation	L	10,031 ls	11 days	39.46 ly
+ Ivanov Terminal	 LHS 3589	Federation	M	1,613 ls	8 days	39.59 ly
+ Roosa Gateway	 LHS 3589	Federation	L	1,603 ls	20 hours	39.59 ly
+ Garratt Station	 Frey	Federation	L	2,627 ls	1 hour	40.81 ly
+ Meitner Ring	 Dimoco	Federation	L	454 ls	59 days	41.09 ly
+ Lee City	 LP 926-40	Independent	L	1,449 ls	5 days	41.18 ly
+ Blackwell Hub	 Yorua	Independent	L	103 ls	9 hours	41.25 ly
+ Aksyonov Orbital	 Pacalite	Federation	L	345,269 ls	6 hours	41.32 ly
+ Leavitt Port	 VVO 19	Independent	L	147 ls	17 days	42.08 ly
+ Wheeler Horizons	 Asgaa	Federation	L	870 ls	10 hours	42.50 ly
+ Wallace Hub	 Sveinbarn	Federation	M	1,067 ls	23 days	43.13 ly
+ Levchenko City	 Ross 145	Federation	L	2,282 ls	3 days	43.30 ly
+ Steiner Hub	 Ho Hsi	Independent	M	34 ls	3 days	43.50 ly
+ Hand Ring	 Ho Hsi	Independent	L	19 ls	7 hours	43.50 ly
+ Zhen Dock	 Xihe	Federation	L	1,950 ls	13 mins	44.08 ly
+ Oliver Dock	 Ayoro	Federation	L	1,505 ls	2 days	44.20 ly
+ Gerst Ring	 BD+22 3579	Independent	L	341 ls	111 days	45.29 ly
+
+ 4E Economy Class Passenger Cabin
+ McKee Ring	 GD 219	Federation	L	938 ls	14 hours	16.39 ly
+ Qurra Ring	 Eta Serpentis	Federation	L	2,122 ls	11 hours	18.87 ly
+ Blaylock Enterprise	 V1688 Aquilae	Federation	L	515 ls	2 days	19.53 ly
+ Clebsch Terminal	 Obambivas	Federation	L	593 ls	3 days	21.00 ly
+ Galouye Terminal	 Obambivas	Independent	L	431 ls	1 day	21.00 ly
+ Weyn Port	 BD-10 5238	Federation	L	3,142 ls	3 days	21.05 ly
+ Olivas City	 LHS 3505	Federation	L	2,703 ls	21 mins	22.47 ly
+ Kekule Orbital	 LTT 15899	Independent	L	12,375 ls	15 hours	23.08 ly
+ Kaleri Gateway	 Clayakarma	Independent	L	445 ls	11 hours	23.14 ly
+ Roentgen Gateway	 Clayakarma	Federation	L	575 ls	1 day	23.14 ly
+ Alexandria Ring	 LTT 7548	Federation	M	1,664 ls	4 days	23.61 ly
+ Boltzmann Gateway	 LTT 7548	Independent	L	1,005 ls	10 hours	23.61 ly
+ Ising Vision	 Neto	Independent	L	662 ls	7 hours	23.77 ly
+ Citroen Hub	 Neto	Federation	M	891 ls	2 days	23.77 ly
+ Chapman Terminal	 LP 694-16	Federation	L	359 ls	4 days	24.00 ly
+ Thompson Vision	 GAT 2	Independent	L	20,193 ls	8 days	24.46 ly
+ Julian Gateway	 Malloc	Federation	L	2,094 ls	2 days	24.85 ly
+ Vonarburg Port	 Maridal	Independent	L	505 ls	2 mins	26.37 ly
+ Jenner Hub	 Zaragas	Federation	L	1,523 ls	6 hours	27.13 ly
+ Filipchenko City	 G 139-50	Independent	L	7 ls	4 hours	29.82 ly
+ Bounds Hub	 Hrisastshi	Independent	L	19,641 ls	2 days	32.04 ly
+ Benyovszky Ring	 HR 7793	Independent	L	3,653 ls	17 hours	32.43 ly
+ Oblivion	 Nuakea	Federation	L	1,056 ls	14 hours	32.62 ly
+ Admiral Thirsk	 Nuakea	Federation	L	1,051 ls	14 hours	32.62 ly
+ Froude Enterprise	 LHS 3564	Federation	L	89 ls	2 hours	32.74 ly
+ Cavalieri Station	 LAWD 80	Federation	L	5,115 ls	17 hours	33.68 ly
+ Lubin Orbital	 Mokosh	Federation	L	1,004 ls	2 days	36.49 ly
+ Bulleid Orbital	 HR 7386	Federation	L	2,007 ls	6 hours	36.73 ly
+ Bisson Hub	 Delta Equulei	Independent	L	1,711 ls	4 days	36.95 ly
+ Herbert Dock	 Wolf 906	Federation	L	504 ls	2 mins	37.35 ly
+ Cleve Vision	 Fusang	Federation	L	1,440 ls	10 hours	37.35 ly
+ Bass Port	 Wailladyan	Federation	L	11,088 ls	4 days	37.41 ly
+ Sternberg Ring	 Grabrigpa	Independent	L	51 ls	20 hours	37.69 ly
+ Ali Ring	 Kokojina	Federation	L	598 ls	3 hours	37.97 ly
+ de Andrade Dock	 V2213 Ophiuchii	Independent	L	2,622 ls	16 hours	38.10 ly
+ Readdy Orbital	 LP 390-16	Federation	L	2,970 ls	6 hours	38.87 ly
+ McCulley Gateway	 Meticuli	Federation	L	3,259 ls	1 day	39.42 ly
+ Blackman Station	 17 Cygni	Federation	L	10,031 ls	11 days	39.46 ly
+ Phillips Terminal	 Lwen	Federation	M	2,848 ls	15 days	39.57 ly
+ Ivanov Terminal	 LHS 3589	Federation	M	1,613 ls	8 days	39.59 ly
+ Roosa Gateway	 LHS 3589	Federation	L	1,603 ls	20 hours	39.59 ly
+ Rushd Gateway	 LFT 1492	Independent	L	29,416 ls	13 hours	40.14 ly
+ Ramanujan Dock	 Ninsun	Independent	L	971 ls	2 days	40.35 ly
+ Bondar Terminal	 Togher	Independent	L	109,193 ls	2 days	40.66 ly
+ Garratt Station	 Frey	Federation	L	2,627 ls	1 hour	40.81 ly
+ Meitner Ring	 Dimoco	Federation	L	454 ls	59 days	41.09 ly
+ Lee City	 LP 926-40	Independent	L	1,449 ls	5 days	41.18 ly
+ Blackwell Hub	 Yorua	Independent	L	103 ls	9 hours	41.25 ly
+ Aksyonov Orbital	 Pacalite	Federation	L	345,269 ls	6 hours	41.32 ly
+ Leavitt Port	 VVO 19	Independent	L	147 ls	17 days	42.08 ly
+ 
+ 3D Economy Class Passenger Cabin
+ McKee Ring	 GD 219	Federation	L	938 ls	14 hours	16.39 ly
+ Galouye Terminal	 Obambivas	Independent	L	431 ls	1 day	21.00 ly
+ Clebsch Terminal	 Obambivas	Federation	L	593 ls	3 days	21.00 ly
+ Weyn Port	 BD-10 5238	Federation	L	3,142 ls	3 days	21.05 ly
+ Olivas City	 LHS 3505	Federation	L	2,703 ls	34 mins	22.47 ly
+ Kekule Orbital	 LTT 15899	Independent	L	12,375 ls	15 hours	23.08 ly
+ Kaleri Gateway	 Clayakarma	Independent	L	445 ls	11 hours	23.14 ly
+ Chapman Terminal	 LP 694-16	Federation	L	359 ls	4 days	24.00 ly
+ Thompson Vision	 GAT 2	Independent	L	20,193 ls	8 days	24.46 ly
+ Julian Gateway	 Malloc	Federation	L	2,094 ls	2 days	24.85 ly
+ Raleigh Orbital	 Ross 720	Federation	L	7 ls	3 hours	25.62 ly
+ Vonarburg Port	 Maridal	Independent	L	505 ls	15 mins	26.37 ly
+ Filipchenko City	 G 139-50	Independent	L	7 ls	4 hours	29.82 ly
+ Bose Orbital	 51 Aquilae	Independent	L	32,441 ls	3 days	29.90 ly
+ Benyovszky Ring	 HR 7793	Independent	L	3,653 ls	18 hours	32.43 ly
+ Admiral Thirsk	 Nuakea	Federation	L	1,051 ls	14 hours	32.62 ly
+ Cavalieri Station	 LAWD 80	Federation	L	5,115 ls	17 hours	33.68 ly
+ Lubin Orbital	 Mokosh	Federation	L	1,004 ls	2 days	36.49 ly
+ Bisson Hub	 Delta Equulei	Independent	L	1,711 ls	4 days	36.95 ly
+ Herbert Dock	 Wolf 906	Federation	L	504 ls	8 mins	37.35 ly
+ Bass Port	 Wailladyan	Federation	L	11,088 ls	4 days	37.41 ly
+ McCulley Gateway	 Meticuli	Federation	L	3,259 ls	1 day	39.42 ly
+ Blackman Station	 17 Cygni	Federation	L	10,031 ls	11 days	39.46 ly
+ Phillips Terminal	 Lwen	Federation	M	2,848 ls	15 days	39.57 ly
+ Rushd Gateway	 LFT 1492	Independent	L	29,416 ls	13 hours	40.14 ly
+ Ramanujan Dock	 Ninsun	Independent	L	971 ls	2 days	40.35 ly
+ Garratt Station	 Frey	Federation	L	2,627 ls	1 hour	40.81 ly
+ Meitner Ring	 Dimoco	Federation	L	454 ls	59 days	41.09 ly
+ Blackwell Hub	 Yorua	Independent	L	103 ls	9 hours	41.25 ly
+ Aksyonov Orbital	 Pacalite	Federation	L	345,269 ls	6 hours	41.32 ly
+ Viktorenko Station	 VVO 19	Federation	L	115 ls	1 day	42.08 ly
+ Wheeler Horizons	 Asgaa	Federation	L	870 ls	10 hours	42.50 ly
+ Rawn City	 Vertumnus	Federation	L	140 ls	19 hours	42.90 ly
+ Levchenko City	 Ross 145	Federation	L	2,282 ls	3 days	43.30 ly
+ Hand Ring	 Ho Hsi	Independent	L	19 ls	7 hours	43.50 ly
+ Steiner Hub	 Ho Hsi	Independent	M	34 ls	3 days	43.50 ly
+ Zhen Dock	 Xihe	Federation	L	1,950 ls	10 secs	44.08 ly
+ Aksyonov Orbital	 Yu Di Yi	Federation	L	16 ls	2 days	44.34 ly
+ Dobrovolski Ring	 G 126-31	Federation	L	105 ls	9 days	45.31 ly
+ Regiomontanus Hub	 Derrim	Federation	M	3,725 ls	17 days	45.37 ly
+ Ride Ring	 Rotanev	Independent	L	3,283 ls	8 hours	46.63 ly
+ Sarafanov Landing	 V749 Herculis	Federation	M	211,876 ls	119 days	48.87 ly
+ Lie Ring	 LP 685-43	Federation	L	2,353 ls	14 hours	49.33 ly
+ Messerschmid City	 Haghole	Federation	L	12,642 ls	4 days	49.75 ly
+ Feustel Gateway	 44 b Ophiuchi	Federation	L	233 ls	1 day	49.97 ly
+ Vela Port	 Amarak	Federation	L	1,151 ls	17 hours	49.97 ly
+ Milnor Gateway	 BD-17 5832	Independent	L	165 ls	31 days	50.39 ly
+ Bretnor Terminal	 Manbatz	Independent	L	650 ls	8 hours	50.63 ly
+ Gregory Orbital	 Wolf 750	Federation	L	1,536 ls	16 days	51.43 ly
+ Webb Station	 Pareco	Independent	L	11,538 ls	13 hours	51.78 ly
+ 
+ 3E Economy Class Passenger Cabin
+ Clebsch Terminal	 Obambivas	Federation	L	593 ls	3 days	21.00 ly
+ Weyn Port	 BD-10 5238	Federation	L	3,142 ls	3 days	21.05 ly
+ Olivas City	 LHS 3505	Federation	L	2,703 ls	23 mins	22.47 ly
+ Kaleri Gateway	 Clayakarma	Independent	L	445 ls	11 hours	23.14 ly
+ Roentgen Gateway	 Clayakarma	Federation	L	575 ls	1 day	23.14 ly
+ Alexandria Ring	 LTT 7548	Federation	M	1,664 ls	4 days	23.61 ly
+ Boltzmann Gateway	 LTT 7548	Independent	L	1,005 ls	10 hours	23.61 ly
+ Ising Vision	 Neto	Independent	L	662 ls	7 hours	23.77 ly
+ Citroen Hub	 Neto	Federation	M	891 ls	2 days	23.77 ly
+ Chapman Terminal	 LP 694-16	Federation	L	359 ls	4 days	24.00 ly
+ Thompson Vision	 GAT 2	Independent	L	20,193 ls	8 days	24.46 ly
+ Julian Gateway	 Malloc	Federation	L	2,094 ls	2 days	24.85 ly
+ Vonarburg Port	 Maridal	Independent	L	505 ls	4 mins	26.37 ly
+ Filipchenko City	 G 139-50	Independent	L	7 ls	4 hours	29.82 ly
+ Benyovszky Ring	 HR 7793	Independent	L	3,653 ls	17 hours	32.43 ly
+ Admiral Thirsk	 Nuakea	Federation	L	1,051 ls	14 hours	32.62 ly
+ Cavalieri Station	 LAWD 80	Federation	L	5,115 ls	17 hours	33.68 ly
+ Bulleid Orbital	 HR 7386	Federation	L	2,007 ls	6 hours	36.73 ly
+ Bisson Hub	 Delta Equulei	Independent	L	1,711 ls	4 days	36.95 ly
+ Herbert Dock	 Wolf 906	Federation	L	504 ls	4 mins	37.35 ly
+ Cleve Vision	 Fusang	Federation	L	1,440 ls	10 hours	37.35 ly
+ Bass Port	 Wailladyan	Federation	L	11,088 ls	4 days	37.41 ly
+ Sternberg Ring	 Grabrigpa	Independent	L	51 ls	20 hours	37.69 ly
+ Ali Ring	 Kokojina	Federation	L	598 ls	3 hours	37.97 ly
+ de Andrade Dock	 V2213 Ophiuchii	Independent	L	2,622 ls	16 hours	38.10 ly
+ Readdy Orbital	 LP 390-16	Federation	L	2,970 ls	6 hours	38.87 ly
+ McCulley Gateway	 Meticuli	Federation	L	3,259 ls	1 day	39.42 ly
+ Blackman Station	 17 Cygni	Federation	L	10,031 ls	11 days	39.46 ly
+ Phillips Terminal	 Lwen	Federation	M	2,848 ls	15 days	39.57 ly
+ Oliver Enterprise	 Lwen	Federation	L	44 ls	19 hours	39.57 ly
+ Roosa Gateway	 LHS 3589	Federation	L	1,603 ls	20 hours	39.59 ly
+ Ivanov Terminal	 LHS 3589	Federation	M	1,613 ls	8 days	39.59 ly
+ Ramanujan Dock	 Ninsun	Independent	L	971 ls	2 days	40.35 ly
+ Bondar Terminal	 Togher	Independent	L	109,193 ls	2 days	40.66 ly
+ Garratt Station	 Frey	Federation	L	2,627 ls	1 hour	40.81 ly
+ Blackwell Hub	 Yorua	Independent	L	103 ls	9 hours	41.25 ly
+ Aksyonov Orbital	 Pacalite	Federation	L	345,269 ls	6 hours	41.32 ly
+ Viktorenko Station	 VVO 19	Federation	L	115 ls	1 day	42.08 ly
+ Leavitt Port	 VVO 19	Independent	L	147 ls	17 days	42.08 ly
+ Wheeler Horizons	 Asgaa	Federation	L	870 ls	10 hours	42.50 ly
+ Rawn City	 Vertumnus	Federation	L	140 ls	19 hours	42.90 ly
+ Hand Ring	 Ho Hsi	Independent	L	19 ls	7 hours	43.50 ly
+ Zhen Dock	 Xihe	Federation	L	1,950 ls	5 mins	44.08 ly
+ Aksyonov Orbital	 Yu Di Yi	Federation	L	16 ls	2 days	44.34 ly
+ Gerst Ring	 BD+22 3579	Independent	L	341 ls	111 days	45.29 ly
+ Dobrovolski Ring	 G 126-31	Federation	L	105 ls	9 days	45.31 ly
+ Regiomontanus Hub	 Derrim	Federation	M	3,725 ls	17 days	45.37 ly
+ Nachtigal Hub	 Derrim	Federation	L	1,568 ls	2 days	45.37 ly
+ Dutton Station	 Ho Hsien	Federation	L	670 ls	18 hours	46.30 ly
+ Ride Ring	 Rotanev	Independent	L	3,283 ls	8 hours	46.63 ly
+ 
+ 2E Economy Class Passenger Cabin
+ McKee Ring	 GD 219	Federation	L	938 ls	14 hours	16.39 ly
+ Clebsch Terminal	 Obambivas	Federation	L	593 ls	3 days	21.00 ly
+ Weyn Port	 BD-10 5238	Federation	L	3,142 ls	3 days	21.05 ly
+ Olivas City	 LHS 3505	Federation	L	2,703 ls	24 mins	22.47 ly
+ Kekule Orbital	 LTT 15899	Independent	L	12,375 ls	15 hours	23.08 ly
+ Kaleri Gateway	 Clayakarma	Independent	L	445 ls	11 hours	23.14 ly
+ Roentgen Gateway	 Clayakarma	Federation	L	575 ls	1 day	23.14 ly
+ Boltzmann Gateway	 LTT 7548	Independent	L	1,005 ls	10 hours	23.61 ly
+ Alexandria Ring	 LTT 7548	Federation	M	1,664 ls	4 days	23.61 ly
+ Citroen Hub	 Neto	Federation	M	891 ls	2 days	23.77 ly
+ Ising Vision	 Neto	Independent	L	662 ls	7 hours	23.77 ly
+ Chapman Terminal	 LP 694-16	Federation	L	359 ls	4 days	24.00 ly
+ Thompson Vision	 GAT 2	Independent	L	20,193 ls	8 days	24.46 ly
+ Julian Gateway	 Malloc	Federation	L	2,094 ls	2 days	24.85 ly
+ Vonarburg Port	 Maridal	Independent	L	505 ls	5 mins	26.37 ly
+ Jenner Hub	 Zaragas	Federation	L	1,523 ls	6 hours	27.13 ly
+ Filipchenko City	 G 139-50	Independent	L	7 ls	4 hours	29.82 ly
+ Bounds Hub	 Hrisastshi	Independent	L	19,641 ls	2 days	32.04 ly
+ Benyovszky Ring	 HR 7793	Independent	L	3,653 ls	17 hours	32.43 ly
+ Admiral Thirsk	 Nuakea	Federation	L	1,051 ls	14 hours	32.62 ly
+ Oblivion	 Nuakea	Federation	L	1,056 ls	14 hours	32.62 ly
+ Froude Enterprise	 LHS 3564	Federation	L	89 ls	2 hours	32.74 ly
+ Cavalieri Station	 LAWD 80	Federation	L	5,115 ls	17 hours	33.68 ly
+ Lubin Orbital	 Mokosh	Federation	L	1,004 ls	2 days	36.49 ly
+ Bulleid Orbital	 HR 7386	Federation	L	2,007 ls	6 hours	36.73 ly
+ Bisson Hub	 Delta Equulei	Independent	L	1,711 ls	4 days	36.95 ly
+ Herbert Dock	 Wolf 906	Federation	L	504 ls	5 mins	37.35 ly
+ Cleve Vision	 Fusang	Federation	L	1,440 ls	10 hours	37.35 ly
+ Bass Port	 Wailladyan	Federation	L	11,088 ls	4 days	37.41 ly
+ Sternberg Ring	 Grabrigpa	Independent	L	51 ls	20 hours	37.69 ly
+ Ali Ring	 Kokojina	Federation	L	598 ls	3 hours	37.97 ly
+ de Andrade Dock	 V2213 Ophiuchii	Independent	L	2,622 ls	16 hours	38.10 ly
+ Readdy Orbital	 LP 390-16	Federation	L	2,970 ls	6 hours	38.87 ly
+ McCulley Gateway	 Meticuli	Federation	L	3,259 ls	1 day	39.42 ly
+ Blackman Station	 17 Cygni	Federation	L	10,031 ls	11 days	39.46 ly
+ Oliver Enterprise	 Lwen	Federation	L	44 ls	19 hours	39.57 ly
+ Roosa Gateway	 LHS 3589	Federation	L	1,603 ls	20 hours	39.59 ly
+ Ivanov Terminal	 LHS 3589	Federation	M	1,613 ls	8 days	39.59 ly
+ Ramanujan Dock	 Ninsun	Independent	L	971 ls	2 days	40.35 ly
+ Bondar Terminal	 Togher	Independent	L	109,193 ls	2 days	40.66 ly
+ Garratt Station	 Frey	Federation	L	2,627 ls	1 hour	40.81 ly
+ Meitner Ring	 Dimoco	Federation	L	454 ls	59 days	41.09 ly
+ Blackwell Hub	 Yorua	Independent	L	103 ls	9 hours	41.25 ly
+ Aksyonov Orbital	 Pacalite	Federation	L	345,269 ls	6 hours	41.32 ly
+ Leavitt Port	 VVO 19	Independent	L	147 ls	17 days	42.08 ly
+ Viktorenko Station	 VVO 19	Federation	L	115 ls	1 day	42.08 ly
+ Wheeler Horizons	 Asgaa	Federation	L	870 ls	10 hours	42.50 ly
+ Rawn City	 Vertumnus	Federation	L	140 ls	19 hours	42.90 ly
+ Levchenko City	 Ross 145	Federation	L	2,282 ls	3 days	43.30 ly
+ Steiner Hub	 Ho Hsi	Independent	M	34 ls	3 days	43.50 ly
