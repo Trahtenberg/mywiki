@@ -1,0 +1,43 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-10-16T09:59:34+03:00
+
+====== 14 load data ======
+Created Tuesday 16 October 2018
+
+https://eddb.io/api
+
+CREATE TABLE `newtable2` (
+  `id` int(11) DEFAULT NULL,
+  `edsm_id` int(11) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `x` decimal(10,5) DEFAULT NULL,
+  `y` decimal(10,5) DEFAULT NULL,
+  `z` decimal(10,5) DEFAULT NULL,
+  `population` bigint(20) DEFAULT NULL,
+  `is_populated` tinyint(4) DEFAULT NULL,
+  `government_id` int(11) DEFAULT NULL,
+  `government` varchar(255) DEFAULT NULL,
+  `allegiance_id` int(11) DEFAULT NULL,
+  `allegiance` varchar(255) DEFAULT NULL,
+  `state_id` int(11) DEFAULT NULL,
+  `state` varchar(255) DEFAULT NULL,
+  `security_id` int(11) DEFAULT NULL,
+  `security` varchar(255) DEFAULT NULL,
+  `primary_economy_id` int(11) DEFAULT NULL,
+  `primary_economy` varchar(255) DEFAULT NULL,
+  `power` varchar(255) DEFAULT NULL,
+  `power_state` varchar(255) DEFAULT NULL,
+  `power_state_id` varchar(255) DEFAULT NULL,
+  `needs_permit` varchar(255) DEFAULT NULL,
+  `updated_at` varchar(255) DEFAULT NULL,
+  `simbad_ref` varchar(255) DEFAULT NULL,
+  `controlling_minor_faction_id` varchar(255) DEFAULT NULL,
+  `controlling_minor_faction` varchar(255) DEFAULT NULL,
+  `reserve_type_id` varchar(255) DEFAULT NULL,
+  `reserve_type` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+в mysql консоли:
+LOAD DATA LOCAL INFILE 'systems.csv' INTO TABLE ed.newtable2 FIELDS ENCLOSED BY '"' TERMINATED BY ',' IGNORE 1 LINES;
+

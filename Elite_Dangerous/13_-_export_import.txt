@@ -1,0 +1,58 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-10-12T16:01:37+03:00
+
+====== 13 - export import ======
+Created Friday 12 October 2018
+
+ LHS 3447	17	?	1,148,206,412	C: Zachary Hudson	0.00 ly
+ Eravate	11	Federation	740,380,179	E: Zachary Hudson	4.16 ly
+ Kini	1	Independent	20,123	E: Zachary Hudson	6.05 ly
+ Frigaha	4	Federation	299,296	E: Zachary Hudson	6.60 ly
+ LTT 18486	2	Federation	30,347	E: Zachary Hudson	6.96 ly
+ Chamunda	1	Federation	5,132,804	E: Zachary Hudson	7.36 ly
+ Potriti	7	Federation	197,263	E: Zachary Hudson	7.47 ly
+ Alrai Sector KH-V b2-7	1	Independent	0	E: Zachary Hudson	8.92 ly
+ Yakabugai	3	Federation	11,547,953	E: Zachary Hudson	8.96 ly
+ Kremainn	7	Federation	3,965,550	E: Zachary Hudson	8.97 ly
+ LHS 3479	3	Federation	119,220	E: Zachary Hudson	10.25 ly
+ Apoyota	2	Independent	41,956	Contested	10.88 ly
+ Ekonir	3	Federation	74,277	E: Zachary Hudson	11.09 ly
+--------------------------ЗАПОЛНЕНО--------------------------------
+ LFT 1448	1	Federation	3,311,098	E: Zachary Hudson	12.34 ly
+ Uzumeru	6	Federation	83,097	E: Zachary Hudson	12.56 ly
+ Ngaliba	2	Independent	11,987	Contested	13.26 ly
+ Mbukuravi	3	Federation	36,430	Contested	13.82 ly
+ GD 215	4	Independent	45,562	E: Zachary Hudson	14.52 ly
+ GD 219	1	Federation	3,972,954	C: Zachary Hudson	16.39 ly
+ LTT 15574	5	Federation	10,712,223	C: Zachary Hudson	16.43 ly
+ Ekuru	4	Federation	514,410	E: Zachary Hudson	16.49 ly
+ Sun Takush	1	Federation	1,979,367	-	16.53 ly
+ BD-01 3500	8	Federation	3,842,955,589	E: Yuri Grom	16.58 ly
+ Ngolibardu	1	Federation	2,461,357	E: Zachary Hudson	17.46 ly
+ Calor	5	Federation	12,859,124	E: Zachary Hudson	18.13 ly
+ Eta Serpentis	10	Federation	9,826,277,256	E: Yuri Grom	18.87 ly
+ LP 510-10	3	Federation	4,525,292	E: Yuri Grom	19.49 ly
+ V1688 Aquilae	9	Federation	3,275,836,646	Contested	19.53 ly
+ V1703 Aquilae	3	Federation	166,007	E: Zachary Hudson	19.91 ly
+ Zeta Aquilae	3	Federation	186,774	Contested	19.96 ly
+ LTT 7421	4	Independent	22,353,643	E: Yuri Grom	20.19 ly
+ LP 751-1	8	Federation	1,110,428,392	E: Yuri Grom	20.75 ly
+ LHS 3437	1	Independent	1,531	E: Yuri Grom	20.78 ly
+ Obambivas	6	Federation	4,526,167,333	Contested	21.00 ly
+ BD-10 5238	3	Federation	4,856,000	-	21.05 ly
+ Liaedin	13	Federation	52,999,999	E: Zachary Hudson	21.21 ly
+ LP 575-38	5	Independent	4,879,006	E: Zachary Hudson	21.42 ly
+ Wolf 1509	3	Independent	81,396	E: Zachary Hudson	21.43 ly
+ Verbigeni	1	Independent	41,225	E: Zachary Hudson	21.71 ly
+ Ross 733	4	Federation	11,625,396	E: Zachary Hudson	21.81 ly
+ Swaza	2	Federation	21,340	E: Yuri Grom	22.06 ly
+ Liu Baja	5	Federation	9,409,602	E: Zachary Hudson	22.41 ly
+ LHS 3505	4	Federation	34,379,101	E: Zachary Hudson	22.47 ly
+ Mikinn	3	Independent	3,467,291	-	22.64 ly
+ Belu	7	Independent	6,148,179	E: Yuri Grom	22.84 ly
+ Sinann	3	Federation	16,834	Contested	22.93 ly
+ Wolf 865	5	Federation	24,209,148	E: Zachary Hudson	23.01 ly
+ LTT 15899	3	Independent	6,274,934	-	23.08 ly
+ Clayakarma	8	Independent	3,809,324,026	C: Yuri Grom	23.14 ly
+ LFT 1504	3	Federation	165,992	-	23.33 ly
