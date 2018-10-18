@@ -1,0 +1,585 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-10-18T12:32:51+03:00
+
+====== 16 profits ======
+Created Thursday 18 October 2018
+
+5738	Insulating Membrane Industrial Materials
+5244	Basic Medicines Medicines
+4950	Palladium Metals
+==========
+Worlidge Terminal   LHS 3447  
+23.61 ly
+ Boltzmann Gateway   LTT 7548  
+Pad: L  91,859 ls  15 hours
+Pad: L  1,005 ls  3 hours
+Buy for 8,976 Cr Supply: 101,017
+304 ×  Gold
+Demand: 200,269 Sell for 11,400 Cr
+2424
+==========
+Yaping Enterprise   LHS 3447  
+23.61 ly
+ Boltzmann Gateway   LTT 7548  
+Pad: L  91,818 ls  21 mins
+Pad: L  1,005 ls  3 hours
+Buy for 8,976 Cr Supply: 101,017
+304 ×  Gold
+Demand: 200,269 Sell for 11,400 Cr
+2424
+==================
+Boltzmann Gateway   LTT 7548  
+23.61 ly
+ Dalton Gateway   LHS 3447  
+Pad: L  1,005 ls  3 hours
+Pad: L  91,799 ls  13 hours
+Buy for 6,015 Cr Supply: 67,251
+304 ×  Performance Enhancers
+Demand: 114,861 Sell for 7,598 Cr
+~1500
+==============
+Worlidge Terminal   LHS 3447  
+23.77 ly
+ Ising Vision   Neto  
+Pad: L  91,859 ls  15 hours
+Pad: L  664 ls  1 hour
+Buy for 8,976 Cr Supply: 101,017
+304 ×  Gold
+Demand: 84,431 Sell for 10,940 Cr
+~2000
+===========
+Yaping Enterprise   LHS 3447  
+23.77 ly
+ Ising Vision   Neto  
+Pad: L  91,818 ls  23 mins
+Pad: L  664 ls  1 hour
+Buy for 8,976 Cr Supply: 101,017
+304 ×  Gold
+Demand: 84,431 Sell for 10,940 Cr
+~2000
+========
+Yaping Enterprise   LHS 3447  
+24.00 ly
+ Chapman Terminal   LP 694-16  
+Pad: L  91,818 ls  24 mins
+Pad: L  364 ls  2 days
+Buy for 8,976 Cr Supply: 101,017
+304 ×  Gold
+Demand: 61,064 Sell for 10,944 Cr
+~2000
+=========
+Worlidge Terminal   LHS 3447  
+24.00 ly
+ Chapman Terminal   LP 694-16  
+Pad: L  91,859 ls  15 hours
+Pad: L  364 ls  2 days
+Buy for 8,976 Cr Supply: 101,017
+304 ×  Gold
+Demand: 61,064 Sell for 10,944 Cr
+~2000
+========
+Worlidge Terminal   LHS 3447  
+24.05 ly
+ Killough Orbital   31 Aquilae  
+Pad: L  91,859 ls  15 hours
+Pad: L  5,300 ls  9 hours
+Buy for 8,976 Cr Supply: 101,017
+304 ×  Gold
+Demand: 457,259 Sell for 10,822 Cr
+~1900
+============
+Yaping Enterprise   LHS 3447  
+24.05 ly
+ Killough Orbital   31 Aquilae  
+Pad: L  91,818 ls  25 mins
+Pad: L  5,300 ls  9 hours
+Buy for 8,976 Cr Supply: 101,017
+304 ×  Gold
+Demand: 457,259 Sell for 10,822 Cr
+~1900
+==============
+Worlidge Terminal   LHS 3447  
+24.46 ly
+ Thompson Vision   GAT 2  
+Pad: L  91,859 ls  15 hours
+Pad: L  20,283 ls  11 hours
+Buy for 8,976 Cr Supply: 101,017
+304 ×  Gold
+Demand: 65,571 Sell for 10,989 Cr
+~2000
+============
+Yaping Enterprise   LHS 3447  
+24.46 ly
+ Thompson Vision   GAT 2  
+Pad: L  91,818 ls  26 mins
+Pad: L  20,283 ls  11 hours
+Buy for 8,976 Cr Supply: 101,017
+304 ×  Gold
+Demand: 65,571 Sell for 10,989 Cr
+~2000
+=========
+ Yaping Enterprise   LHS 3447  
+24.85 ly
+ Julian Gateway   Malloc  
+Pad: L  91,818 ls  29 mins
+Pad: L  2,097 ls  2 days
+Buy for 8,976 Cr Supply: 101,017
+304 ×  Gold
+Demand: 170,827 Sell for 10,958 Cr
+~2000
+============
+Worlidge Terminal   LHS 3447  
+24.85 ly
+ Julian Gateway   Malloc  
+Pad: L  91,859 ls  15 hours
+Pad: L  2,097 ls  2 days
+Buy for 8,976 Cr Supply: 101,017
+304 ×  Gold
+Demand: 170,827 Sell for 10,958 Cr
+~2000
+===========================
+===========================
+===========================
+===========================
+Knight Orbital   LHS 6427  
+5.92 ly
+ Oefelein Station   LHS 112  
+Pad: L  17 ls  6 days
+Pad: L  131 ls  4 days
+Buy for 5,828 Cr Supply: 143,804
+304 ×  Superconductors
+Demand: 570,392 Sell for 7,441 Cr
+7,441 - 5,828 = 1613
+============================
+ Knight Orbital   LHS 6427  
+5.92 ly
+ Hale Port   LHS 112  
+Pad: L  17 ls  6 days
+Pad: L  98 ls  2 days
+Buy for 7,490 Cr Supply: 12,785
+304 ×  Beryllium
+Demand: 502,980 Sell for 9,006 Cr
+9,006 - 7,490 = 1516
+=========================
+ Knight Orbital   LHS 6427  
+5.92 ly
+ Oefelein Station   LHS 112  
+Pad: L  17 ls  6 days
+Pad: L  131 ls  4 days
+Buy for 7,490 Cr Supply: 12,785
+304 ×  Beryllium
+Demand: 250,713 Sell for 8,990 Cr
+8,990 - 7,490 = 1500
+===============================
+Knight Orbital   LHS 6427  
+5.92 ly
+ Hale Port   LHS 112  
+Pad: L  17 ls  6 days
+Pad: L  98 ls  2 days
+Buy for 5,828 Cr Supply: 143,804
+304 ×  Superconductors
+Demand: 149,765 Sell for 7,302 Cr
+7,302 - 5,828 = 1474
+===============================
+Knight Orbital   LHS 6427  
+5.92 ly
+ Oefelein Station   LHS 112  
+Pad: L  17 ls  6 days
+Pad: L  131 ls  4 days
+Buy for 5,192 Cr Supply: 171,516
+304 ×  Indium
+Demand: 1,948,017 Sell for 6,624 Cr
+6,624 - 5,192 = 1432
+==================================
+Knight Orbital   LHS 6427  
+5.92 ly
+ Surayev Ring   LHS 112  
+Pad: L  17 ls  6 days
+Pad: L  56 ls  1 day
+Buy for 7,490 Cr Supply: 12,785
+304 ×  Beryllium
+Demand: 821,656 Sell for 8,914 Cr
+8,914 - 7,490 = 1424
+=================================
+ Knight Orbital   LHS 6427  
+5.92 ly
+ Surayev Ring   LHS 112  
+Pad: L  17 ls  6 days
+Pad: L  56 ls  1 day
+Buy for 5,828 Cr Supply: 143,804
+304 ×  Superconductors
+Demand: 239,687 Sell for 7,212 Cr
+7,212 - 5,828 = 1384
+================================
+Illy City   Corbin  
+9.75 ly
+ Hale Port   LHS 112  
+Pad: L  8,809 ls  1 day
+Pad: L  98 ls  2 days
+Buy for 7,350 Cr Supply: 76,206
+304 ×  Beryllium
+Demand: 502,980 Sell for 9,006 Cr
+9,006 - 7,350 = 1656
+========================
+Illy City   Corbin  
+9.75 ly
+ Oefelein Station   LHS 112  
+Pad: L  8,809 ls  1 day
+Pad: L  131 ls  4 days
+Buy for 7,350 Cr Supply: 76,206
+304 ×  Beryllium
+Demand: 250,713 Sell for 8,990 Cr
+8,990 - 7,350 = 1640
+==================
+Illy City   Corbin  
+9.75 ly
+ Hale Port   LHS 112  
+Pad: L  8,809 ls  1 day
+Pad: L  98 ls  2 days
+Buy for 9,276 Cr Supply: 33,101
+304 ×  Gold
+Demand: 872,704 Sell for 10,879 Cr
+10,879 - 9,276 = 1603
+=============================
+ Illy City   Corbin  
+9.75 ly
+ Oefelein Station   LHS 112  
+Pad: L  8,809 ls  1 day
+Pad: L  131 ls  4 days
+Buy for 9,276 Cr Supply: 33,101
+304 ×  Gold
+Demand: 872,704 Sell for 10,879 Cr
+~1600
+==========================
+Midgley Hub   Corbin  
+9.75 ly
+ Hale Port   LHS 112  
+Pad: L  8,873 ls  5 days
+Pad: L  98 ls  2 days
+Buy for 7,436 Cr Supply: 42,478
+304 ×  Beryllium
+Demand: 502,980 Sell for 9,006 Cr
+~1550
+=======================
+Illy City   Corbin  
+9.75 ly
+ Surayev Ring   LHS 112  
+Pad: L  8,809 ls  1 day
+Pad: L  56 ls  1 day
+Buy for 7,350 Cr Supply: 76,206
+304 ×  Beryllium
+Demand: 821,656 Sell for 8,914 Cr
+~1570
+============================
+Midgley Hub   Corbin  
+9.75 ly
+ Oefelein Station   LHS 112  
+Pad: L  8,873 ls  5 days
+Pad: L  131 ls  4 days
+Buy for 7,436 Cr Supply: 42,478
+304 ×  Beryllium
+Demand: 250,713 Sell for 8,990 Cr
+~1500
+==========================
+Midgley Hub   Corbin  
+9.75 ly
+ Oefelein Station   LHS 112  
+Pad: L  8,873 ls  5 days
+Pad: L  131 ls  4 days
+Buy for 5,906 Cr Supply: 647,355
+304 ×  Superconductors
+Demand: 570,392 Sell for 7,441 Cr
+~1500
+==================
+Illy City   Corbin  
+9.75 ly
+ Oefelein Station   LHS 112  
+Pad: L  8,809 ls  1 day
+Pad: L  131 ls  4 days
+Buy for 5,906 Cr Supply: 1,156,824
+304 ×  Superconductors
+Demand: 570,392 Sell for 7,441 Cr
+~1500
+====================
+ Illy City   Corbin  
+9.75 ly
+ Surayev Ring   LHS 112  
+Pad: L  8,809 ls  1 day
+Pad: L  56 ls  1 day
+Buy for 9,276 Cr Supply: 33,101
+304 ×  Gold
+Demand: 1,427,385 Sell for 10,780 Cr
+~1500
+===============
+ Midgley Hub   Corbin  
+9.75 ly
+ Surayev Ring   LHS 112  
+Pad: L  8,873 ls  5 days
+Pad: L  56 ls  1 day
+Buy for 381 Cr Supply: 543,936
+304 ×  Conductive Fabrics
+Demand: 3,307,372 Sell for 1,872 Cr
+~1500
+===============
+Midgley Hub   Corbin  
+9.75 ly
+ Surayev Ring   LHS 112  
+Pad: L  8,873 ls  5 days
+Pad: L  56 ls  1 day
+Buy for 7,436 Cr Supply: 42,478
+304 ×  Beryllium
+Demand: 821,656 Sell for 8,914 Cr
+~1500
+=================
+Illy City   Corbin  
+9.75 ly
+ Oefelein Station   LHS 112  
+Pad: L  8,809 ls  1 day
+Pad: L  131 ls  4 days
+Buy for 5,187 Cr Supply: 1,270,189
+304 ×  Indium
+Demand: 1,948,017 Sell for 6,624 Cr
+~1500
+================
+Midgley Hub   Corbin  
+9.75 ly
+ Oefelein Station   LHS 112  
+Pad: L  8,873 ls  5 days
+Pad: L  131 ls  4 days
+Buy for 5,187 Cr Supply: 711,590
+304 ×  Indium
+Demand: 1,948,017 Sell for 6,624 Cr
+~1500
+================
+ Midgley Hub   Corbin  
+9.75 ly
+ Hale Port   LHS 112  
+Pad: L  8,873 ls  5 days
+Pad: L  98 ls  2 days
+Buy for 5,906 Cr Supply: 647,355
+304 ×  Superconductors
+Demand: 149,765 Sell for 7,302 Cr
+~1400
+================
+==============
+Surayev Ring   LHS 112  
+13.70 ly
+ Hale Port   LHS 1050  
+Pad: L  56 ls  1 day
+Pad: L  420 ls  6 hours
+Buy for 319 Cr Supply: 304,186
+304 ×  Basic Medicines
+Demand: 19,600 Sell for 2,038 Cr
+~1700
+=================
+Oefelein Station   LHS 112  
+13.70 ly
+ Hale Port   LHS 1050  
+Pad: L  131 ls  4 days
+Pad: L  420 ls  6 hours
+Buy for 374 Cr Supply: 145,479
+304 ×  Basic Medicines
+Demand: 19,600 Sell for 2,038 Cr
+~1700
+===================
+Hale Port   LHS 112  
+13.70 ly
+ Hale Port   LHS 1050  
+Pad: L  98 ls  2 days
+Pad: L  420 ls  6 hours
+Buy for 374 Cr Supply: 145,479
+304 ×  Basic Medicines
+Demand: 19,600 Sell for 2,038 Cr
+~1700
+================
+ Whitney Station   Inggale  
+18.66 ly
+ Hale Port   LHS 112  
+Pad: L  3,448 ls  4 days
+Pad: L  98 ls  2 days
+Buy for 6,990 Cr Supply: 30,034
+304 ×  Beryllium
+Demand: 502,980 Sell for 9,006 Cr
+9006 - 6990 = 2016
+=====================
+Whitney Station   Inggale  
+18.66 ly
+ Oefelein Station   LHS 112  
+Pad: L  3,448 ls  4 days
+Pad: L  131 ls  4 days
+Buy for 6,990 Cr Supply: 30,034
+304 ×  Beryllium
+Demand: 250,713 Sell for 8,990 Cr
+2000
+===============
+Whitney Station   Inggale  
+18.66 ly
+ Surayev Ring   LHS 112  
+Pad: L  3,448 ls  4 days
+Pad: L  56 ls  1 day
+Buy for 6,990 Cr Supply: 30,034
+304 ×  Beryllium
+Demand: 821,656 Sell for 8,914 Cr
+8,914 - 6,990 = 1924
+==================
+ Whitney Station   Inggale  
+18.66 ly
+ Oefelein Station   LHS 112  
+Pad: L  3,448 ls  4 days
+Pad: L  131 ls  4 days
+Buy for 4,892 Cr Supply: 126,059
+304 ×  Indium
+Demand: 1,948,017 Sell for 6,624 Cr
+~1700
+==========
+ Whitney Station   Inggale  
+18.66 ly
+ Oefelein Station   LHS 112  
+Pad: L  3,448 ls  4 days
+Pad: L  131 ls  4 days
+Buy for 4,233 Cr Supply: 136,560
+304 ×  Gallium
+Demand: 2,161,596 Sell for 5,873 Cr
+~1600
+============
+Whitney Station   Inggale  
+18.66 ly
+ Hale Port   LHS 112  
+Pad: L  3,448 ls  4 days
+Pad: L  98 ls  2 days
+Buy for 4,892 Cr Supply: 126,059
+304 ×  Indium
+Demand: 301,642 Sell for 6,531 Cr
+~1600
+====================
+Whitney Station   Inggale  
+18.66 ly
+ Hale Port   LHS 112  
+Pad: L  3,448 ls  4 days
+Pad: L  98 ls  2 days
+Buy for 4,233 Cr Supply: 136,560
+304 ×  Gallium
+Demand: 701,103 Sell for 5,841 Cr
+~1600
+==================
+Surayev Ring   LHS 112  
+19.00 ly
+ Bernard City   LP 347-5  
+Pad: L  56 ls  1 day
+Pad: L  16 ls  4 days
+Buy for 319 Cr Supply: 304,186
+304 ×  Basic Medicines
+Demand: 21,496,386 Sell for 4,527 Cr
+4527 - 319 = ~4200
+==========
+Oefelein Station   LHS 112  
+19.00 ly
+ Bernard City   LP 347-5  
+Pad: L  131 ls  4 days
+Pad: L  16 ls  4 days
+Buy for 374 Cr Supply: 145,479
+304 ×  Basic Medicines
+Demand: 21,496,386 Sell for 4,527 Cr
+~4200
+============
+Hale Port   LHS 112  
+19.00 ly
+ Bernard City   LP 347-5  
+Pad: L  98 ls  2 days
+Pad: L  16 ls  4 days
+Buy for 374 Cr Supply: 145,479
+304 ×  Basic Medicines
+Demand: 21,496,386 Sell for 4,527 Cr
+~4200
+=========
+Bohr Hub   LP 347-5  
+19.00 ly
+ Oefelein Station   LHS 112  
+Pad: L  505 ls  11 hours
+Pad: L  131 ls  4 days
+Buy for 5,906 Cr Supply: 600,286
+304 ×  Superconductors
+Demand: 570,392 Sell for 7,441 Cr
+~1500
+===========
+Bohr Hub   LP 347-5  
+19.00 ly
+ Surayev Ring   LHS 112  
+Pad: L  505 ls  11 hours
+Pad: L  56 ls  1 day
+Buy for 381 Cr Supply: 446,611
+304 ×  Conductive Fabrics
+Demand: 3,307,372 Sell for 1,872 Cr
+~1500
+===============
+Bohr Hub   LP 347-5  
+19.00 ly
+ Oefelein Station   LHS 112  
+Pad: L  505 ls  11 hours
+Pad: L  131 ls  4 days
+Buy for 10,105 Cr Supply: 2,537
+304 ×  Insulating Membrane
+Demand: 84,126 Sell for 11,594 Cr
+~1400
+==============
+Bohr Hub   LP 347-5  
+19.00 ly
+ Hale Port   LHS 112  
+Pad: L  505 ls  11 hours
+Pad: L  98 ls  2 days
+Buy for 10,105 Cr Supply: 2,537
+304 ×  Insulating Membrane
+Demand: 168,252 Sell for 11,594 Cr
+~1400
+============
+Bohr Hub   LP 347-5  
+19.00 ly
+ Oefelein Station   LHS 112  
+Pad: L  505 ls  11 hours
+Pad: L  131 ls  4 days
+Buy for 5,187 Cr Supply: 661,443
+304 ×  Indium
+Demand: 1,948,017 Sell for 6,624 Cr
+~1500
+===============
+Bohr Hub   LP 347-5  
+19.00 ly
+ Hale Port   LHS 112  
+Pad: L  505 ls  11 hours
+Pad: L  98 ls  2 days
+Buy for 9,480 Cr Supply: 16,912
+304 ×  Gold
+Demand: 872,704 Sell for 10,879 Cr
+~1400
+==============
+ McArthur Landing   G 173-53  
+19.22 ly
+ Hale Port   LHS 112  
+Pad: L  617 ls  2 days
+Pad: L  98 ls  2 days
+Buy for 9,379 Cr Supply: 2,668
+304 ×  Gold
+Demand: 872,704 Sell for 10,879 Cr
+~1500
+==========
+ McArthur Landing   G 173-53  
+19.22 ly
+ Oefelein Station   LHS 112  
+Pad: L  617 ls  2 days
+Pad: L  131 ls  4 days
+Buy for 9,379 Cr Supply: 2,668
+304 ×  Gold
+Demand: 872,704 Sell for 10,879 Cr
+~1500
+=========
+McArthur Landing   G 173-53  
+19.22 ly
+ Surayev Ring   LHS 112  
+Pad: L  617 ls  2 days
+Pad: L  56 ls  1 day
+Buy for 9,379 Cr Supply: 2,668
+304 ×  Gold
+Demand: 1,427,385 Sell for 10,780 Cr
+~1400
+=================
