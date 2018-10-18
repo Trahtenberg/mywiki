@@ -1,0 +1,148 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-10-18T17:27:00+03:00
+
+====== 17 profit 2 ======
+Created Thursday 18 October 2018
+
+buy Gold in Farrukh Terminal Qa'wakana (14.48 ly) for 8561
+sell Gold Clayakarma » Kaleri Gateway for 11588
+profit 3027
+--------------------
+buy Gold in Preuss Station Ualapalor (7.59 ly) for 8561
+sell Gold Clayakarma » Kaleri Gateway for 11588
+profit 3027
+--------------------
+Clayakarma » Kaleri Gateway buy Gold for 11,588cr
+--------------------
+!!!!!!!!!!!!!!!!!!!Внутри системы Clayakarma
+Tobacco	29 minutes ago Clayakarma » Sinclair Port (0ls)
+buy for 4,472cr, Station, 7,849 in-stock	-- 0.0ly  -->	1 day ago Clayakarma » Kaleri Gateway (0ls)
+sell for 5,612cr, Station 208,566 demand	1,140cr
+--------------------
+Gold: LHS 3447 » Yaping Enterprise ==> Clayakarma » Kaleri Gateway
+--------------------
+Gold	5 hours ago LHS 3447 » Yaping Enterprise (109,914ls)
+buy for 8,976cr, Station, 101,017 in-stock	-- 23.1ly  -->	1 day ago Clayakarma » Kaleri Gateway (0ls)
+sell for 11,588cr, Station 103,536 demand	2,612cr
+--------------------
+Gold	5 hours ago LHS 3447 » Yaping Enterprise (109,914ls)
+buy for 8,976cr, Station, 101,017 in-stock	-- 22.6ly  -->	5 hours ago Mikinn » Wallace Dock (331ls)
+sell for 11,099cr, Station 180,739 demand	2,123cr
+--------------------
+Gold	5 hours ago LHS 3447 » Yaping Enterprise (109,914ls)
+buy for 8,976cr, Station, 101,017 in-stock	-- 21.4ly  -->	5 hours ago LP 575-38 » Jenner Port (0ls)
+sell for 11,045cr, Station 4,691 demand	2,069cr
+--------------------
+Buy	At	Dist.	Sell at	Profit ↥
+Gold	5 hours ago LHS 3447 » Yaping Enterprise (109,914ls)
+buy for 8,976cr, Station, 101,017 in-stock	-- 21.1ly  -->	5 hours ago BD-10 5238 » Weyn Port (3,143ls)
+sell for 10,944cr, Station 11,138 demand	1,968cr
+--------------------
+Gold	5 hours ago LHS 3447 » Yaping Enterprise (109,914ls)
+buy for 8,976cr, Station, 101,017 in-stock	-- 21.0ly  -->	2 hours ago Obambivas » Galouye Terminal (431ls)
+sell for 10,915cr, Station 144,039 demand	1,939cr
+--------------------
+Gold	5 hours ago LHS 3447 » Yaping Enterprise (109,914ls)
+buy for 8,976cr, Station, 101,017 in-stock	-- 19.5ly  -->	1 day ago V1688 Aquilae » Blaylock Enterprise (518ls)
+sell for 10,781cr, Station 232,948 demand	1,805cr
+--------------------
+https://roguey.co.uk/elite-dangerous/trade-helper/best/
+Mk1-найти место купли/продажи конкретного товара
+Mk2-что купить/продать между двумя конкретными системами
+Mk3-ищет торг пути вблизи некой системы
+--------------------
+http://remlok-industries.fr/822/the-complete-trader-guide/?lang=en
+--------------------
+My rares route
+The Rare route I used to do.
+
+CLUSTER 1 (59t – 73t)
+
+Leesti (George Lucas 259ls) – Sell Cluster 2 and buy Leestian Evil Juice, Azure Milk
+Lave (Lave Station 286ls) – Lavian Brandy
+Orrere (Sharon Lee Free Market 961ls) – Orrerian Vicious Brew
+Uszaa (Guest Installation 4350ls) – Uszaian Tree Grub
+Diso (Shifnalport 284ls) – Diso Ma Corn
+— GO TO CLUSTER 2
+
+CLUSTER 2 (77t – 113t)
+
+Witchhaul (Hornby Terminal 219ls) – Sell Cluster 1 and buy Witchhaul Kobe Beef
+Fujin (Futen Starport 559ls) – Fujin Tea
+39 Tauri (Porta 990ls) – Tauri Chimes
+Zeessze (Nicollier Hanger 489ls) – Zeessze Ant Grub Glue
+George Pantazis (Zamka Platform 45ls) – Pantaa Prayer Sticks
+Chi Eridani (Steve Masters) – Chi Eridani Marine Paste
+Altair (Solo Orbiter 667ls) – Altairian Skin
+— GO BACK TO CLUSTER 1
+--------------------
+FIngerBob's route
+If you want to change a bit your route, it is as good as mine.
+
+Destination	Station	LS	LY	Jumps	Stock	Sell Rares from
+Leesti	George Lucas	257	109	6	21	Coquim, Wuthielo Ku
+Altair	Solo Station	670	115	5	22	
+Zeessze	Nicollier Hangar	489	26	2	18	Karsuki Ti, Jaroua
+39 Tauri	Porta	980	42	3	17	
+Witchhaul	Hornby Terminal	220	37	2	9	Baltah’Sine
+Coquim	Hirayama Installation	600	109	6	20	
+Wuthielo Ku	Tarter Dock	145	120	7	17	Leesti
+Karsuki Ti	West Market	28	92	5	18	Altair, Zeessze, 39 Tauri, Witchhaul
+Jaroua	McCool City	143	72	4	18	
+Baltah’Sine	Baltha’Sine	356	91	5	18
+--------------------
+Elite Dangerous - How to Find a Profitable Trade Route - YouTube
+https://www.youtube.com/watch?v=hI4Sn-ESz3M
+--------------------
+В Diabingo расположена одна единственная станция — Al Sufi Settlement 
+и находится она совсем близко к маякам, что не очень здорово, 
+как ты понимаешь, с одной стороны — много не нужных торговцев. 
+Почти все местные компании аффилированы с Kuun-Lan или имеют 
+представительства в соседней HIP 105408 на станции Binney Horizons, 
+та в свою очередь располагается аж в трёх тысячах световых секунд. 
+Толстосумы туда не лезут. Хе-хе. 
+Большинство курьерских заданий, контрабанды, торговых и баунти-миссий, 
+которые ты сможешь взять, будут связаны именно с двумя этими системами. 
+Что бы не летать с пустым трюмом понапрасну, 
+советую возить с Diabingo на Hip 105408 Серебро, 
+а обратно — Реактивную защиту. 
+Небольшой, но профит, будешь иметь постоянно.
+--------------------
+Новичкам в систему Ngurii. 
+В ней можно брать максимальное количество заданий с двух станций, 
+а то и на первой завалят по перевозке данных и бума. 
+Лететь нужно только в одну систему в 13 св. лет, 
+там так же лететь обратно в Ngurii с максимальным количеством заданий. 
+Дают от 36 до 50 кредитов, так же дают бонусы за сроки до 75 кредитов.
+--------------------
+Robigo - доставка грузов
+--------------------
+на доске объявлений есть задания на доставку
+--------------------
+Basic Medicines, Gold, 
+
+Banephtha
+	HIP 91281	35 ly
+============
+Stapledon Dock   HIP 91281  
+35.56 ly
+ Butcher Settlement   Banephtha  
+Pad: L  40,772 ls  242 days
+Pad: M  74 ls  46 days
+Buy for 156 Cr Supply: 45,142
+304 ×  Basic Medicines
+Demand: 418,096 Sell for 5,258 Cr
+=========================
+Scirtari
+	Purungurawn	91 ly
+	
+--------------------
+go from LHS 112 to Haroingori 154 ly (16 hops)
+Gabriel Dock (L) buy Gold for 12228 cr
+
+go from LHS 112 to Kavalliyala 173 ly (17 hops)
+Unsold Orbital (L) buy Gold for 12119 cr
+
+go from LHS 112 to Grovichun 158 ly (16 hops)
+Yerka City (L) buy Gold for 12119 cr
