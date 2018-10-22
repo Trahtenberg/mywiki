@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-10-22T13:29:03+03:00
+
+====== enable disable lock screen background ======
+Created Monday 22 October 2018
+
+https://www.tenforums.com/tutorials/90172-enable-disable-changing-lock-screen-background-windows-10-a.html
