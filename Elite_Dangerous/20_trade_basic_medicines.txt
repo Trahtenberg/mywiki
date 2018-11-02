@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-11-02T12:22:15+03:00
+
+====== 20 trade basic medicines ======
+Created Friday 02 November 2018
+
+Zillig Depot	LHS 397	5,089	94 %	12,700	L	7 hours	72 ls	19.32 ly
+Hardwick Station	Procyon	4,810	93 %	18,903,911	L	26 mins	9,891 ls	11.41 ly
+Alexander Port	BD-12 4699	4,527	93 %	2,906,351	L	7 mins	58 ls	30.04 ly
+Janifer Orbital	BD-12 4699	4,527	93 %	2,055,680	L	13 hours	78 ls	30.04 ly
+Townshend City	HR 6836	4,527	93 %	2,015,180	L	4 hours	528 ls	21.46 ly
+Gidzenko Terminal	Kalb	4,527	93 %	33,617,064	L	3 days	115,042 ls	30.57 ly
+Bagian Station	Kalb	4,527	93 %	6,353,037	L	3 hours	115,219 ls	30.57 ly
+Hahn Orbital	Makulu	4,447	93 %	5,647,344	L	4 days	434 ls	26.69 ly
+Novitski Oasis	Arbuda	4,803	93 %	392,297	L	10 hours	1,860 ls	21.07 ly
+Murray Market	Fortuna	4,750	93 %	15,844,042	L	2 days	4,098 ls	27.14 ly
+Brereton Station	Teshub	4,679	93 %	231,498	L	17 hours	512 ls	22.80 ly
