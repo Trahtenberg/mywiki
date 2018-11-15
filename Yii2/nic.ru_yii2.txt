@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-11-06T17:51:35+03:00
+
+====== nic.ru yii2 ======
+Created Tuesday 06 November 2018
+
+чтобы поставить многосайтовый yii2 на хостинг nic.ru
+
+-установить composer-ом локальный проект yii2advanced (можно попробовать и прямо на хостинге)
+
+-на локале стартовать/создать проект командой //init//
+
+-скопировать все кроме frontend и backend из локалки на хостинг
+
+-в [[/common/config/bootstrap.php]] поменять frontend на нужный сайт
+например
+	Yii::setAlias('@frontend', dirname(dirname(__DIR__)) . '/frontend');
+поменять на
+	Yii::setAlias('@votucheba', dirname(dirname(__DIR__)) . '/votucheba.ru');
+при необходимости скопировать строку для других сайтов на этом хостинге
+
+-в [[/common/config/main-local.php]] настроить доступ к бд
+
+-из локальной frontend скопировать все кроме web в папку docs сайта на хостинге
+	/frontend/* -> [[/votucheba.ru/*]]
+	
+	-поменять все встречающееся frontend на [[/votucheba.ru/*|votucheba]]
+	
+-из локальной [[/frontend/web/*]] скопировать все в [[/votucheba.ru/docs/]]
+
+	-поменять все встречающееся frontend на [[/votucheba.ru/*|votucheba]]

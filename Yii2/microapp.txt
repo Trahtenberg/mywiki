@@ -1,0 +1,98 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-11-06T11:09:54+03:00
+
+====== microapp ======
+Created Tuesday 06 November 2018
+
+https://www.yiiframework.com/doc/guide/2.0/en/tutorial-yii-as-micro-framework
+
+-создаем на локале OpenServer файл (d:\ospanel\domains\myyii2microapp\composer.json)
+с следующим содержанием
+{
+	"require": {
+		"yiisoft/yii2": "~2.0.0",
+		"yiisoft/yii2-bootstrap": "~2.0.0"
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://asset-packagist.org"
+		}
+	]
+}
+
+-открыть консоль openserver и перейти в папку сайта/установки
+(d:\ospanel\domains\myyii2microapp\)
+
+-запускаем "composer install"
+
+-после установки в папке будет следующее
+	-папка vendor
+	-файл composer.json
+	-файл composer.lock
+	
+	проект готов к использованию yii2, bootstrap, jquery
+	
+-переносим все на хостинг nic.ru в корень
+
+СОЗДАНИЕ СТРУКТУРЫ САЙТА
+
+-в папке site.ru/docs создаем index.php с следующим содержанием
+
+<?php
+
+// comment out the following two lines when deployed to production
+defined('YII_DEBUG') or define('YII_DEBUG', true);
+defined('YII_ENV') or define('YII_ENV', 'dev');
+
+require(__DIR__ . '/../vendor/autoload.php');
+require(__DIR__ . '/../vendor/yiisoft/yii2/Yii.php');
+
+$config = require __DIR__ . '/../config.php';
+(new yii\web\Application($config))->run();
+
+-в папке site.ru/ создаем /config/config.php (все параметры обязательны)
+
+<?php
+
+return [
+	'id' => 'site-app',
+	'basePath' => dirname(__DIR__),
+	'controllerNamespace' => 'site\controllers',
+	'aliases' => [
+		'@site' => dirname(__DIR__),
+	],
+];
+
+-создаем основной контроллер /site.ru/controllers/SiteController.php
+
+<?php
+
+namespace votucheba\controllers;
+
+use yii\web\Controller;
+
+class SiteController extends Controller
+{
+	public function actionIndex()
+	{
+		echo 'hello';
+	}
+}
+
+-проверяем работу сайта - браузер должен показать 'hello'
+
+ЗАПУСК СТАНДАРТНОГО BOOTSTRAP МАКЕТА ИЗ YII2
+
+-в SiteController меняем echo 'hello'; на return $this->render('index');
+
+-создаем view: 'site.ru/views/site/index.php'
+(проверка работы сайта дает ошибку: The view file does not exist: [[/home/votuchebar/votucheba.ru/views/layouts/main.php)]]
+
+-создаем 'site.ru/views/layouts/main.php'
+(проверка даст пустую страницу)
+
+-копируем main.php из yii2/basic или yii2/advanced
+
+........ далее разбираемся с ассетами и виджетами
