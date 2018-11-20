@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-11-19T16:28:48+03:00
+
+====== OpenServer ======
+Created понедельник 19 Ноябрь 2018
+
+Если при установке проекта с помощью **composer** или при обновлении **composer self-update** возникают проблемы с сертификатами, то 
+
+1. определить какой файл сертификатов используется сейчас
+
+т.к. composer запускается с помощью php, то ищем файл сертификатов текущей версии php
+**php -r "print_r(openssl_get_cert_locations());"**
+строка **[ini_cafile] => d:/ospanel/modules/php/PHP-7.2-x64/cacert.pem** показывает нужный файл
+
+2. надо перенести ключи из файлов 
+
+**...\autopartserv\vagrant\certs\shinservice-KOLCS-CA.crt**
+**...\autopartserv\vagrant\certs\subordinate_cert_PA.crt**
+в файл
+**...\Vagrant\embedded\cacert.pem**
+и пробовать снова
