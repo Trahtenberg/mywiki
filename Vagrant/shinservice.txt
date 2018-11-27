@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-11-19T16:00:12+03:00
+
+====== shinservice ======
+Created понедельник 19 Ноябрь 2018
+
+При создании виртуальной машины проекта **autopartserv** vagrant ругается на сертификаты.
+Для решения проблемы надо скопировать ключи (содержимое) из файлов 
+...\autopartserv\vagrant\certs\shinservice-KOLCS-CA.crt
+...\autopartserv\vagrant\certs\subordinate_cert_PA.crt
+в файл
+...\Vagrant\embedded\cacert.pem
+и пробовать снова

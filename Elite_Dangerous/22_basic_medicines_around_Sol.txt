@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-11-20T15:35:16+03:00
+
+====== 22 basic medicines around Sol ======
+Created вторник 20 Ноябрь 2018
+
+Basic Medicines Medicines
+
+проверить цены на станциях
+
+Zillig Depot		LHS 397			5,089	94 %	12,700		L	21 hours	72 ls	19.32 ly
+Darkes High			Epsilon Eridani	4,768	93 %	742,793		L	14 hours	483 ls	10.52 ly
+Graham Terminal		Tau Ceti		4,589	93 %	8,189,519	L	13 mins		756 ls	11.94 ly
+Ortiz Moreno City	Tau Ceti		4,589	93 %	10,180,899	L	12 mins		45 ls	11.94 ly
+Avogadro Enterprise	Tau Ceti		4,589	93 %	20,211,498	L	2 hours		7,471 ls	11.94 ly
+Gilmour Orbiter		Tau Ceti		4,589	93 %	14,184,659	L	18 mins		394 ls	11.94 ly
+
+покупать из...
+
+Ramon Hub				G 41-14			196	-39 %	29,466	L	5 hours	8,340 ls	14.55 ly
+Dobrovolskiy Enterprise	WISE 1506+7027	232	-28 %	48,087	L	15 hours	269 ls	10.52 ly
+Qureshi Orbital			LHS 380			232	-28 %	33,124	L	9 hours	1,471 ls	13.85 ly
+Readdy Gateway			Wolf 424		234	-28 %	32,996	L	14 hours	3,130 ls	14.01 ly
