@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-11-28T17:47:09+03:00
+
+====== Net Framework 3.5 ======
+Created среда 28 Ноябрь 2018
+
+По умолчанию .NET Framework 3.5 в Windows 10 отключен, но есть возможность включить.
+
+но...
+
+при включении ругается что не может найти файлы в microsoft
+
+Тогда,
+можно включить .NET Framework 3.5 из командной строки, указав установочный диск или флэшку
+
+команда следующая:
+Dism /online /enable-feature /featurename:NetFx3 /All /Source:E:\Sources\sxs [[/LimitAccess]]
+
+где E:\Sources\sxs - это путь к папке на установочном диске/флэшке

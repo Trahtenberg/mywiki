@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-11-28T09:25:02+03:00
+
+====== Microsoft Ubuntu ======
+Created среда 28 Ноябрь 2018
+
+Manually download WSL distro packages
+https://docs.microsoft.com/en-us/windows/wsl/install-manual
+
+скачать
+поменять расширение на zip
+разархивировать обфчным архиватором
+запустить exe-шник

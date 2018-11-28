@@ -6,7 +6,10 @@ Creation-Date: 2018-06-15T16:19:13+03:00
 Created Friday 15 June 2018
 
 вход в среду postgresql:
+локальный сервер
 psql autopartserv -h 127.0.0.1 -d autopartserv
+удаленный сервер:
+psql --host 192.168.75.154 -U td_usr  --dbname aps
 
 расширенный дисплей:
 \x

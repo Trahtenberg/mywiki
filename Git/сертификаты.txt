@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-11-28T18:13:29+03:00
+
+====== сертификаты ======
+Created среда 28 Ноябрь 2018
+
+Если сертификаты self-signed то git может ругаться на сертификаты
+
+Тогда надо добавить ключи сертификатов из файлов
+D:\projects\aps\vagrant\certs\subordinate_cert_PA.crt
+D:\projects\aps\vagrant\certs\shinservice-KOLCS-CA.crt
+в
+C:\Users\stoyanov\AppData\Local\Programs\Git\mingw64\ssl\certs\ca-bundle.crt
+
+и перезайти в git bash
