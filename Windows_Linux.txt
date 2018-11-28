@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-11-22T14:38:44+03:00
+
+====== Windows Linux ======
+Created четверг 22 Ноябрь 2018
+
+Ставится из MS Store, но очень много мороки со входом.
+Короткий путь - все вручную:
+
+-скачать linux отсюда https://docs.microsoft.com/en-us/windows/wsl/install-manual
+получится файл типа Ubuntu.1604.2017.711.0_v1.appx
+
+-поменять раширение файла на .ZIP
+
+-разархивировать в отдельную папку
+
+-запустить файл ubuntu.exe
+
+-продолжить по иструкции https://docs.microsoft.com/en-us/windows/wsl/initialize-distro
