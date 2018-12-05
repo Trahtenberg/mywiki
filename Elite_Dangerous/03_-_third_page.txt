@@ -7,6 +7,8 @@ Created Thursday 20 September 2018
 
 Стыковаться можно к космопорту или станции.
 
+Система 157 G. Aquarii -  Dunbar Hub - транспортеры 6,7 
+
 Station Type: 
 	Orbis Starport - крутящиеся круги - вход внутрь
 	Mining Outpost - внешние посадочные площадки, длинные
