@@ -17,6 +17,6 @@ Created четверг 22 Ноябрь 2018
 
 -включить Linux для Windows в Панель управления -> Программы и компоненты -> Включние и отключение компонентов Wndows
 
--запустить файл ubuntu.exe
+-запустить файл ubuntu.exe !!! ОТ ИМЕНИ АДМИНИСТРАТОРА
 
 -продолжить по иструкции https://docs.microsoft.com/en-us/windows/wsl/initialize-distro
