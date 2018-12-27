@@ -5,3 +5,23 @@ Creation-Date: 2018-06-15T16:21:24+03:00
 ====== Yii2 ======
 Created Friday 15 June 2018
 
+== =============================================== ==
+yii\web\UrlManager - парсит HTTP запросы и создает URL
+
+по умолчанию становится атрибутом \Yii::$app, доступ: \Yii::$app->getUrlManager()
+
+можно настроить в конфиге приложения: 'components'->'urlManager'
+
+другой объект:
+\yii\helpers\Url extends \yii\helpers\BaseUrl, где 
+public static $urlManager = Yii::$app->getUrlManager()
+
+в yii\web\UrlManager находятся основные функции и правила URL-ов
+а в \yii\helpers\Url - дополнительные полезные/удобные функции, облегчающие работу с урлами 
+и использующие правила из базового
+
+== =============================================== ==
+
+empty((missed var), null, false, [], [missed key]) = true
+
+isset('missed key') === isempty('missed key')

@@ -5,6 +5,17 @@ Creation-Date: 2018-11-22T14:38:44+03:00
 ====== Windows Linux ======
 Created четверг 22 Ноябрь 2018
 
+--------------------
+Manually download WSL distro packages
+https://docs.microsoft.com/en-us/windows/wsl/install-manual
+
+скачать
+поменять расширение на zip
+разархивировать обычным архиватором
+перенести разархивированную папку в D:
+запустить команду в powershell:
+Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1804 -OutFile Ubuntu1804.appx -UseBasicParsing
+--------------------
 Ставится из MS Store, но очень много мороки со входом.
 Короткий путь - все вручную:
 
@@ -20,3 +31,14 @@ Created четверг 22 Ноябрь 2018
 -запустить файл ubuntu.exe
 
 -продолжить по иструкции https://docs.microsoft.com/en-us/windows/wsl/initialize-distro
+
+--------------------
+Удаление / переустановка (https://docs.microsoft.com/en-us/windows/wsl/wsl-config)
+Теория: wslconfig [[/unregister]] удаляет все настройки так что последующая установка получается чистой, просто запустить ubuntu.exe (ubuntu18-04.exe) из распаковки
+wslconfig /list [[/all]]
+wslconfig /unregister <DistributionName> - где DistributionName имя из [[/list]]
+--------------------
+Если установлено несколько версий linux/ubuntu можно выбрать основную
+wslconfig /list [[/all]]
+wslconfig /setdefault <DistributionName> - где DistributionName имя из [[/list]]
+

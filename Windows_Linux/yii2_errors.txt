@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-12-10T14:06:10+03:00
+
+====== yii2 errors ======
+Created понедельник 10 Декабрь 2018
+
+Failed to change permissions for directory "...assets...": chmod(): Operation not permitted
+sudo chmod -R -f 777 [[/path/to/your/file/or/directory]]

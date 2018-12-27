@@ -5,3 +5,27 @@ Creation-Date: 2018-06-15T16:12:45+03:00
 ====== Linux ======
 Created Friday 15 June 2018
 
+версия linux:
+lsb_release -a
+
+список процессов:
+ps -aux
+список интересующих  процессов:
+ps -aux | grep apache
+
+узнать версию php:
+php -v
+
+узнать версию nginx:
+nginx -v
+проверка:
+service nginx status
+запуск:
+service nginx start
+тест конфигурации:
+nginx -t
+
+pwd - print working directory
+
+установка php7.2 без apache:
+apt install php7.2-fpm

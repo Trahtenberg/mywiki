@@ -1,0 +1,39 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-12-12T15:24:40+03:00
+
+====== 02 this vs self ======
+Created среда 12 Декабрь 2018
+
+class Yii {
+	public static $app;
+	public $myvar;
+	public $youvar;
+	public function getMyvar() {
+		return $this->myvar;
+	}
+	public static function getapp() {
+		return self::$app;
+	}
+}
+echo 'Yii::$app='; var_dump(Yii::$app);
+echo '<br>Yii::getapp()='; var_dump(Yii::getapp());
+echo '<br>(new Yii)->myvar='; var_dump((new Yii)->myvar);
+echo '<br>(new Yii)->youvar='; var_dump((new Yii)->youvar);
+echo '<br>(new Yii)->getMyvar()='; var_dump((new Yii)->getMyvar());
+
+переменные класса - свойства, атрибуты, поля
+доступ к нестатическим свойствам может быть получен с помощью ->property
+В пределах методов класса доступ к нестатическим свойствам может быть получен с помощью $this->property
+Доступ к статическим свойствам осуществляется с помощью ::$property
+если создан объект класса то $объекткласса::$property
+если объект класса не создан то $имякласса::$property
+В пределах методов класса доступ к статическим свойствам осуществляется с помощью self::$property
+
+чем отличается $this от self ?
+$this - для доступа к полям и методам внутри класса? доступен только если создан объект класса!
+если не было директивы new то $this не будет доступен
+self - для доступа к статическим полям внутри класса
+"->" это оператор объекта!!! те доступен только при создании обекта, для static нельзя, для класса нельзя
+но
+$this внутри объекта имеет доступ и к статическим и нестатическим полям и методам
