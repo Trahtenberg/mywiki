@@ -9,3 +9,6 @@ https://habr.com/post/109117/
 
 Бинарный парсинг с PHP
 https://webformyself.com/binarnyj-parsing-s-php/
+
+Работа с бинарными данными в php
+https://kurapov.ee/rus/technology/web/php/binary_decoding/
