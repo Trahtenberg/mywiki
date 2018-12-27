@@ -8,5 +8,10 @@ Created Tuesday 04 September 2018
 Взлом программ для чайников
 https://habr.com/post/109117/
 
+<<<<<<< HEAD
 Защита и взлом БД на примере программы «Каталог запчастей»
 https://habr.com/post/127164/
+=======
+Бинарный парсинг с PHP
+https://webformyself.com/binarnyj-parsing-s-php/
+>>>>>>> master
