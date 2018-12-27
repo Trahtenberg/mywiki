@@ -5,10 +5,19 @@ Creation-Date: 2018-09-04T18:28:35+03:00
 ====== Взлом программ ======
 Created Tuesday 04 September 2018
 
+Взлом программ для чайников
 https://habr.com/post/109117/
 
+<<<<<<< HEAD
+Защита и взлом БД на примере программы «Каталог запчастей»
+https://habr.com/post/127164/
+=======
 Бинарный парсинг с PHP
 https://webformyself.com/binarnyj-parsing-s-php/
+<<<<<<< HEAD
 
 Работа с бинарными данными в php
 https://kurapov.ee/rus/technology/web/php/binary_decoding/
+=======
+>>>>>>> master
+>>>>>>> fd820ff1d992168caf430d90d08d7e7734fbf275

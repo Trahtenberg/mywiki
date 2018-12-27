@@ -5,33 +5,5 @@ Creation-Date: 2018-07-10T12:09:07+03:00
 ====== OOP ======
 Created Tuesday 10 July 2018
 
-Procedural programming (linear concept) => Object-oriented programming (OOP)
+http://addphp.ru/materials/objects/index.php - ООП в PHP
 
-class - object template
-
-object - An instance of a class - instances of the class - объект/экземпляр класса
-
-Encapsulation - information hiding - капсула - 
-	скрытие внутренностей объекта для предотвращение неправильного присвоения
-
-Polymorphism - interface - Возможность обрабатывать объекты по-разному
-	неотемлемая часть поиморфизма - это использование интерфейсов
-
-Inheritance - extends - наследование, атрибутов и функций от объектов
-
-Abstract class
-	может иметь переменные и реализованные функции
-
-Interfaces
-	может иметь только объявления функций, которые наследники должны реализовать 
-	никаких переменных и никаких реализаций
-
-Composition, Aggregation - are the forms of association between two objects
-	форма связи между объектами
-
-Composition - an object creates another object - Composit - создает
-	имеет атрибут другого типа и сам создает его
-	-включение одного объекта в состав другого
-
-Aggregation - an object is composed of multiple objects - собирает
-	объект содержит отношения
