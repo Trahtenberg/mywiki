@@ -8,7 +8,7 @@ Created среда 26 Декабрь 2018
 -подключение: Vue
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 или сохранить вышеуказанный файл "vue.js" и использовать
-<script src="[[vue.js]]"></script>
+<script src="vue.js"></script>
 
 -создание экземпляра
 

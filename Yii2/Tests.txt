@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-12-28T14:42:08+03:00
+
+====== Tests ======
+Created пятница 28 Декабрь 2018
+
+Yii2 тестирование работает с codeception (framework) работающий на PHPUnit
+По идее система тестирования уже настроена в проекте yii2 autopartserv
+
+1. Для проверки работы тестовой среды набрать:
+**:$ composer global status**
+на выходе должны получить что то типа
+:$ //Changed current directory to <directory>//
+
+2. необходимо настроить веб-сервер: некий домен - test.loc - на [[/frontend/web/index-test.php]]
+
+3. указать тестовую БД в "/common/config/test-local.php" - бд надо выбирать с учетом того что надо будет проводить миграцию
+
+4. Миграция: **./yii_test migrate** (если не работает то ¨**php ./yii_test migrate**¨)
+
+5. Build the test suite: **vendor/bin/codecept build**
+
+6. Start sample tests: **vendor/bin/codecept run** - запускает все тесты в [[/common,]] [[/frontend,]] [[/api]]
+	Если надо например только в frontend, то: **vendor/bin/codecept run -- -c frontend**
+
+Модульное тестирование
+	unit - например, \frontend\tests\unit
+Функциональное тестирование
+	functional - например, \frontend\tests\functional
+Приемочное тестирование
+	acceptance - например, \frontend\tests\acceptance
