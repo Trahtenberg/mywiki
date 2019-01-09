@@ -1,0 +1,64 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-01-09T12:32:48+03:00
+
+====== nic.ru git bitbucket ======
+Created среда 09 Январь 2019
+
+Предполагаемая система
+--------------------
+-есть хостинг на nic.ru
+-есть bitbucket.org
+-необходимо создать репозиторий для удаленной работы из дому и с работы
+--------------------
+-на хостинге только ветка "master" для выгрузки
+-на локалках "master", "dev" и ветки для работы по темам
+-в настройках git указать имена пользователей разные для локалей
+	хостинг nic.ru: dimastoy_nic
+	дома: dimastoy_home
+	работа: dimastoy_ss
+--------------------
+
+-зайти по ssh на хостинг
+-заархивировать все что есть 
+	zip -r mynic.zip /home/h809274366/.
+-скачать архив на локалку
+-удалить архив из хостинга
+-создать репозиторий на bitbucket.org
+-удалить / перенести!!! файл .gitignore с хостинга куда-нибудь на локалку
+-инициализация реп на хостинге
+	git init
+	git config --local user.name "dimastoy_nic"
+	git config --local user.email "dimastoy@yandex.ru"
+-клонировать реп
+	прим.: после создания нового реп в разделе "source" есть ссылка на клонирование
+	git remote add origin https://dimastoy@bitbucket.org/dimastoy/mynic.git
+-проверить статус
+	git status
+	должен показать что все файлы новые
+-выгрузить все в реп
+	( !!! для votuchebar на этом этапе добавил .gitignore чтобы предотвратить скачивание большой папки detiplus.ru)
+	git add -A
+	git commit -m 'first commit'
+	git push -u origin master
+	git status должен показать что все чисто
+-на хостинге создаем файл .gitignore и выгружаем его в реп
+	git add -A
+	git commit -m 'пустой файл .gitignore'
+	git push
+	
+--------------------
+создание рабочей папки:
+-создаем рабочую папку на локалке, например, для [[OpenServer]] d:/ospanel/domains/mynic
+-открываем его в git
+	git init
+	git config --local user.name "dimastoy_ss"
+	git config --local user.email "dimastoy@yandex.ru"
+	git remote add origin https://dimastoy@bitbucket.org/dimastoy/mynic.git
+	git pull origin master
+!!! прим. некоторые файлы не перенеслись т.к. в yii2 есть файлы .gitignore
+-копируем все сотавшееся из архива !!! без перезаписи
+-для того чтобы не писать всегда
+	"git pull origin master", а писать просто "git push"
+	настраиваем stream по умолчанию
+	git push --set-upstream origin master

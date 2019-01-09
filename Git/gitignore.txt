@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-01-09T16:45:51+03:00
+
+====== gitignore ======
+Created среда 09 Январь 2019
+
+если добавляешь строку в файл .gitignore а она не действует, то надо очистить кеш
+
+git rm -r --cached .

@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-01-09T14:58:43+03:00
+
+====== raduga ======
+Created среда 09 Январь 2019
+
+архивация с исключением папки:
+
+zip -r raduga.zip /home/votuchebar/. -x home/votuchebar/./detiplus.ru/*
+(506 MB)
+
+[[/home/votuchebar]] = pwd
+
+zip -r detiplus.zip [[/home/votuchebar/./detiplus.ru/.]]
