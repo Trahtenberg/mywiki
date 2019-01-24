@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-01-23T14:09:45+03:00
+
+====== link vs sync folder ======
+Created среда 23 Январь 2019
+
+как сделать "app = mnt/d/projects/aps":
+
+ln -s /mnt/d/projects/aps [[/app]]
+
+проверка:
+cd [[/app]]
+ls
+
+должен показать файлы и папки проекта

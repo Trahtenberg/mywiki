@@ -5,6 +5,13 @@ Creation-Date: 2018-11-22T14:38:44+03:00
 ====== Windows Linux ======
 Created четверг 22 Ноябрь 2018
 
+установка и старт php7.2 для nginx (без apache):
+
+Внимание!!! Простая установка "sudo apt install php7.2" автоматически ставит apache2
+
+sudo apt install php7.2-fpm
+service php7.2-fpm start
+
 --------------------
 Manually download WSL distro packages
 https://docs.microsoft.com/en-us/windows/wsl/install-manual
