@@ -5,11 +5,33 @@ Creation-Date: 2018-06-15T16:19:13+03:00
 ====== psql ======
 Created Friday 15 June 2018
 
+если в консоли psql видны кракозябры (или консоль ругается на codepage 866) то надо поменять кодовую страницу
+внутри psql набрать команду
+\! chcp 1251
+
+переключение схемы данных (schema):
+SET search_path TO dbname;
+(обязательно большими буквами)
+
 вход в среду postgresql:
 локальный сервер
 psql autopartserv -h 127.0.0.1 -d autopartserv
+
+виртуалка WSL:
+psql postgres -h 127.0.0.1 -d mazda
+пароль:postgres
+
 удаленный сервер:
-psql --host 192.168.75.154 -U td_usr  --dbname aps
+psql --host 10.10.10.10 -U td_usr  --dbname aps
+
+права на работу с бд:
+su postgres
+
+dump:
+всей бд:
+pg_dump -h 127.0.0.1 -U postgres mazda > [[/mnt/d/dbdump/mazda/mazda.sql]]
+отдельной таблицы:
+pg_dump -h 127.0.0.1 -U postgres -d mazda -t btceclr > [[/mnt/d/dbdump/mazda/btceclr.sql]]
 
 расширенный дисплей:
 \x
@@ -30,3 +52,8 @@ psql --host 192.168.75.154 -U td_usr  --dbname aps
 
 выход:
 \q
+
+COPY table_name FROM '/mnt/d/dbdump/mazda/BTCECAT.csv' CSV HEADER DELIMITER ';';
+COPY table_name (field1,field2,...) FROM '/mnt/d/dbdump/mazda/BTCECAT.csv' CSV HEADER DELIMITER ';';
+
+ COPY res_market FROM 'd:\ospanel\res_market.csv' CSV HEADER DELIMITER ';';

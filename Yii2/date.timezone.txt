@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-03-05T12:16:45+03:00
+
+====== date.timezone ======
+Created вторник 05 Март 2019
+
+Иногда время PHP отличается от времени БД на 3 часа
+например, SQL функция CURRENT_TIMESTAMP возвращает норм время
+а PHP date(´Y-m-d H:i:s´) возвращает время на 3 часа позже
+
+тогда надо настроить параметр "date.timezone" в PHP.INI
+	date.timezone = "Europe/Moscow" 
+
+а если нет доступа к php.ini, то в Yii2 config 
+	'timeZone' => 'Europe/Moscow',

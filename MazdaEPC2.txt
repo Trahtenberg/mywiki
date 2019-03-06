@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-01-24T15:34:05+03:00
+
+====== MazdaEPC2 ======
+Created четверг 24 Январь 2019
+
+Установочные файлы - это 3 образа диска
+Для полноценной работы программы все 3 диска д.б. "вставлены" в дисководы и указаны в setup
+D:\MAZEPC\BIN\EPCSetup.exe в зоне "Catalog Data File Location"
+
