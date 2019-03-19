@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-01-24T11:57:50+03:00
+
+====== update git.sst.su ======
+Created четверг 24 Январь 2019
+
+для обновления модуля "ecommerce" из [[WnLinux]] в проекте набрать
+php composer.phar update

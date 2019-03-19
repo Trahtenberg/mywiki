@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-02-11T14:22:04+03:00
+
+====== imagemagick convert ======
+Created понедельник 11 Февраль 2019
+
+преобразование всех .TIF в .PNG 
+
+for f in * **/*; do echo "converting $f"; convert "$f" "$(basename "$f" .TIF).png"; done;
+
+for f in /var/tmp/imgconvert/**/*; do echo "converting $f"; convert "$f" $(dirname "$f")/"$(basename "$f" .TIF).png"; done;
+
+или в текущей папке с сохранением файла в ту же папку
+
+for f in **/*; do echo "converting $f"; convert "$f" $(dirname "$f")/"$(basename "$f" .TIF).png"; done;

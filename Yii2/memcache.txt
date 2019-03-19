@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-03-05T18:10:51+03:00
+
+====== memcache ======
+Created вторник 05 Март 2019
+
+на php 7.2 сложно установить модуль php_memcache
+а можно не париться и использовать DummyCache:
+
+\common\config\main-local.php
+
+		'cache' => [
+			'class' => \yii\caching\DummyCache::class,
+		],

@@ -25,3 +25,15 @@ mysql -h localhost -u root ss < ss.sql
 
 загрузка одной таблицы так же!:
 mysql -h localhost -u root dbname < table_or_file_name.sql
+
+**Дамп таблицы из openserver консоли**
+
+SELECT * FROM kia_microcat.vin_vin into outfile 'vin_vin.csv' fields enclosed by '"' terminated by ';' escaped by '"' lines terminated by '\r\n';
+
+если выдает ошибку: 
+ERROR 1290 (HY000): The MySQL server is running with the --secure-file-priv option so it cannot execute this statement
+
+то надо закрыть безопасный режим
+-Open the my.ini file
+-Search for 'secure-file-priv'.
+-Comment the line out by adding '#' at the start of the line.
