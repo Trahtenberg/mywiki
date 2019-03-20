@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-03-11T09:52:47+03:00
+
+====== Yii2 pretty url ======
+Created понедельник 11 Март 2019
+
+!!! [[OpenServer]] должен работать с Apache (Nginx не понимает mod_rewrite)
+
+1. \frontend\web\.htaccess
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php
+
+2. \frontend\config\main.php
+
+'components' => [
+		'urlManager' => [
+			'enablePrettyUrl' => true,
+			'showScriptName' => false,
+			'enableStrictParsing' => false,
+			'baseUrl' => '',
+			'rules' => [],
+		],
+]

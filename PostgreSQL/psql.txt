@@ -5,6 +5,9 @@ Creation-Date: 2018-06-15T16:19:13+03:00
 ====== psql ======
 Created Friday 15 June 2018
 
+очистка экрана консоли:
+\! cls
+
 если в консоли psql видны кракозябры (или консоль ругается на codepage 866) то надо поменять кодовую страницу
 внутри psql набрать команду
 \! chcp 1251
@@ -42,6 +45,9 @@ pg_dump -h 127.0.0.1 -U postgres -d mazda -t btceclr > [[/mnt/d/dbdump/mazda/btc
 список таблиц:
 \dt
 
+schema list
+\dn
+
 информация о таблице:
 \d имя_таблицы
 
@@ -53,7 +59,10 @@ pg_dump -h 127.0.0.1 -U postgres -d mazda -t btceclr > [[/mnt/d/dbdump/mazda/btc
 выход:
 \q
 
+DUMP/RESTORE:
+
 COPY table_name FROM '/mnt/d/dbdump/mazda/BTCECAT.csv' CSV HEADER DELIMITER ';';
 COPY table_name (field1,field2,...) FROM '/mnt/d/dbdump/mazda/BTCECAT.csv' CSV HEADER DELIMITER ';';
 
- COPY res_market FROM 'd:\ospanel\res_market.csv' CSV HEADER DELIMITER ';';
+COPY z_kia_cats_ergl TO 'd:\dbdump\aps\2019-03-07\z_kia_cats_ergl.csv' CSV HEADER DELIMITER ';';
+COPY res_market FROM 'd:\ospanel\res_market.csv' CSV HEADER DELIMITER ';';
