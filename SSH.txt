@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-01-07T01:17:51+03:00
+
+====== SSH ======
+Created понедельник 07 Январь 2019
+
+Сжатие в архив:
+zip -r detsadmoscow.zip .
+
+Архив БД:
+mysqldump -u votuchebar_mysql -p votuchebar_db > raduga.sql
