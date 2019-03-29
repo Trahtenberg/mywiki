@@ -5,12 +5,29 @@ Creation-Date: 2018-06-15T16:19:13+03:00
 ====== psql ======
 Created Friday 15 June 2018
 
+пример выгрузки загрузки таблиц
+	исходники в локальной psql
+	цель - бд на 10.10.10.10
+	выгрузка структуры
+		в навикат правая кнопка "Dump SQL File -> Structure only" (выгружает DDL)
+	выгрузка данных
+		pg_dump --data-only -h localhost -U postgres -Fc -d aps --table=z_kia_catalog > z_kia_catalog.dump
+	создание таблиц
+		обычно в редакторе, миграция или тп
+	загрузка данных
+		pg_restore -h 10.10.10.10 -U td_usr --data-only -d aps -t z_kia_catalog z_kia_catalog.dump
+
 очистка экрана консоли:
 \! cls
 
 если в консоли psql видны кракозябры (или консоль ругается на codepage 866) то надо поменять кодовую страницу
 внутри psql набрать команду
 \! chcp 1251
+а еще лучше сразу настроить консоль на кодовую страницу 1251
+	-открыть консоль openserver
+	-нажать на левый верхний угол
+	-выбрать "Settings->Startup->Environments" и в textarea внести/исправить настройку "chcp 1251"
+	(по умолчанию стоит "cp1251" но это не работает)
 
 переключение схемы данных (schema):
 SET search_path TO dbname;
@@ -26,6 +43,7 @@ psql postgres -h 127.0.0.1 -d mazda
 
 удаленный сервер:
 psql --host 10.10.10.10 -U td_usr  --dbname aps
+(psql -h 10.10.10.10 -U td_usr -d aps)
 
 права на работу с бд:
 su postgres

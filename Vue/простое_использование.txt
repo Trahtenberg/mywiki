@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-03-29T17:58:04+03:00
+
+====== простое использование ======
+Created среда 26 Декабрь 2018
+
+-подключение: Vue
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+или сохранить вышеуказанный файл "vue.js" и использовать
+<script src="vue.js"></script>
+
+-создание экземпляра
+
+<div id="app">
+</div>
+<script>
+var app = new Vue({
+  el: '#app',
+  data: {
+	message: 'Привет, Vue!'
+  }
+})
+</script>
+
+встроенные переменные:
+el: идентификатор объекта
+data:

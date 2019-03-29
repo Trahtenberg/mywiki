@@ -3,27 +3,3 @@ Wiki-Format: zim 0.4
 Creation-Date: 2018-12-26T17:09:26+03:00
 
 ====== Vue ======
-Created среда 26 Декабрь 2018
-
--подключение: Vue
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-или сохранить вышеуказанный файл "vue.js" и использовать
-<script src="vue.js"></script>
-
--создание экземпляра
-
-<div id="app">
-	  {{ message }}
-</div>
-<script>
-var app = new Vue({
-  el: '#app',
-  data: {
-	message: 'Привет, Vue!'
-  }
-})
-</script>
-
-встроенные переменные:
-el: идентификатор объекта
-data:
