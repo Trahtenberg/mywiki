@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-04-10T12:15:07+03:00
+
+====== PHP Memcache ======
+Created среда 10 Апрель 2019
+
+скачивать отсюда
+https://github.com/nono303/PHP7-memcache-dll

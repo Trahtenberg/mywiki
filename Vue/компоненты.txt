@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-04-08T18:37:11+03:00
+
+====== компоненты ======
+Created понедельник 08 Апрель 2019
+
+есть предустановленные компоненты:
+
+https://element.eleme.io/#/en-US/component/installation
+
+element.eleme.io -> Component
+
+см. дерево слева
+
