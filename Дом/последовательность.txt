@@ -1,6 +1,9 @@
 Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
-Creation-Date: 2019-04-11T13:35:40+03:00
+Creation-Date: 2019-04-18T17:36:23+03:00
+
+====== последовательность ======
+Created четверг 18 Апрель 2019
 
 ====== Дом ======
 Created четверг 11 Апрель 2019
