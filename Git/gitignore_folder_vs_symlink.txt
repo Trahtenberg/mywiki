@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-05-13T15:05:22+03:00
+
+====== gitignore folder vs symlink ======
+Created понедельник 13 Май 2019
+
+Большие папки/файлы могут быть в виде папок или ссылок на папку
+
+чтобы учесть оба вида в gitignore надо указывать оба типа: папку и файл
+
+# учет папки files
+files/
+
+#учет symlink, т.к. symlink в linux - это файл
+files
+
+если git продолжает ругаться, то см. [[gitignore cached]]

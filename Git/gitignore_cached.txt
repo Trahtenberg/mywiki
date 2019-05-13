@@ -2,7 +2,7 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2019-01-09T16:45:51+03:00
 
-====== gitignore ======
+====== gitignore cached ======
 Created среда 09 Январь 2019
 
 Бывает так, что при добавлении объекта (файл или папка) в файл .gitignore, иногда она не работает.

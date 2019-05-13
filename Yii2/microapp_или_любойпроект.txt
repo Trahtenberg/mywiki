@@ -2,17 +2,23 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2018-11-06T11:09:54+03:00
 
-====== microapp ======
+====== microapp или любойпроект ======
 Created Tuesday 06 November 2018
 
 https://www.yiiframework.com/doc/guide/2.0/en/tutorial-yii-as-micro-framework
+(или https://www.yiiframework.com/doc/guide/2.0/en/tutorial-yii-integration)
 
--создаем на локале OpenServer файл (d:\ospanel\domains\myyii2microapp\composer.json)
+yii2 можно установить дополнительно к любому проекту в качестве фреймворка 
+
+-создаем файл (d:\ospanel\domains\myyii2microapp\composer.json)
+	если структура сайта одноуровневая (1 сайт в одной папке), то создается в корневой папке рядом с index.php
+	если структура сайта многоуровневая (например, как на руцентре), то создается в самом корне
+	
 с следующим содержанием
 {
 	"require": {
 		"yiisoft/yii2": "~2.0.0",
-		"yiisoft/yii2-bootstrap": "~2.0.0"
+		"yiisoft/yii2-bootstrap": "~2.0.0" // необязательно
 	},
 	"repositories": [
 		{
@@ -26,6 +32,11 @@ https://www.yiiframework.com/doc/guide/2.0/en/tutorial-yii-as-micro-framework
 (d:\ospanel\domains\myyii2microapp\)
 
 -запускаем "composer install"
+
+== ========= ==
+если проблема с запуском "composer install", то копируем файл "composer.phar" в папку
+и запускаем "php composer.phar install"
+===========
 
 -после установки в папке будет следующее
 	-папка vendor
