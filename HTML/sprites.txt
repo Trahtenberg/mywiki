@@ -1,0 +1,35 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-05-14T12:34:21+03:00
+
+====== sprites ======
+Created вторник 14 Май 2019
+
+создание спрайтов
+
+спрайт можно создать только определенного размера
+например, 
+на странице нужны иконки высотой 18пикс
+значит 
+1. в "bulk image resize online" меняем размеры картинок до высоты 28пикс
+2. в "sprite online" создаем спрайт, забираем его и стили
+3. при необходимости усреднить положение иконки в стиль добавить "position: relative; top: 4px;"
+
+	<style>
+		.bg-badminton {
+			display: inline-block;
+			width: 18px; height: 18px;
+			position: relative; top: 4px; /* выше/ниже в строке */
+			background: url('css_sprites.png') -10px -10px;
+		}
+		.bg-basketbol {
+			display: inline-block;
+			width: 18px; height: 18px;
+			background: url('css_sprites.png') -48px -10px;
+		}
+	</style>
+
+	<hr>
+	Вася пупкин <span class="bg-badminton"></span> тра та та
+	<hr>
+	<span class="bg-basketbol"></span>
