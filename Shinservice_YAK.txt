@@ -13,7 +13,7 @@ vj3sDhMA6bWufxnU
 
 закачивать файлы в /tmp
 
-можно настроить SFTP в [[WinSCP]]
+можно настроить SFTP в WinSCP
 
 - - - - - -
 отправка через командную/bash/gitbash строку
