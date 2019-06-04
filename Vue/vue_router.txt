@@ -1,0 +1,45 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-06-04T11:05:36+03:00
+
+====== vue router ======
+Created вторник 04 Июнь 2019
+
+this.$router - маршрутизатор
+this.$route - маршрут
+computed: this.$route.params.username
+methods: goBack(): window.history.length
+
+если: router = new VueRouter()
+то: this.$router == router
+
+router = new VueRouter() - по умолчанию работает в режиме хэша
+router = new VueRouter(mode:history) - работа в режиме window.history
+
+пример: 
+const router = new VueRouter({
+  routes: [
+	{ path: '/user/:id', component: User }
+  ]
+})
+показ: {{ $route.params.id }}
+
+см. https://jsfiddle.net/yyx990803/xgrjzsup/
+в ссылке https://fiddle.jshell.net/yyx990803/xgrjzsup/show/#/foo
+окончание #/foo показывает что показать, как будто параметр url
+
+this.$route.params - даст значение динамического сегмента
+
+/user/:username
+/user/:username/post/:post_id
+
+отслеживание изменений в роуте:
+  watch: {
+	'$route' (to, from) {
+	  // обрабатываем изменение параметров маршрута...
+	}
+  }
+или хук
+  beforeRouteUpdate (to, from, next) {
+	// обрабатываем изменение параметров маршрута...
+	// не забываем вызвать next()

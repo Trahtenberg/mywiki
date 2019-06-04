@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-05-29T14:46:36+03:00
+
+====== фильтр массива по нескольким полям ======
+Created среда 29 Май 2019
+
+$arr = array_filter($arr, function($row) {
+	return ($row['key1'] == 'val1' && $row['key2'] == 'val2') ? 1 : 0;
+});
