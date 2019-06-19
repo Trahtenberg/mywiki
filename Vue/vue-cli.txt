@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-06-17T18:27:44+03:00
+
+====== vue-cli ======
+Created понедельник 17 Июнь 2019
+
+если среда разработки VUE-CLI ругается на шрифты (CORS) то можно создать файл .htaccess и написать в нем
+
+Access-Control-Allow-Origin: *
+
+
+--------------------
+
+в какой то момент пропали иконки от bootstrap,
+то биш element-ui
+решение: из работающего проекта взять папку /frontend/assets/element-ui
