@@ -5,6 +5,9 @@ Creation-Date: 2018-06-15T16:19:13+03:00
 ====== psql ======
 Created Friday 15 June 2018
 
+Вход в оболочку под OpenServer:
+psql -U postgres dbname
+
 пример выгрузки загрузки таблиц
 	исходники в локальной psql
 	цель - бд на 10.10.10.10
@@ -16,6 +19,31 @@ Created Friday 15 June 2018
 		обычно в редакторе, миграция или тп
 	загрузка данных
 		pg_restore -h 10.10.10.10 -U td_usr --data-only -d aps -t z_kia_catalog z_kia_catalog.dump
+
+
+== ===================== ==
+**алгоритм выгрузка из mysql и загрузка в psql**
+========================
+1. выгрузить структуру из mysql
+
+mysqldump -u root --no-data --compatible=postgresql hyundai bom_emip > d:\dbdump\hyundai\bom_emip_ddl.sql
+...
+
+2. выгрузить данные из mysql
+mysqldump -u root --no-create-info --skip-add-locks --compatible=postgresql hyundai bom_efrm > d:\dbdump\hyundai\bom_efrm_data.sql
+...
+
+3. загрузить структуру таблиц
+
+psql -U postgres -d aps bom_efrm < d:\dbdump\hyundai\bom_efrm_ddl.sql
+
+4. загрузить данные в psql
+
+psql -U postgres -d aps bom_efrm < d:\dbdump\hyundai\bom_efrm_ddl.sql
+
+...
+=====================================================
+
 
 очистка экрана консоли:
 \! cls

@@ -19,6 +19,16 @@ mysqldump -u имя_пользователя -p --ignore-table=db_table database
 
 файл дампа сохранится в текущую папку
 
+**дамп всей бд для postgresql**
+mysqldump -u root --compatible=postgresql dbname > dbname.sql
+**дамп одной таблицы для postgresql**
+mysqldump -u root --compatible=postgresql dbname tablename > tablename.sql
+
+**дамп одной таблицы для postgresql без данных**
+mysqldump -u root --no-data --compatible=postgresql hyundai bom_emip > d:\dbdump\hyundai\bom_emip_ddl.sql
+**дамп одной таблицы для postgresql только данные**
+mysqldump -u root --no-create-info --compatible=postgresql hyundai bom_emip > d:\dbdump\hyundai\bom_emip_ddl.sql
+
 **Загрузка БД на свою локалку:**
 
 mysql -h localhost -u root ss < ss.sql
@@ -37,3 +47,4 @@ ERROR 1290 (HY000): The MySQL server is running with the --secure-file-priv opti
 -Open the my.ini file
 -Search for 'secure-file-priv'.
 -Comment the line out by adding '#' at the start of the line.
+(или "правильным будет задать ее как secure-file-priv=""")
