@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-06-25T14:35:19+03:00
+
+====== список индексов ======
+Created вторник 25 Июнь 2019
+
+SELECT * FROM pg_indexes WHERE tablename like 'z_hyundai_%';

@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-06-25T21:55:49+03:00
+
+====== Home ======
+Created вторник 25 Июнь 2019
+

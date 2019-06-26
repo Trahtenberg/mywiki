@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-06-25T21:55:37+03:00
+
+====== git.sst.su ======
+Created вторник 25 Июнь 2019
+
+(в ubuntu
+-нужно создать ключ для подключения к репозиторию и передать его Никите: cat ~/.ssh/id_rsa.pub
+-установить git
+-прописать в /etc/hosts: git.sst.su 185.185.68.65
+-клонировать репозиторий: git clone git@git.sst.su:/srv/git/autopartserv.git
+)
+
+vagrant up 
+	(дает ошибку миграции - не обращать внимания норм, это из-за пустого пароля к бд)
+в common/config/main-local.php проставить пароль к postgresql
+
+vagrant ssh
+app
