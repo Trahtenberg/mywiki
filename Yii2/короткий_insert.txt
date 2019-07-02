@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-06-28T10:38:04+03:00
+
+====== короткий insert ======
+Created пятница 28 Июнь 2019
+
+быстрая вставка записи:
+
+$post = new Post( ['title' => 'test', 'body' => 'test'] );
+$post->save();
+
+или
+
+(new Post( ['title' => 'test', 'body' => 'test'] ))->save();

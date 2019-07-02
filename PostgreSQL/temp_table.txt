@@ -12,3 +12,11 @@ INSERT INTO tmp VALUES ('1000B'), ('1010B'), ('1030B');
 SELECT * FROM tmp;
 
 DROP TABLE tmp;
+
+== =================== ==
+DROP TABLE IF EXISTS tmp;
+CREATE TEMP TABLE tmp (prodno INT);
+INSERT INTO tmp VALUES (9774206),(9774208),(9774209),(9774210);
+--SELECT * FROM tmp;
+SELECT * FROM public.z_hyundai_cats_dat_parts prod INNER JOIN tmp ON tmp.prodno = prod.id;
+DROP TABLE tmp;
