@@ -28,7 +28,9 @@ psql -U postgres dbname
 
 mysqldump -u root --no-data --compatible=postgresql hyundai bom_emip > d:\dbdump\hyundai\bom_emip_ddl.sql
 ...
-
+или компактный без комментариев
+ mysqldump -u root --no-data --skip-comments --compact --compatible=postgresql toyota fgi > ddl_fgi3.sql
+...
 2. выгрузить данные из mysql
 mysqldump -u root --no-create-info --skip-add-locks --compatible=postgresql hyundai bom_efrm > d:\dbdump\hyundai\bom_efrm_data.sql
 ...
@@ -106,6 +108,9 @@ schema list
 \q
 
 DUMP/RESTORE:
+
+COPY z_toylex_images FROM 'd:/dbdump/toyota/images.csv' CSV DELIMITER ';' ENCODING 'UTF8';
+(utf8 чтобы читал китайский японский)
 
 COPY table_name FROM '/mnt/d/dbdump/mazda/BTCECAT.csv' CSV HEADER DELIMITER ';';
 COPY table_name (field1,field2,...) FROM '/mnt/d/dbdump/mazda/BTCECAT.csv' CSV HEADER DELIMITER ';';
