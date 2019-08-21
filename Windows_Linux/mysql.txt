@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-16T11:01:05+03:00
+
+====== mysql ======
+Created пятница 16 Август 2019
+
+установка:
+sudo apt install mysql 
+
+старт/стоп/рестарт:
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql restart
+
+версия mysql:
+mysql --version
+
+Если при старте mysql выходит ошибка/предупреждение:
+No directory, logging in with HOME=/
+то надо поменять папку пользователей для mysql:
+	sudo service mysql stop
+	sudo usermod -d /var/lib/mysql/ mysql
+	sudo service mysql start
+	

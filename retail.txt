@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-21T10:51:52+03:00
+
+====== retail ======
+Created среда 21 Август 2019
+

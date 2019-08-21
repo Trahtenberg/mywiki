@@ -1,0 +1,44 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-21T16:41:02+03:00
+
+====== доставка ======
+Created среда 21 Август 2019
+
+ВСЕ РЕГИОНЫ с доставкой ТК:
+--------------------
+SELECT
+	regions.name AS region_name,
+	regions.order_type_group_id,
+	order_types.name AS order_type_name,
+	order_types.from_shop_id,
+	shops.short_name 
+FROM
+	regions
+	INNER JOIN order_type_group_rel ON order_type_group_rel.group_id = regions.order_type_group_id
+	INNER JOIN order_types ON order_types.category = 'russia_tc' AND order_types.ot_id = order_type_group_rel.order_type_id
+	INNER JOIN shops ON shops.shop_id = order_types.from_shop_id AND shops.zone_id = IF (regions.alt_zone_id IS NOT NULL AND regions.alt_zone_id > 0, regions.alt_zone_id, regions.zone_id)
+WHERE
+	regions.zone_type = 'www' 
+	AND regions.is_active = 1 
+	AND regions.order_type_group_id
+	-- AND regions.region_id = 1 -- для отдельного города
+ORDER BY
+	regions.name
+
+ПРОВЕРКА ОТДЕЛЬНОГО РЕГИОНА:
+--------------------
+SELECT
+	regions.name AS region_name,
+	regions.order_type_group_id,
+	order_types.name AS order_type_name,
+	order_types.from_shop_id,
+	shops.short_name 
+FROM
+	regions
+	INNER JOIN order_type_group_rel ON order_type_group_rel.group_id = regions.order_type_group_id
+	INNER JOIN order_types ON order_types.category = 'russia_tc' AND order_types.ot_id = order_type_group_rel.order_type_id
+	INNER JOIN shops ON shops.shop_id = order_types.from_shop_id AND shops.zone_id = IF (regions.alt_zone_id IS NOT NULL AND regions.alt_zone_id > 0, regions.alt_zone_id, regions.zone_id)
+WHERE
+	AND regions.region_id = {$idRegion}
+	

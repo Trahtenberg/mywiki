@@ -12,6 +12,14 @@ Created вторник 25 Июнь 2019
 -клонировать репозиторий: git clone git@git.sst.su:/srv/git/autopartserv.git
 )
 
+случай - изменился пользователь винды, был [[/stoyanov/]] стал [[/user/]]
+→ git не пушится на git.sst.su
+причина, нет настроек ssh, старые остались в папке пользователя [[/stoyanov/]].ssh, 
+Надо скопировать нижеследующие файлы в [[/user/]].ssh
+	C:\Users\stoyanov\.ssh\id_rsa
+	C:\Users\stoyanov\.ssh\id_rsa.pub
+	C:\Users\stoyanov\.ssh\known_hosts
+
 vagrant up 
 	(дает ошибку миграции - не обращать внимания норм, это из-за пустого пароля к бд)
 в common/config/main-local.php проставить пароль к postgresql

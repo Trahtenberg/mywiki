@@ -8,6 +8,12 @@ Created Friday 15 June 2018
 версия linux:
 lsb_release -a
 
+версия apache:
+apache2 -a
+
+версия mysql:
+mysql --version
+
 список процессов:
 ps -aux
 список интересующих  процессов:

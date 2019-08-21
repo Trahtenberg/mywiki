@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-20T12:10:44+03:00
+
+====== Navicat ======
+Created вторник 20 Август 2019
+

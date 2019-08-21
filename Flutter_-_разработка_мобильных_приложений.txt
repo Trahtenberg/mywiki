@@ -2,7 +2,7 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2019-07-10T15:58:57+03:00
 
-====== Flutter ======
+====== Flutter - разработка мобильных приложений ======
 Created среда 10 Июль 2019
 
 Flutter I — Введение и установка

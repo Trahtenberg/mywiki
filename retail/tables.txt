@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-21T10:51:59+03:00
+
+====== tables ======
+Created среда 21 Август 2019
+
+delivery_condition_text - тексты body доставка
+dct_2_r - связка delivery_condition_text с регионом

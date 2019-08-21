@@ -5,6 +5,21 @@ Creation-Date: 2018-07-13T16:14:50+03:00
 ====== MySQL console ======
 Created Friday 13 July 2018
 
+[[/*************************]]
+последний рабочий вариант
+на примере проблемной бд ниссан инфинити
+
+ddl переносится каким-либо образом неважно
+	но без smallint и без comment
+
+выгрузка из MySql console
+SELECT * FROM pcodenes INTO OUTFILE 'd:/dbdump/nissan/pcodenes.csv' fields enclosed by '"' terminated by ';' lines terminated by '\r\n';
+
+загрузка в Psql console
+COPY z_nisinf_pcodenes FROM 'd:/dbdump/nissan/pcodenes.csv' CSV DELIMITER ';' ENCODING 'UTF8' escape '\';
+
+*************************/
+
 **Дамп удаленной БД к себе**
 
 открыть консоль OpenServer (а наверняка отработает и в SSH сессии) и набрать команду:

@@ -7,3 +7,9 @@ Created среда 10 Апрель 2019
 
 скачивать отсюда
 https://github.com/nono303/PHP7-memcache-dll
+
+чтобы понять какой [[https://github.com/nono303/PHP7-memcache-dll|memcache.dll]] скачивать, надо посмотреть на phpinfo
+
+Architecture	x64
+Compiler	MSVC15
+PHP Extension Build	API20170718,TS,VC15

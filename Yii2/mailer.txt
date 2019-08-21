@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-07-22T17:22:52+03:00
+
+====== mailer ======
+
+в yii2 по умолчанию почта уходит в файлы в папке 'runtime/mail/...' 
+(это определено параметром components->mailer->useFileTransport => true)
+
+сделано это в целях дебага
+
+чтобы включить нормальную работу почты, надо отключить вывод писем в файл
+components->mailer->useFileTransport => false,
+и настроить почтовый сервер, например
+			components->mailer->transport => [
+				'class' => 'Swift_SmtpTransport',
+				'host' => 'mail.nic.ru',
+				'username' => 'info@vuzmos.ru',
+				'password' => 'Danila1961',
+				'port' => '465',
+				'encryption' => 'ssl',
+			],
+
+естественно, эта настройка может отличаться для [production] и для [develop] как обычно в yii2
