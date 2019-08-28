@@ -7,3 +7,4 @@ Created среда 21 Август 2019
 
 delivery_condition_text - тексты body доставка
 dct_2_r - связка delivery_condition_text с регионом
+redirect - таблица редиректов

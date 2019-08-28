@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-26T15:33:46+03:00
+
+====== gii ======
+Created понедельник 26 Август 2019
+
+ЕСЛИ **GII** НЕ РАБОТАЕТ НА ПРОДАКШН ВЕРСИИ, ТО НАДО ДОБАВИТЬ РАЗРЕШЕННЫЕ **IP** АДРЕСА
+
+\common\config\main.php
+
+	'modules' => [
+		'gii' => [
+			'class' => 'yii\gii\Module',
+			'allowedIPs' => [
+				'127.0.0.1',
+				'::1',
+				'192.168.1.*',
+				**'195.9.48.50'**
+			], // adjust this to your needs
+		],
+	]

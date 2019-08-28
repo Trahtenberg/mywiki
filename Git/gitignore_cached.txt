@@ -24,7 +24,7 @@ git rm - удаляет объект из отслеживания, но не т
 	git rm -r --cached foldername
 
 где foldername - прямой путь к папке, ПРИЧЕМ wildcards типа "../foldername/*" не действует, надо обязательно весь путь указывать
-например, git rm -r --cached votucheba.ru/stat/ - удаляет папку stat из кешаgit rm -r --cached votucheba.ru/stat/
+например, git rm -r --cached votucheba.ru/stat/ - удаляет папку stat из кеша
 
 !!! удаление ОБЯЗАТЕЛЬНО надо закоммитить в реп
 

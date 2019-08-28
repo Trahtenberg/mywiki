@@ -1,0 +1,314 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-23T16:17:39+03:00
+
+====== routing ======
+Created пятница 23 Август 2019
+
+Начинает работать в **\lib\classes\WebApplication::init()**
+
+**сперва**, проверка необходимости редиректа:
+
+$redirectModel = new PreRouterModel();
+	class **PreRouterModel** extends MySqlModel
+		const TBL_NAME = '**redirect**';
+		public function __construct()
+			$this->subDomain = explode('.', "**www.shinservice.loc**")[0] = "**www**"
+			а для поддоменов
+			$this->subDomain = explode('.', "**spb.shinservice.loc**")[0] = "**spb**"
+
+т.е. берем поддомен: **www** или **spb**, или **bryansk**
+по нему тянем все [**redirect.subdomain** = поддомен]
+проходясь по всем записям поддомена ищем **redirect.strict = 1 AND** **$_SERVER['REQUEST_URI'] = redirect.from**
+	если есть то: **header(´location´); exit(0);**
+если вдруг **redirect.strict !== 1 AND** **redirect.from** пустой то полное перенаправление поддомена на **redirect.to**
+
+**потом**, составление **url** и присвоение его в переменную класса **WebApplication->url**
+	см. дебаг **'Start web application. Main project: '**
+
+**потом**, инициализация пользователя
+	**WebApplication->user = new lib\classes\User()**
+	
+**потом**, инициализация роутера
+	$this->initRouter();
+		$this->config->get('default_route_rule.config@' . $this->mainProjectName); 		- пусто
+		$routeRules = $this->config->get('route_rules.config@' . $this->mainProjectName);	- пусто
+		собсно инициализация роутера:
+		$this->**router** = new **lib\classes\Router**($routeRules, $defaultRouteRule, $this->url);
+		$rule = $this->router->route(); - параметры для текущего url = 
+		===========================================
+			**\lib\classes\Router::findRoute()** - сбор параметров роута - **все происходит здесь!**
+		===========================================
+			примеры результатов:
+			**главная страница** http://www.shinservice.loc/ = Array
+			(
+				[pattern] => /
+				[is_default_rule] => 
+				[url_params] => Array
+					(
+					)
+				[component_class] => \main\classes\WebComponents\MainPage
+				[url_id] => 1
+				[parent_url_id] => 0
+			)
+			**другая страница** http://www.shinservice.loc/shops/ = Array
+			(
+				[pattern] => /shops
+				[is_default_rule] => 
+				[url_params] => Array
+					(
+					)
+				[component_class] => \main\classes\WebComponents\Shops
+				[url_id] => 211
+				[parent_url_id] => 0
+				[rule] => Array
+					(
+						[view] => Shops.components@main
+						[action] => index.ShopsController@main
+					)
+			)
+		дальше, по этому **rule** создается **$this->component**, а именно **lib\classes\Helpers\WebComponent**
+			если вдруг **$rule[component_class]** пустой, то берется по умолчанию **main** 
+				и получается** $this->component = \main\classes\WebComponents\MainPage**
+
+		дальше, создается **$this->collector = new lib\classes\Collector;**
+			lib\classes\Collector Object
+			(
+				[params:protected] => Array
+					(
+					)
+				[conceptionParams:protected] => Array
+					(
+					)
+				[places:protected] => Array
+					(
+						[center] => 
+					)
+				[content:protected] => 
+				[headers:protected] => Array
+					(
+						[Content-Type] => text/html
+					)
+				[insert:protected] => Array
+					(
+					)
+			)
+			после заполнения
+				lib\classes\Collector Object
+				(
+					[params:protected] => Array
+						(
+							[rule] => Array
+								(
+									[action] => index.MainPageController@main
+									[view] => MainPage.components@main
+								)
+							[pattern] => /
+							[is_default_rule] => 
+							[url_params] => Array
+								(
+								)
+							[component_class] => \main\classes\WebComponents\MainPage
+							[url_id] => 1
+							[parent_url_id] => 0
+						)
+					[conceptionParams:protected] => Array
+						(
+							[default_page_layout] => main
+							[page_layouts] => Array
+								(
+									[main] => Array
+										(
+											[view] => main_layout
+											[blocks] => Array
+												(
+													[menu_prefetch] => Array
+														(
+															[action] => prepareMenus.MainController@main
+														)
+													[head] => Array
+														(
+															[action] => mainHead.MainController@main
+															[view] => main_head
+															[place] => page_head
+														)
+													[header] => Array
+														(
+															[action] => mainHeader.MainController@main
+															[view] => main_header
+															[place] => page_header
+															[blocks] => Array
+																(
+																	[0] => Array
+																		(
+																			[acl] => Array
+																				(
+																					[0] => lib.admin
+																				)
+																			[action] => widget.AdminWidgetController@admin
+																			[view] => admin_widget@admin
+																			[place] => admin_widget
+																		)
+																)
+														)
+													[footer] => Array
+														(
+															[action] => mainFooter.MainController@main
+															[view] => main_footer
+															[place] => page_footer
+														)
+													[slidebar] => Array
+														(
+															[action] => mainSlideBar.MainController@main
+															[view] => main_slidebar
+															[place] => page_slidebar
+														)
+													[resources] => Array
+														(
+															[view] => main_resources
+															[place] => page_resources
+														)
+													[analytics] => Array
+														(
+															[action] => mainAnalytics.MainController@main
+															[view] => main_analytics
+															[place] => page_analytics
+														)
+												)
+										)
+									[simple] => Array
+										(
+											[view] => simple_layout
+											[blocks] => Array
+												(
+													[head] => Array
+														(
+															[view] => simple_head
+															[place] => page_head
+														)
+				
+												)
+				
+										)
+				
+									[b2b] => Array
+										(
+											[view] => main_layout
+											[blocks] => Array
+												(
+													[menu_prefetch] => Array
+														(
+															[action] => prepareMenus.MainController@main
+														)
+				
+													[head] => Array
+														(
+															[action] => mainHead.MainController@main
+															[view] => main_head
+															[place] => page_head
+														)
+				
+													[header] => Array
+														(
+															[action] => b2bHeader.MainController@main
+															[view] => b2b_header
+															[place] => page_header
+														)
+				
+													[footer] => Array
+														(
+															[action] => mainFooter.MainController@main
+															[view] => main_footer
+															[place] => page_footer
+														)
+				
+													[slidebar] => Array
+														(
+															[action] => mainSlideBar.MainController@main
+															[view] => main_slidebar
+															[place] => page_slidebar
+														)
+				
+													[resources] => Array
+														(
+															[view] => main_resources
+															[place] => page_resources
+														)
+				
+													[analytics] => Array
+														(
+															[action] => mainAnalytics.MainController@main
+															[view] => main_analytics
+															[place] => page_analytics
+														)
+				
+												)
+				
+										)
+									[cc] => Array
+										(
+											[view] => main_layout
+											[blocks] => Array
+												(
+													[menu_prefetch] => Array
+														(
+															[action] => prepareMenus.MainController@main
+														)
+													[head] => Array
+														(
+															[action] => mainHead.MainController@main
+															[view] => main_head
+															[place] => page_head
+														)
+													[header] => Array
+														(
+															[action] => ccHeader.MainController@main
+															[view] => cc_header
+															[place] => page_header
+														)
+													[footer] => Array
+														(
+															[action] => mainFooter.MainController@main
+															[view] => main_footer
+															[place] => page_footer
+														)
+													[slidebar] => Array
+														(
+															[action] => mainSlideBar.MainController@main
+															[view] => main_slidebar
+															[place] => page_slidebar
+														)
+													[resources] => Array
+														(
+															[view] => main_resources
+															[place] => page_resources
+														)
+													[analytics] => Array
+														(
+															[action] => mainAnalytics.MainController@main
+															[view] => main_analytics
+															[place] => page_analytics
+														)
+												)
+										)
+								)
+							[conception_name] => main
+							[conception_path] => conceptions/main
+						)
+					[places:protected] => Array
+						(
+							[center] => 
+						)
+					[content:protected] => 
+					[headers:protected] => Array
+						(
+							[Content-Type] => text/html
+						)
+					[insert:protected] => Array
+						(
+						)
+				)
+		**$this->acl = new lib\classes\Acl();** - это части страницы типа header footer итд итп, вернее предварительная настройка, откуда будут формироваться данные (чтобы потом **\lib\classes\WebApplication::execute()** смотря на это формировал данные)
+
+
+

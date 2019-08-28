@@ -5,17 +5,26 @@ Creation-Date: 2019-04-25T15:10:14+03:00
 ====== Shinservice YAK ======
 Created четверг 25 Апрель 2019
 
+**SSH**:
 10.10.10.10:65022
 td
 vj3sDhMA6bWufxnU
 
-в консоли на приглашение $ набрать "bash"
+в консоли на приглашение $ набрать "**bash**"
 
-закачивать файлы в /tmp
+закачивать файлы в /**tmp**
 
-можно настроить SFTP в WinSCP
+можно настроить **SFTP** в **WinSCP**
 
 - - - - - -
 отправка через командную/bash/gitbash строку
 
-scp -P 65022 ./product-images.7z td@10.10.10.10:/tmp/
+**scp** -P 65022 ./product-images.7z td@10.10.10.10:/tmp/
+
+- - - -
+**mysql**:
+	'host' => '10.10.10.10',
+	'database' => 'sst_base',
+	'user' => 'sst_usr',
+	'password' => 's4eraplimake',
+- бд доступна в **консоли** и по **phpmyadmin**

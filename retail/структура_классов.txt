@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-23T13:59:10+03:00
+
+====== структура классов ======
+Created пятница 23 Август 2019
+
+**class _sstGC** - namespace'а нет загружается по include
+	основной элемент - это **static private $_config; **сюда собираются конфиги из
+\retail\htdocs\config\**global**.php
+\retail\htdocs\config\**local**.php
+\retail\htdocs\config\**dmst**.php - где dmst = gethostname()
+	конфигурацию можно тянуть, изменять, добавлять и т.п. с помощью **get()**, **setValue(), getValue()**
+
+**class** lib\classes\**Core**
+	**use** lib\classes\Log\**AbstractLogger**; -**abstract class** - родитель логгеров
+		**class** lib\classes\Log\**FileLogger** extends lib\classes\Log\**AbstractLogger**
+		**class** lib\classes\Log\**CriticalLogger** extends lib\classes\Log\**AbstractLogger**
+		**class** lib\classes\Log\**MemoryLogger** extends lib\classes\Log\**AbstractLogger**
+		**class** lib\classes\Log\**SystemLogger** extends lib\classes\Log\**AbstractLogger**
+			-собсно логер сайта
+			-кидается в **LogEngine**
+		**class** lib\classes\Log\**ConsoleLogger** extends lib\classes\Log\**AbstractLogger**
+	**use** lib\classes\Log\**LogEngine**;
+		-управляющий логерами, репозиторий логгеров
+	**use** lib\classes\Log\**Debug**;
+		-коллектор переменных
+		-используется только 1 функция **log()** для логирования в разные цели: **toString**(), **toHTML**()
+		-печатает первый лог на страницу на dev ¨Current version PHP:¨
+
+**class** lib\classes\**Application**
+	**class** lib\classes\**WebApplication** extends lib\classes\**Application**
+		**class** main\classes\**MainSiteApplication** extends lib\classes\**WebApplication**
+			**class** main\classes\**TransitionApplication** extends main\classes\**MainSiteApplication** - пустой
+		**class** old\classes\**OldSiteApplication** extends lib\classes\**WebApplication**
+		**class** simple\classes\**SimpleApplication** extends lib\classes\**WebApplication** - пустой
+	**class** main\classes\**MainConsoleApplication** extends lib\classes\**Application**
+	**class** main\classes\Tool\**YandexDirectory** extends lib\classes\**Application**

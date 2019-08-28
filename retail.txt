@@ -5,3 +5,47 @@ Creation-Date: 2019-08-21T10:51:52+03:00
 ====== retail ======
 Created среда 21 Август 2019
 
+начало **/retail/fpm/index.php**
+
+(конфиг, ядро, приложение)
+
+=========================
+**include __DIR__ . '/../htdocs/config/_sstGC.php';**
+	загрузка класса конфигурации: class _sstGC {}
+		который собирает конфиги из
+			\retail\htdocs\config\**global**.php
+			\retail\htdocs\config\**local**.php
+			\retail\htdocs\config\**dmst**.php (dmst - gethostname())
+		**_sstGC::get()** - выдаст весь конфиг в виде массива
+=========================
+... проверки URL ...
+	для перенаправления на нужные адреса
+=========================
+**require __DIR__ . '/../evolution/vendor/autoload.php';**
+	подключение yii2
+
+=========================
+**include_once '../evolution/lib/classes/Core.php';**
+	подключение ядра сайта - singleton, сам по себе, ни от кого не зависит
+	доступны функции через **\lib\classes\Core::getInstance()->имя_функции()**
+=========================
+**$Core = lib\classes\Core::getInstance()**
+	**->setLogsPath('../logs/')**
+	**->setProjectsPath('../evolution/');**
+		создание экземпляра ядра сайта и установка путей
+
+=========================
+**$App = $Core->loadApplication(main\classes\MainSiteApplication::class, 'main')->init();**
+	-создание экземпляра приложения
+	-загружает экземпляра приложения в ядро
+	-инициализация приложения
+		site application - **main\classes\MainSiteApplication**
+			main\classes\MainSiteApplication **extends** lib\classes\WebApplication
+			lib\classes\WebApplication **extends** lib\classes\Application
+	-$this->config = lib\classes\Config\**ConfigStorage**::getInstance(); - хранилище конфигов
+1. **ФОРМИРОВАНИЕ DEBUG INFO**
+=========================
+**$App->execute();**
+	запуск сайта, 
+2. **ФОРМИРОВАНИЕ СОДЕРЖИМОГО СТРАНИЦЫ**
+3. **ВЫВОД СОДЕРЖИМОГО СТРАНИЦЫ**

@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-27T10:41:36+03:00
+
+====== navbar ======
+Created вторник 27 Август 2019
+
+navbar в 2 строки
+https://stackoverflow.com/questions/47773019/bootstrap-3-how-i-can-make-two-rows-navbar-collapsed/47833959#47833959

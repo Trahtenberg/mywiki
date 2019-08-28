@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-27T10:41:28+03:00
+
+====== bootstrap ======
+Created вторник 27 Август 2019
+

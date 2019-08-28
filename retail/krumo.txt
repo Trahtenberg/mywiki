@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-23T11:28:20+03:00
+
+====== krumo ======
+Created пятница 23 Август 2019
+
+чтобы использовать krumo надо 
+	1. инклудить класс
+		a. include '../htdocs/includes/krumo/class.krumo.php';
+	2. задать GET параметр "krumo=zvezda" в адресной строке
+
+krumo($var[, $var2, ...]);

@@ -1,0 +1,53 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-28T15:02:30+03:00
+
+====== commands ======
+Created среда 28 Август 2019
+
+| (вертикальная черта) объединение соманд
+	ls /usr/bin | more
+	ls | sort -r 
+	
+ps	-report a snapshot of the current processes
+	список работающих процессов
+
+echo $0 - показывает текущую оболочку
+
+ls	- list directory contents
+	ls option file
+	ls -i - файлы с дескрипторами
+	ls -a (--all) - в том числе начинающиеся на . (точку) .. (2 точки)
+	ls -A (--almost-all) - все без указывающих на папки точек . и ..
+	ls --author - инфа о владельце
+	ls -c - список с сортировкой
+	ls -l - в столбец
+	ls -d - папка без содержимого
+	ls --file-type - с указанием шаблона
+	ls -g - в столбец (как в -l) и без владельца
+		ls -m - все через запятую
+		ls -F - список с указанием папка/файл/исполняемый/...
+		ls -Q - обернуть в двойные кавычки каждый элемент
+		ls -S - сортировка по filesize
+		ls -t - сортировка по времени
+cd	- (change directory)
+pwd	- текущий каталог (present working directory)
+cp	- (copy)
+mv	- (move)
+rm	- delete file
+rmdir	- delete folder
+more	- показать файл постранично
+	Space - next page
+	b - prev page
+	q - quit
+cat	- показать файл целиком
+less	- показать в редакторе
+man	- manual
+	man ls
+exit - выход из оболочки
+cal month year - calenadar
+bg - перевести на задний план
+fg - вернуть на передний план
+jobs - список выполняемых имен
+kill - прекратить выполнение
+

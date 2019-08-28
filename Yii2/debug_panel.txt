@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-26T15:36:11+03:00
+
+====== debug panel ======
+Created понедельник 26 Август 2019
+
+ЧТОБЫ ВКЛЮЧИТЬ **DEBUG** ПАНЕЛЬ НА ПРОДАКШН, НАДО ВКЛЮЧИТЬ СВОЙ IP АДРЕС В КОНФИГ
+
+\common\config\main.php
+
+	'modules' => [
+				'debug' => [
+					'class' => 'yii\debug\Module',
+					'allowedIPs' => [
+						'127.0.0.1',
+						'::1',
+						**'195.9.48.50'**, // mywork
+					],
+				],
+	]

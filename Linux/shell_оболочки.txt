@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-28T15:43:06+03:00
+
+====== shell оболочки ======
+Created среда 28 Август 2019
+
+**Оболочки** бывают Bourne shell и C shell
+
+**/bin/sh** - Bourne shell
+**/bin/bash** - Bourne Again shell
+**/bin/csh** - C shell (в wsl отсутствует)
+**/bin/tcsh** - (в wsl отсутствует)
+
+переключаться можно по **sh, bash, csh, tcsh**
+**exit** - выход из оболочки

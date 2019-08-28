@@ -28,3 +28,6 @@ Ctrl + a -> d
 td@zebra:~$ exit 
 Ctrl + d
 (появится сообщение [screen is terminating])
+
+убить экран:
+sudo screen -X -S screenname kill
