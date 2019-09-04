@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-08-30T11:55:39+03:00
+
+====== пример создания сайта cms ======
+Created пятница 30 Август 2019
+
+https://ruseller.com/lessons.php?id=1582

@@ -12,13 +12,17 @@ Created вторник 25 Июнь 2019
 -клонировать репозиторий: git clone git@git.sst.su:/srv/git/autopartserv.git
 )
 
-случай - изменился пользователь винды, был [[/stoyanov/]] стал [[/user/]]
+**случай 1** - изменился пользователь винды, был [[/stoyanov/]] стал [[/user/]]
 → git не пушится на git.sst.su
 причина, нет настроек ssh, старые остались в папке пользователя [[/stoyanov/]].ssh, 
 Надо скопировать нижеследующие файлы в [[/user/]].ssh
 	C:\Users\stoyanov\.ssh\id_rsa
 	C:\Users\stoyanov\.ssh\id_rsa.pub
 	C:\Users\stoyanov\.ssh\known_hosts
+
+**случай 2** - из **wsl** не работает **composer update** в /**retail/evolution/**, ругается на компоненту **/shinservice/ecommerce/**
+причина в том что ssh ключ был добавлен в /home/ds/.ssh/id_rsa.pub, т.е. для пользователя **ds**, а команда запускалась под рутом
+т.е. у пользователя  свой ключ, а у рута свой.
 
 vagrant up 
 	(дает ошибку миграции - не обращать внимания норм, это из-за пустого пароля к бд)
