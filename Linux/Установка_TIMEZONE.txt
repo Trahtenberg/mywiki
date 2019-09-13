@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-06T15:30:25+03:00
+
+====== Установка TIMEZONE ======
+Created пятница 06 Сентябрь 2019
+
+sudo timedatectl set-timezone Europe/Moscow

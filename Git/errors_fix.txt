@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-09T16:59:08+03:00
+
+====== errors fix ======
+Created понедельник 09 Сентябрь 2019
+
+===
+при попытке скачать **master** выдает ошибку 
+
+команда дается из виндовсового **gitbash**
+
+**user@dmst MINGW64 /d/ospanel/domains/retail/evolution (master)**
+**$** git pull
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+Enumerating objects: 26842, done.
+Counting objects: 100% (26842/26842), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6976/6976), done.
+Writing objects: 100% (26842/26842), done.
+Total 26842 (delta 18905), reused 26842 (delta 18905)
+**Rename from** '.git/objects/pack/pack-0d782101e5628874746548684a82482ae94e8411.pack' to '.git/objects/pack/old-0d782101e5628874746548684a82482ae94e8411.pack' **failed**. Should I try again? (y/n) Unlink of file '.git/objects/pack/.tmp-12704-pack-0d782101e5628874746548684a82482ae94e8411.idx' failed. Should I try again? (y/n)
+
+**решение**:
+параллельно был открыт gitkraken который блокировал папку .git, после закрытия которого все наладилось
+===

@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-12T10:03:17+03:00
+
+====== debug to file ======
+Created четверг 12 Сентябрь 2019
+
+$f = fopen('/mnt/d/OSPanel/domains/retail/debug.txt', 'w');
+fwrite($f, print_r($query,true));
+fclose($f);

@@ -5,7 +5,25 @@ Creation-Date: 2018-07-13T16:14:50+03:00
 ====== MySQL console ======
 Created Friday 13 July 2018
 
-[[/*************************]]
+========================
+если служба **mysql** выдает предупреждение
+**No directory, logging in with HOME=/**
+
+это не страшно но можно убрать если поменять несуществующую папку home directory of mysql to ist original folder
+
+**sudo usermod -d /var/lib/mysql/ mysql**
+предотвратит ее
+=========================
+
+Инструкция по подключению к **mysql** внутри **vagrant**
+http://devzzy.blogspot.com/2016/03/mysql-vagrant.html
+
+*******************************
+Если случайно установлен плагин [validate_password] то можно его удалить из консоли mysql
+mysql> uninstall plugin validate_password;
+Query OK, 0 rows affected (0.05 sec)
+
+**/***************************
 последний рабочий вариант
 на примере проблемной бд ниссан инфинити
 

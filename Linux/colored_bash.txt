@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-05T16:37:59+03:00
+
+====== colored bash ======
+Created четверг 05 Сентябрь 2019
+
+чтобы приглашение в консоли было цветным надо
+- раскоментировать строку 
+	#force_color_prompt=yes
+в файле 
+	~/.bashrc (то биш рут папка пользователя /home/username/...)
+и запустить команду
+	source ~/.bashrc
+	

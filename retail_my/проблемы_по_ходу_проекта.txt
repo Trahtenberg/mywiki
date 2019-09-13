@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-11T16:56:27+03:00
+
+====== проблемы по ходу проекта ======
+Created среда 11 Сентябрь 2019
+
+1. в index.php есть шаг $Core = lib\classes\Core::getInstance()
+	в котором вызывается lib\classes\Core::init()
+	который создает экземпляр логгера
+	$this->logEngine = new LogEngine();
+	так вот здесь идет ошибка **"class lib\classes\Log\LogEngine not found"**
+??? с чего бы?
+по настройкам получается что $fileName = ./lib/classes/Log/LogEngine.php
+и его он не может открыть 
+(а в рабочем проекте shinservice.loc это значение = /mnt/d/OSPanel/domains/retail/evolution/lib/classes/Log/LogEngine.php)
+!!! ААААААААААА ==> **$this->libPath = dirname(__FILE__, 3) . '/';**

@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-06T11:29:07+03:00
+
+====== mysql ======
+Created пятница 06 Сентябрь 2019
+
+Инструкция по подключению к **mysql** внутри **vagrant**
+http://devzzy.blogspot.com/2016/03/mysql-vagrant.html
