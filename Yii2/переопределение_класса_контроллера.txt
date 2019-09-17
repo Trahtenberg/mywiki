@@ -2,7 +2,7 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2018-06-15T16:22:28+03:00
 
-====== переопределение классов ======
+====== переопределение класса контроллера ======
 Created Friday 15 June 2018
 
 переопределение yii2 классов:

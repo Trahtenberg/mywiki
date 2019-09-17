@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-16T14:07:45+03:00
+
+====== установка ======
+Created понедельник 16 Сентябрь 2019
+
+!!! ВАЖНО
+ т.к. composer - это менеджер/установщик PHP !!! пакетов 
+то все нижеуказанное актуально при условии что в системе есть и работает PHP
+
+установка м.б. 2 типов
+	-локальная
+	-глобальная
+
+Локальная - это когда все происходит в одной папке:
+	-есть файл composer.phar
+	-команда запускается так: **php composer.phar update**
+	
+Глобальная - это когда в системе установлен пакет composer
+	-команда запускается так: **composer update**
+
+Установка **локальной** версии composer:
+в нужной/рабочей папке
+	запускаем **php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"**
+появляется файл **composer-setup.php**
+	запускаем **php composer-setup.php**
+появляется файл **composer.phar**
+
+Установка **глобальной** версии:
+	Windows
+		зайти на getcomposer.org
+		скачать Windows installer
+		установить
+	Linux
+		sudo apt install composer
+		
+**Далее** актуально для обоих видов
+	в рабочей папке создаем файл **composer.json** с пустым json-ом: {}
+	запускаем composer (команду для локальных и гловальных см. выше)
+	в появляется папка **vendor** в которой **autoload** и папка/модуль **composer**

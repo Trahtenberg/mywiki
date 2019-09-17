@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-16T10:46:48+03:00
+
+====== на обучение ======
+Created понедельник 16 Сентябрь 2019
+
+bootstrap
+меню - хранение в бд и построение дерева
+yii2
+	events
+	behaviours
+	routing
+	exceptions - типа page not found
+

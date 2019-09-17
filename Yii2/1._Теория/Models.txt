@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-13T19:12:49+03:00
+
+====== Models ======
+Created пятница 13 Сентябрь 2019
+
+модели бывают:
+db - common\models\ActiveRecord
+form - yii\base\Model
