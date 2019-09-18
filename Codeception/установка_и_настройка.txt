@@ -1,0 +1,78 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-18T10:40:46+03:00
+
+====== установка и настройка ======
+Created среда 18 Сентябрь 2019
+
+**ЦЕЛЬ:**
+**УСТАНОВИТЬ CODECEPTION В СРЕДЕ OPENSERVER И НАСТРОИТЬ РАБОТУ**
+
+!!! все команды исполнялись в консоли OpenServer
+
+-рабочая папка
+создать рабочую папку, например, cedeception
+
+-composer
+если установлен глобальный composer, то пропускаем этот пункт
+если нет, то устанавливаем например локальный, только для этой папки
+**curl -sS http://getcomposer.org/installer | php**
+
+-если это будет проект yii2 то надо скачать пакет "fxp/composer-asset-plugin" для него
+**composer global require "fxp/composer-asset-plugin:*"**
+
+-codeception
+собсно установка codeception
+**composer require "codeception/codeception:*"**
+начнется установка
+появится composer.json, composer.lock, и папка vendor
+
+-тестовый запуск
+**vendor\bin\codecept run**
+должен заработать и ругнуться типа нет конфигурационного файла и надо инициализировать Codeception
+
+-инициализация
+**vendor\bin\codecept bootstrap**
+создаст codeception.yml и папку tests с конфигурационными файлами
+
+-первая приёмочная (acceptance) тест-заглушка
+**vendor\bin\codecept generate:cept acceptance SmokeTest**
+в папке **tests/acceptance** появится файл **SmokeTestCept.php**
+если запустить тест (**vendor\bin\codecept run**) 
+то должны увидеть что все норм, потому что пока только этап подготовки, никаких проверок нет
+
+-запуск теста
+добавим нижеследующие строки в файл **tests/acceptance/SmokeTestCept.php**
+**$I->amOnPage('/');**
+**$I->see('Our CRM');**
+т.е. проверить есть ли на странице "/" слова "**Our CRM**"
+запустим тест и увидим что 1 тест провален
+а именно "**The requested URL was not found on this server**", т.е. нет сайта/адреса "/"
+
+-подготовка сайта и указание его тестеру (codeception)
+	1. настройка сайта
+		текущий пример создавался на openserver и создавался в d:\ospanel\domains\codeception\
+		поэтому настраиваем сайт в openserver
+			создаем входной скрипт d:\ospanel\domains\codeception\web\index.php с содержимым <?php echo "Our CRM";
+			настраиваем адрес http://codeception.loc в openserver
+			проверяем адрес http://codeception.loc - должен работать
+	2. конфигурация codeception
+		добавим адрес настроенного сайта в конфигурацию приемочного теста
+		а именно в файл "/tests/acceptance.suite.yml" добавим токен "modules.confg.PhpBrowser.url"
+			говорится токен, имеется ввиду конфиг
+			**config:**
+			**        PhpBrowser:**
+			**            url: 'http:'//codeception.loc'**
+
+-пересборка среды codeception
+	т.к. мы изменили конфигурацию то надо пересобрать codeception
+	**vendor\bin\codecept build**
+	
+-запуск теста
+	**vendor\bin\codecept run**
+	должны увидеть что все нормально (плюсик перед именем теста "SmokeTestCept" говорит о том что все норм)
+
+	ПРОВЕРКА боем:
+		можно что-нибудь испортить на сайте и перезапустить тест
+		должны появится ошибки и перед "SmokeTestCept" будет стоять крестик
+
