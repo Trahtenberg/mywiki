@@ -5,3 +5,4 @@ Creation-Date: 2019-09-18T09:18:45+03:00
 ====== Codeception ======
 Created среда 18 Сентябрь 2019
 
+**$I->selectOption('select[name=manufacturer]', 'Michelin');** - выбирает определенный **option** внутри **select**

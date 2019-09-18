@@ -2,7 +2,7 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2019-09-18T10:40:46+03:00
 
-====== установка и настройка ======
+====== 1. установка и настройка ======
 Created среда 18 Сентябрь 2019
 
 **ЦЕЛЬ:**
@@ -18,7 +18,7 @@ Created среда 18 Сентябрь 2019
 если нет, то устанавливаем например локальный, только для этой папки
 **curl -sS http://getcomposer.org/installer | php**
 
--если это будет проект yii2 то надо скачать пакет "fxp/composer-asset-plugin" для него
+-**если это будет проект** **yii2** то надо скачать пакет "fxp/composer-asset-plugin" для него
 **composer global require "fxp/composer-asset-plugin:*"**
 
 -codeception
@@ -29,6 +29,8 @@ Created среда 18 Сентябрь 2019
 
 -тестовый запуск
 **vendor\bin\codecept run**
+**(**запукс в phpstorm в windows: **php vendor\bin\codecept run )**
+**(**запукс в git-bash: **php vendor/bin/codecept run )**
 должен заработать и ругнуться типа нет конфигурационного файла и надо инициализировать Codeception
 
 -инициализация
@@ -58,11 +60,12 @@ Created среда 18 Сентябрь 2019
 			проверяем адрес http://codeception.loc - должен работать
 	2. конфигурация codeception
 		добавим адрес настроенного сайта в конфигурацию приемочного теста
-		а именно в файл "/tests/acceptance.suite.yml" добавим токен "modules.confg.PhpBrowser.url"
+		а именно в файл "/tests/acceptance.suite.yml" добавим токен "modules.config.PhpBrowser.url"
 			говорится токен, имеется ввиду конфиг
 			**config:**
 			**        PhpBrowser:**
-			**            url: 'http:'//codeception.loc'**
+			**            url: 'http://codeception.loc' **
+			(по ходу кавычки не нужны)
 
 -пересборка среды codeception
 	т.к. мы изменили конфигурацию то надо пересобрать codeception

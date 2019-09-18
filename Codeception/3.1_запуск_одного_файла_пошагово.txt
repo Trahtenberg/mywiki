@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-18T12:08:21+03:00
+
+====== 3.1 запуск одного файла пошагово ======
+Created среда 18 Сентябрь 2019
+
+ключ **--steps** показывает результат каждой команды в тесте
+
+**vendor\bin\codecept run acceptance ContactPageTestCest.php --steps**
+
+например, запуск одиночного пошагового теста на **evolution**
+в командной строке консоли wsl 
+находясь в папке **/mnt/d/OSPanel/domains/retail/evolution**
+запускаем
+**php vendor/bin/codecept run acceptance FilterBrandSeasonOnCatalogCest.php --steps**

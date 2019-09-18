@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-18T11:09:11+03:00
+
+====== 3. запуск одного файла ======
+Created среда 18 Сентябрь 2019
+
+**vendor\bin\codecept run acceptance HomePageTestCept.php**

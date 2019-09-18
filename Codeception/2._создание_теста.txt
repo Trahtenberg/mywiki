@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-18T11:03:13+03:00
+
+====== 2. создание теста ======
+Created среда 18 Сентябрь 2019
+
+ЦЕЛЬ:
+СОЗДАТЬ ПРОСТОЙ ТЕСТ ПРОВЕРЯЮЩИЙ ДОСТУПНОСТЬ САЙТА
+
+для этого проверим например, статус возвращаемого кода - он должен быть = 200
+
+-создание теста
+	**vendor\bin\codecept generate:cept acceptance HomePageTest**
+	в [[/tests/acceptance/]] должен появиться файл HomePageTestCept.php
+	
+-собсно проверка
+	в HomePageTestCept.php добавляем строки
+	**$I->amOnPage('/');**
+	**$I->seeResponseCodeIs(\Codeception\Util\HttpCode::OK);**
+
+-запуск теста
+	**vendor\bin\codecept run**
+
+все должно быть норм

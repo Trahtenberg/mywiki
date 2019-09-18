@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-18T11:55:51+03:00
+
+====== 6. PhpBrowser vs WebDriver ======
+Created среда 18 Сентябрь 2019
+
+Когда мы настраивали конфигурацию **acceptance** теста
+мы добавляли токен "**modules.confg.PhpBrowser.url**"
+но **PhpBrowser** не позволяет протестировать страницы с **JavaScript**
+для этого используется **WebDriver**, который использует **Selenium**
+
+установка глобально
+**composer global require --dev se/selenium-server-standalone**
+
+проверка
+**selenium-server-standalone**
+
+НЕ РАБОТАЕТ, 
+надо ставить java, установить пакет и т.д. и т.п.
+ПРОДОЛЖЕНИЕ СМ. на https://klisl.com/codeception_acceptance.html

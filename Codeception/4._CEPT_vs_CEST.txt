@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-18T11:11:20+03:00
+
+====== 4. CEPT vs CEST ======
+Created среда 18 Сентябрь 2019
+
+**vendor\bin\codecept generate:cept acceptance HomePageTest**
+
+кроме cept бывает cest
+cept - native php
+cest - ООП
+
+**vendor\bin\codecept generate:cest acceptance HomePageTest**
+создаст такой же тест, но в стиле ООП
+	клас **сclass ContactPageTestCest**
+	фнкцию **public function tryToTest(AcceptanceTester $I)**
+		в которую уже мы добавляем свое **$I->wantTo('ЦЕЛЬ: ПРОВЕРКА СТРАНИЦЫ КОНТАКТЫ');**
+		(обращаем внимание что **AcceptanceTester $I **уже создан)
+
