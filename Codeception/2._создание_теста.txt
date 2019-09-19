@@ -22,4 +22,44 @@ Created среда 18 Сентябрь 2019
 -запуск теста
 	**vendor\bin\codecept run**
 
-все должно быть норм
+можно создавать подпапки в acceptance, functional, unit и запускать их отдельно
+**php vendor/bin/codecept run tests/acceptance/backend**
+
+отчеты создаются в папке test/_output
+ключ **--html** создает отчет в html
+**--xml** создает отчет в xml
+
+**strict locator**: - (что можно использовать для происка селектора)
+**\Codeception\Util\Locator**
+id
+name
+css
+xpath
+link
+class
+
+форму можно отправить двумя путями:
+1. нажатие на submit - эмулирует клик
+2. submitForm() с заполнением полей - НЕ эмулирует клик
+
+если функция **see()** провалена то дальнейшие действия прекращаются
+чтобы продолжалось надо использовать **canSee()**
+на каждый **see()** есть **canSee()**, и на каждый **dontSee()** есть **cantSee()**
+
+можно производить **multi session** тесты
+для этого в функции создается Frend и от его имени тестится:
+
+**use** _generated\AcceptanceTesterActions;
+**use** \Codeception\Lib\Actor\Shared\Friend; 
+
+$I->amOnPage('/messages');
+$nick = $I->**haveFriend**('nick');
+**$nick->does(function(AcceptanceTester $I)** {
+	$I->amOnPage('/messages/new');
+	$I->fillField('body', 'Hello all!');
+	$I->click('Send');
+	$I->see('Hello all!', '.message');
+});
+$I->wait(3);
+$I->see('Hello all!', '.message');
+

@@ -5,6 +5,12 @@ Creation-Date: 2018-09-13T09:47:36+03:00
 ====== Elite Dangerous ======
 Created Thursday 13 September 2018
 
+принципы:
+	торговать в системах High Tech, Industrial и Refinery
+	покупать товары у которых предложение больше 50к
+		для этого на галактической карте включить "show by size" и указать population 66-100%
+	торговать товарами с ценой более 5к
+
 Торговля | Elite Dangerous Wiki:
 https://elite-dangerous.fandom.com/ru/wiki/%D0%A2%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%BB%D1%8F
 

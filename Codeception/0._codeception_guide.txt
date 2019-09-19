@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-19T09:47:50+03:00
+
+====== 0. codeception guide ======
+Created четверг 19 Сентябрь 2019
+
+**suites**: **unit**, **functional**, and **acceptance** tests
+
+если **unit** и **functional** тесты требуют доступа к коду проекта
+то **acceptance** не требует - он работает с браузером
+
+называются suit-ами
+“**unit suite**”, “**functional suite**”, “**acceptance suite**”
+
+**acceptance test** работает и на внешних сайтах, независимо от кода проекта
+
+возникает вопрос: как организовать конфигурацию этого теста так, чтобы можно было без переписывания кода и build-а запускать тесты
+
+**functional test** работает примерно также как и acceptance но без запуска браузера
+
+Actors:
+UnitTester
+FunctionalTester
+AcceptanceTester
+
+generate:test
