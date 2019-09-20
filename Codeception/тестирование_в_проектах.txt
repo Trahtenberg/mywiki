@@ -1,0 +1,37 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-20T17:16:45+03:00
+
+====== тестирование в проектах ======
+Created пятница 20 Сентябрь 2019
+
+тестирование в **retail**
+	-папка /retail/evolution/tests
+	-остановить openserver
+	-запустить сервисы в wsl
+	-в git-bash перейти в папку evolution
+	-проверить работу сайта: vendor/bin/codecept run acceptance SiteWorkCest.php --steps
+	-запуск всех acceptance: vendor/bin/codecept run acceptance --steps
+тестирование в **yii2**
+	-не работал vendor\bin\codecept
+	-yiiframework говорит что надо установить
+		composer require "codeception/codeception=2.1.*"
+		composer require "codeception/specify=*"
+		composer require "codeception/verify=*"
+	но просто так не ставится, в composer.json стоит "codeception/base=*"
+	лучше добавить строки в composer.json
+		"codeception/codeception=2.1.*"
+		"codeception/specify=*"
+		"codeception/verify=*"
+	и composer update сперва удалит старое и установит новое
+	vendor\bin\codecept заработал
+	vendor\bin\codecept run заработал
+	-создание нового: vendor\bin\codecept generate:cest functional SiteWork
+	vendor\bin\codecept run functional SiteWorkCest.php --steps
+		--> работает
+тестирование в **aps**
+	-vendor\bin\codecept - работает
+	-vendor\bin\codecept run - работает, но много ошибок, 
+		из-за того, что удалены классы yii, типа User, LoginForm
+		если все позакрывать то норм
+	common\tests

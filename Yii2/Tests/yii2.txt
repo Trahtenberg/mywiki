@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-20T17:17:55+03:00
+
+====== yii2 ======
+Created пятница 20 Сентябрь 2019
+
+тестирование в **yii2**
+	-не работал vendor\bin\codecept
+	-yiiframework говорит что надо установить
+		composer require "codeception/codeception=2.1.*"
+		composer require "codeception/specify=*"
+		composer require "codeception/verify=*"
+	но просто так не ставится, в composer.json стоит "codeception/base=*"
+	лучше добавить строки в composer.json
+		"codeception/codeception=2.1.*"
+		"codeception/specify=*"
+		"codeception/verify=*"
+	и composer update сперва удалит старое и установит новое
+	vendor\bin\codecept заработал
+	vendor\bin\codecept run заработал
+	-создание нового: vendor\bin\codecept generate:cest functional SiteWork
+	vendor\bin\codecept run functional SiteWorkCest.php --steps
+		--> работает
