@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-23T11:19:35+03:00
+
+====== Определение контроллера и вьюхи ======
+Created понедельник 23 Сентябрь 2019
+
+-открываем страницу
+
+-крутим вниз в дебаг зону
+
+-в разделе "Init component ..." смотрим
+
+	[rule][action] => action(function).controller(class)@папка_в_evolution
+		(например, manufacturerCatalog.TiresCatalogController@main)
+		
+	[rule][view] => filename.папка_в_main_views@папка_в_evolution
+		 (например, ManufacturerCatalog.components@main)
+
