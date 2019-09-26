@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-26T10:38:04+03:00
+
+====== Chrome Advanced REST client ======
+Created четверг 26 Сентябрь 2019
+
+запрос простого сайта
+	выбираем Method: POST и пишем адрес, например, https://www.shinservice.ru/
+		смотрим статус ответа [200 ОК] (зелененькое поле) значит ответ есть
+	пробуем http://www.shinservice.loc/ - [200 ОК]
+		http://shinservice.loc/ - уже не то, отвечает стартовая страница nginx
+	пробуем http://www.shinservice.ru/beruru/cart.json в REST плагине
+		ответ 403 Forbidden
+		набираем адрес в браузере
+			дебаг говорит что "E_NOTICE: Undefined index: auth-token in 
+			/evolution/main/classes/WebComponents/BeruRu.php:36"
+	добавляем GET параметр "?auth-token=F30000015E6CE256" 
+		(токен настроен в "/evolution/main/config.php" 
+		['marketplace']['beruru]['auth_token'] => 'F30000015E6CE256',
+		в браузере получаем ответ "{"message":"Method Not Allowed"}"
+		в REST - undefined

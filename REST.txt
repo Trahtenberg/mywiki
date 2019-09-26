@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-25T11:37:31+03:00
+
+====== REST ======
+Created среда 25 Сентябрь 2019
+
+варианты создания REST запросов:
+
+-Chrome Advanced REST client
+-Postman
+-PHP: curl адрес...

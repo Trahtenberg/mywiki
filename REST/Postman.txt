@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-26T10:39:38+03:00
+
+====== Postman ======
+Created четверг 26 Сентябрь 2019
+
+-скачиваем Postman
+-создаем новый collection
+-жмем на плюсик и пишем запрос
+	например есть тестовый сервер https://jsonplaceholder.typicode.com/posts
+		к запросу можно добавить json:
+		для этого под запросом выбираем "raw" и меняем "text" на "json"
+		и в открывшееся поле пишем сам оson
+	{
+	"title": "My first POST request",
+	"body": "Content of my first POST request!",
+	"userId": 1
+	}
+-жмем "Send" и смотрим на ответ
