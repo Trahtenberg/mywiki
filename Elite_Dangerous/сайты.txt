@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-10-01T16:48:48+03:00
+
+====== сайты ======
+Created вторник 01 Октябрь 2019
+
+https://elite-dangerous.fandom.com/wiki/Elite_Dangerous_Wiki
+https://elite-dangerous.fandom.com/ru/wiki/Elite-dangerous_%D0%B2%D0%B8%D0%BA%D0%B8
+https://eddb.io/
+https://inara.cz/
+https://roguey.co.uk/elite-dangerous/
+https://etn.io/

@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-09-30T10:12:52+03:00
+
+====== trade route 1 ======
+Created понедельник 30 Сентябрь 2019
+
+**ПРОБА!!!**
+
+eddb говорит что у Meta-Alloys профит 47046=236737-189691
+смотрим где можно сбыть Meta-Alloys за макс цену, например возле Sol,
+	Bolg: Moxon's Mojo 236242
+	Tau-1 EridaniЖ Killing Time 236194
+	Ovid: Bradfield Orbital 236194
+	Fusang: Cleve Vision 235934
+а где поблизости можно купить дешево Meta-Alloys?
+	Maia (Horizons)
+косяк тупик
+--------------------
+Military Grade Fabrics	14314-468=13846
+	Wundt Dock	LHS 223	8734
+	Haber City	Tabit	8,734
+купить можно
+	Faraday Enterprise	Kokary	629
+	Herrington City	Duamta	653
+	Wang City	Duamta	653

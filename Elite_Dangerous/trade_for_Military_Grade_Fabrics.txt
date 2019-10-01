@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-10-01T16:54:21+03:00
+
+====== trade for Military Grade Fabrics ======
+Created вторник 01 Октябрь 2019
+
+Military Grade Fabrics
+14,193 - 468 = 13,725
+на какой станции купят "Military Grade Fabrics" по 14,193
+
+Drexler Colony	Pomeche	9,445
+Arend Vision	Jaarn	9,445
+Simbad's Refuge	Nu Tauri	9,445
+Asimov Landing	LHS 2441	9,445
+Wicca Town	Gateway	9,445
+Weitz Refinery	Ladon	9,445
+
+около LAVE
+Cousin Ring	Tjindjin	8,862
+Nourse City	Esumindii	8,862
+Siemens Vision	Hilla	8,831
+Plater's Tyranny	Hilla	8,831
+Lichtenberg Gateway	Yorates	8,734
+Pavlov Dock	Belanit	8,734
+
+Crown City	Ross 33	8,980	90 %	0	L	2 days	33 ls	16.90 ly
+Wedge Hangar	LFT 300	8,980	90 %	0	L	16 hours	432 ls	29.97 ly
+Melnick Ring	LP 715-52	8,862	90 %	0	L	20 mins	2,113 ls	22.67 ly
+Spedding Orbital	KP Tauri	8,734	90 %	0	L	2 hours	12 ls	17.97 ly
+Wundt Dock	LHS 223	8,734
+Coleman Ring	BZ Ceti	8,734
+Garcia Station	LO Pegasi	8,862	90 %	0	L	20 hours	1,742 ls	39.19 ly
+Vonarburg Port	Maridal	8,862
+Kuchner Vision	Kured	8,734
+Herodotus Dock	32 Mu Serpentis 8000
+Smoot Station	Chona	8,734
+Ban Enterprise	Goller	8,734
+Wollheim Vision	Fuelum	8,606
+Gamow Orbital	Chaxiraxi	8,734
