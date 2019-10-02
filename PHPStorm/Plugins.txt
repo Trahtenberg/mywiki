@@ -7,5 +7,7 @@ Created Friday 15 June 2018
 
 Php Inspections:
 поставить курсор на класс с namespace-ом и нажать на Alt+Enter->Enter: namespace перейдет наверх в зону use
+а хер! не то
+		⇒ эта функция встроена в phpstorm: Alt+Enter -> Simplify FQN
 
 Yii2 Support
