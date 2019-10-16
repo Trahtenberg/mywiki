@@ -13,7 +13,8 @@ https://ru.stackoverflow.com/questions/558822/%D0%9D%D0%B5-%D1%80%D0%B0%D0%B1%D0
 
 решения:
 
--вместо [[/post/1]] писать [[/post?postId=1]]
+-вместо **/post/1** писать **/post?postId=1**
 -настроить роутинг: 
-	'post/<postId:\d+>' => 'post'
+	**'post/<postId:\d+>' => 'post'**
 -а лучше всего писать урлы не ручками а с помощью Url менеджера, который сам конвертирует правильно
+	**echo Html::a('clear cart', Url::to(['cart/clear-cart', 'vasya' => 5]), ['class' => 'btn btn-default']);**

@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-10-15T14:14:45+03:00
+
+menu
+Created вторник 15 Октябрь 2019
+
+- /home/
+- /services/
+- /orgsubtypes/
+- /vuzinstate/
+- /edugroups/ - бюджет
+- /edugroups/ - платно
+- /prohball/
+- /spec/
+- /napr/
+- /orgage/
+	/earliest/
+	/earliest/ubilar/
+- /organization/
+- /event/
+- /feedback/
+
+top menu
+	logo
+	2 level menu
+events-anons
+events-menu
+events
+footer
+	metrika
+right menu last vizited

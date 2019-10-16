@@ -1,0 +1,65 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-10-15T16:51:11+03:00
+
+====== objects ======
+Created вторник 15 Октябрь 2019
+
+возникает 4 вида блоков
+
+1. организация
+
+OrgInfo
+
+	logo
+	state: id, name, fgcolor, bgcolor
+	cost
+	name
+	programs: count, link
+	phone
+	nam_uje
+	yamaplink
+	metro: id, name, image
+	service: id_record, id_service, name, icon, desc
+	budjet/nobudjet: link_for_all, lvls: array('bj' = ['бак', 'маг'], 'nobj' = ['бак'])
+	service_types: collection by srv types: id_service, icon, name
+	edu_napr: link_for_all, list: collection: id_napr, icon, name
+
+2. специальность строка
+
+SpecInfo
+
+	proh_ball
+
+	org_id
+	org_state
+	org_logo
+	org_name
+
+	spec_id, 
+	spec_type_icon,
+	spec_name, 
+	spec_code, 
+	link_to_other (сравнить с другими)
+	колво-мест
+	описание
+	бюджет: bj/nobj, cost, cost_type
+	edu_lvl
+	очно/заочно
+	срок_обучения
+	predmets: collection: id_predmet, name, ball
+	min_ball
+
+3. специальность подробно
+
+SpecDesc
+
+	id_spec
+	spec_name
+	spec_desc
+	img
+	profecy
+
+
+	
+	

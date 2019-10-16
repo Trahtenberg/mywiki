@@ -19,3 +19,20 @@ Created понедельник 26 Август 2019
 					],
 				],
 	]
+
+ЧТОБЫ ВЫКЛЮЧИТЬ DEBUG ПАНЕЛЬ, НАДО ЗАКОМЕНТИРОВАТЬ БЛОК КОДА В КОНФИГЕ
+
+/*
+if (YII_ENV_DEV) {
+	// configuration adjustments for 'dev' environment
+	$config['bootstrap'][] = 'debug';
+	$config['modules']['debug'] = [
+		'class' => 'yii\debug\Module',
+	];
+
+	$config['bootstrap'][] = 'gii';
+	$config['modules']['gii'] = [
+		'class' => 'yii\gii\Module',
+	];
+}
+*/
