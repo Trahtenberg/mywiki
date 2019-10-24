@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-10-18T13:42:45+03:00
+
+====== проверка1С ======
+Created пятница 18 Октябрь 2019
+
+проверка доступности сервера 1С
+
+надо "стать" на вебсервер и набрать:
+
+wget http://WebObmen:nembObeW@195.9.221.65:48680/UT_Kuzmin/hs/ShinserviceSiteEx/CheckState
+
+адрес 1С указан в htdocs/config/global.php
+
+для боевого он:
+http://WebObmen:nembObeW@77.238.99.26/ut/ws/ExchangeOfSite/ExchangeOfSite.1cws?wsdl
+
+для тестового химки2:
+http://WebObmen:nembObeW@195.9.221.65:48680/UT_Kuzmin/hs/ExchangeOfSite/ExchangeOfSite.1cws?wsdl
+
+

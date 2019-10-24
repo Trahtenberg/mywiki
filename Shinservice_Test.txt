@@ -7,3 +7,14 @@ Created четверг 10 Октябрь 2019
 
 ssh dorda@212.109.217.96
 da
+
+Логин emergency_access
+Пароль *"3hFEd(k4[83FHD
+
+запрос на изменение статуса:
+**php evolution/main/bin/beruru/run.php update 9586573 PICKUP**
+
+просмотр статуса заказа
+https://www.7888388.ru/order_status/?submit&n=370657&p=9999999999
+n-номер заказа
+p-телефон
