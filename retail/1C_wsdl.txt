@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-10-29T13:13:02+03:00
+
+====== 1C wsdl ======
+Created вторник 29 Октябрь 2019
+
+Функции и параметры протокола обмена сайта shinservice с 1С
+
+http://77.238.99.26/ut/ws/ExchangeOfSite/ExchangeOfSite.1cws?wsdl

@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-10-25T13:59:49+03:00
+
+====== logPath ======
+Created пятница 25 Октябрь 2019
+
+lib\classes\Core::getInstance()->getLogsPath();

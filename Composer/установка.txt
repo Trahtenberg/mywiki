@@ -26,6 +26,7 @@ Created понедельник 16 Сентябрь 2019
 появляется файл **composer-setup.php**
 	запускаем **php composer-setup.php**
 появляется файл **composer.phar**
+(см. https://getcomposer.org/download/)
 
 Установка **глобальной** версии:
 	Windows

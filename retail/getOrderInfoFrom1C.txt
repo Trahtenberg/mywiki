@@ -1,0 +1,53 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-10-28T18:50:17+03:00
+
+====== getOrderInfoFrom1C ======
+Created понедельник 28 Октябрь 2019
+
+**просмотр заказа:**
+$orderInfo = WebApp::getInstance()->getEcommerce()->getService1c()->getOrderInfo(null, $orderID);
+print_r($orderInfo->toArray());
+
+===== >>> =====
+
+{
+	"number": "370655",
+	"priceTotal": 3500,
+	"orderStatus": 20,
+	"orderStatusText": "Зарезервирован",
+	"paymentStatus": 10,
+	"paymentStatusText": "Ожидается оплата",
+	"paymentForm": 10,
+	"paymentFormText": "Наличная",
+	"invoiceNumber": null,
+	"orderDate": 1571778000,
+	"endDateReserve": 1571950800,
+	"store": "г. Москва, Сколковское шоссе д. 31а стр.2",
+	"numberTTN": null,
+	"delivery": false,
+	"deliveryAddress": null,
+	"deliveryDate": null,
+	"commentClient": null,
+	"commentMoving": "Заказ беру.ру #9650646",
+	"goods": [
+		{
+			"id": 680953,
+			"title": "BRID 185/65 R15 Turanza T001 88H",
+			"unit": "шт",
+			"unitText": "шт",
+			"amount": 1,
+			"price": 3500,
+			"priceTotal": 3500,
+			"priceTotalNDS": 583.33000000000004
+		}
+	],
+	"clientCode": "08734652",
+	"clientName": "Фамилия Имя",
+	"clientEmail": "beru.ru@shinservice.ru",
+	"phone": "+70000000000",
+	"creditOrder": false,
+	"creditBankId": 0,
+	"creditProgramId": 0,
+	"creditApproved": false
+}

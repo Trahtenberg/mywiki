@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-10-30T13:42:11+03:00
+
+====== db update ======
+Created среда 30 Октябрь 2019
+
+изменение записи:
+
+(new BeruOrderStatusModel())->**update**(
+	['rezerv' => $orderID],
+	['status' => \shinservice\ecommerce\service1c\entities\Order::STATUS_RESERVE_CANCEL]
+);
+
