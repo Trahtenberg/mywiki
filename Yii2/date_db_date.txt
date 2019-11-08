@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-11-08T14:35:59+03:00
+
+====== date db date ======
+Created пятница 08 Ноябрь 2019
+
+**как организовать дату, datepicker и сохранение в бд**
+
+https://tokmakov.msk.ru/blog/item/303

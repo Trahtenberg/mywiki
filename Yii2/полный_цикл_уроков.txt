@@ -6,3 +6,8 @@ Creation-Date: 2019-09-24T18:05:37+03:00
 Created вторник 24 Сентябрь 2019
 
 https://tokmakov.msk.ru/blog/category/18/page/7
+
+остановился на 
+
+Yii2. Подключение css и js файлов
+https://tokmakov.msk.ru/blog/item/267
