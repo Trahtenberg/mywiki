@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-11-26T13:39:40+03:00
+
+====== ActiveRecord ======
+Created вторник 26 Ноябрь 2019
+
+выбор полей при жадной загрузке
+
+$data = Emotion::find()
+	->select('em_id, em_name')
+	->where(['em_id' => $id])
+	->with([
+		'posts' => function($query) {
+			$query->select(['post_id', 'post_header']);
+		}
+	])->one();

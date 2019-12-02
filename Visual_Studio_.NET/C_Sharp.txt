@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-11-29T17:59:23+03:00
+
+====== C Sharp ======
+Created пятница 29 Ноябрь 2019
+
+Как был установлен и запущен: Visual Studio .NET 2019 Professional с C#
+
+скачан установщик Visual Studio Professional
+visualstudio.microsoft.com
+
+при установке выбрана
+- поддержка всех платформ
+- Winsows приложения, C# и консольные приложения
