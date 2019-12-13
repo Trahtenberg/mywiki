@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-12-13T12:13:07+03:00
+
+====== VPN ======
+Created пятница 13 Декабрь 2019
+
+Что такое VPN сервер
+https://thesafety.us/ru/what-is-vpn
+
+Проверка скорости
+https://www.speedtest.net/
+
+OpenVPN
+https://openvpn.net/
+
+Список бесплатных прокси-серверов
+https://freevpn4you.net/ru/free-proxy.php

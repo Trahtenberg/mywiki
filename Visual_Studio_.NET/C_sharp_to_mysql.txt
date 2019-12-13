@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-12-02T11:57:28+03:00
+
+====== C sharp to mysql ======
+Created понедельник 02 Декабрь 2019
+
+https://o7planning.org/ru/10513/connecting-to-mysql-database-using-csharp
+
+выходила куча ошибок  типа
+
+Error: System.TypeInitializationException: The type initializer for 'MySql.Data.MySqlClient.MySqlConnectAttrs' threw an exception.
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'System.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'. Не удается найти указанный файл.
+File name: '**System.Management**, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at MySql.Data.MySqlClient.MySqlConnectAttrs.InitOSDetails()
+   at MySql.Data.MySqlClient.MySqlConnectAttrs..cctor()
+
+и других похожих
+для исправления надо установить/добавить библиотеки из NuGet
+Menu: Project -> Manage NuGet Packages
+пишем название библиотеки из сообщения: File name: 'System.Management... ⇒ System.Management
+и устанавливаем

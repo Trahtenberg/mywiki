@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-12-12T10:22:38+03:00
+
+====== Создание контроллера и вьюхи ======
+Created четверг 12 Декабрь 2019
+
+создать контроллер: [[/evolution/main/controllers/]]MyController.php::MyController extends Controller
+
+создать функцию экшена: form()
+
+создать вьюху: [[/evolution/main/views/my/index.php]]
+
+создать роут в бд: таблица evolution_urls
+id, parent_id, root_id, url_frag, caption, sort_order, pattern_type, pattern_case, status, component_class, component_params
+'3078', '0', '0', '/my', 'My test controller', '10', 'simple', '0', '1', '', '{"rule": {"action": "form.MyController@main", "view": "index.my@main"}}'
+
