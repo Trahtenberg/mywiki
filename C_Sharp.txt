@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-12-16T18:06:36+03:00
+
+====== C Sharp ======
+Created понедельник 16 Декабрь 2019
+
+**вывод переменных объекта** 
+
+	foreach (var i in obj)
+	{
+		Console.WriteLine(i.ToString());
+	}
+
+**установка dotnet на linux**
+
+https://andreyex.ru/operacionnaya-sistema-linux/kak-ustanovit-microsoft-net-core-sdk-v-linux
+
+$ wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor> microsoft.asc.gpg
+$ sudo mv microsoft.asc.gpg /etc/apt/trusted.gpg.d/
+$ wget -q https://packages.microsoft.com/config/debian/9/prod.list
+$ sudo mv prod.list /etc/apt/sources.list.d/microsoft-prod.list
+$ sudo chown root: root /etc/apt/trusted.gpg.d/microsoft.asc.gpg
+$ sudo chown root: root [[/etc/apt/sources.list.d/microsoft-prod.list]]
+
+$ sudo apt-get update
+$ sudo apt-get install dotnet-sdk-2.2
+
+$ dotnet new console -o simple1
+
+перейти в папку проекта ...
+$ dotnet run
+
+**установка пакета из Nuget:**
+
+находим пакет на https://www.nuget.org/
+идем в VS -> View -> Other Windows -> Package Manager Console
+запускаем команду, взятую на nuget.org:
+	Install-Package RazorLight -Version 2.0.0-beta1
+
+

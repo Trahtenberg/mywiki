@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-12-23T14:25:07+03:00
+
+====== MySQL ======
+Created понедельник 23 Декабрь 2019
+
+Если запрос ругается на GROUP BY по причине 
+
+Expression #4 of SELECT list is not in GROUP BY clause and contains nonaggregated column '...' which is not functionally dependent on columns in GROUP BY clause, this ...
+
+то добавить нижеследующий раздел 
+
+[mysqld]
+sql_mode = STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+
+в файл [[/etc/mysql/my.cnf]]
+
+или сделать отдельный файлик [[/etc/mysql/conf.d/mysqld.cnf]] с вышеуказанным содержанием
+(которрый автоматически считывается файлом [[/etc/mysql/my.cnf]])

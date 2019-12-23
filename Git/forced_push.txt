@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-12-13T16:20:22+03:00
+
+====== forced push ======
+Created пятница 13 Декабрь 2019
+
+Если в ветке откатиться назад и попытаться пушить опять на удаленный реп, то будет ошибка типа
+"сперва сделай пул а потом пуши себе"
+
+//$ git push//
+//To ssh://git.sst.su/srv/git/evolution.git//
+// ! [rejected]          121219-seo-3245 -> 121219-seo-3245 (non-fast-forward)//
+//error: failed to push some refs to 'ssh://git@git.sst.su/srv/git/evolution.git'//
+//hint: Updates were rejected because the tip of your current branch is behind//
+//hint: its remote counterpart. Integrate the remote changes (e.g.//
+//hint: 'git pull ...') before pushing again.//
+//hint: See the 'Note about fast-forwards' in 'git push --help' for details.//
+
+но, если удаленные изменения нен нужны, то пулить не надо, а пушить форсом
+
+**git push --force**
+
+(или git push origin +ветка)
