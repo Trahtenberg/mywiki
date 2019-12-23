@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-12-23T20:21:08+04:00
+
+====== Удаленный реп из локального ======
+Created понедельник 23 Декабрь 2019
+
+**Задача:**
+есть рабочая папка на локале
+надо из него создать удаленный реп на bitbucket
+
+-создать новый пустой реп на bitbucket.org
+	например, user: dimastoy, реп: test
+-если в локальной папке был реп, то удалить папку .git
+-git init
+-git add -A
+-git commit -m ´1st commit´
+-git remote add origin https://dimastoy@bitbucket.org/dimastoy/test.git
+-git push -u origin --all
+
+все!

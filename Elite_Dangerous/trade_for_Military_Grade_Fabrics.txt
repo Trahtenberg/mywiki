@@ -9,12 +9,12 @@ Military Grade Fabrics
 14,193 - 468 = 13,725
 на какой станции купят "Military Grade Fabrics" по 14,193
 
-Drexler Colony	Pomeche	9,445
-Arend Vision	Jaarn	9,445
-Simbad's Refuge	Nu Tauri	9,445
-Asimov Landing	LHS 2441	9,445
-Wicca Town	Gateway	9,445
-Weitz Refinery	Ladon	9,445
+Drexler Colony	Pomeche	9,445 (tau ceti: 109)
+Arend Vision	Jaarn	9,445	(187)
+Simbad's Refuge	Nu Tauri	9,445 (108)
+Asimov Landing	LHS 2441	9,445 (41)-----------------
+Wicca Town	Gateway	9,445	(91)
+Weitz Refinery	Ladon	9,445 (71)
 
 около LAVE
 Cousin Ring	Tjindjin	8,862
