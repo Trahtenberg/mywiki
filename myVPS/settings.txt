@@ -1,0 +1,71 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-01-09T16:06:45+03:00
+
+====== settings ======
+Created четверг 09 Январь 2020
+
+lsb_release -a: Ubuntu 18.04.3 LTS
+1. add root user ds
+	connect to server
+	add user
+		$ sudo adduser ds #кроме пароля везде enter и yes
+	add new user to sudo group
+		sudo usermod -aG sudo ds
+	test new user
+		su - ds #должен перейти на пользователя ds
+2. mc
+	sudo apt install mc
+	mc #всё в кракозябрах
+	прописать в /home/ds/.profile
+		LANG=en_US.UTF-8; export LANG
+		и переподключиться по ssh
+3. colored bash ds root
+	в /home/ds/.bashrc раскоментировать строку
+		#force_color_prompt=yes
+4. sudo apt install nginx
+	набрать в браузере 46.173.215.199
+5. sudo apt install git
+	(sudo killall -u git)
+	(userdel -r git)
+	sudo useradd -r -m -U -d /home/git -s /bin/bash git
+	sudo su - git
+	mkdir -p ~/.ssh && chmod 0700 ~/.ssh
+	touch ~/.ssh/authorized_keys && chmod 0600 ~/.ssh/authorized_keys
+	---
+	git init --bare ~/test.git
+	(Важно создать репозиторий в домашнем каталоге пользователя «git»)
+	(локальный ssh-key находится в c:/users/user/.ssh/id_rsa.pub)
+	git remote add origin git@46.173.215.199:test.git
+	перенести содержимое ключа на сервер в /home/git/.ssh/authorized_keys
+		(скопировать id_rsa.pub на сервер в /tmp/)
+		cat /tmp/id_rsa.pub >> /home/git/.ssh/authorized_keys
+	далее работаем на локале...
+		touch test_file
+		git add .
+		git commit -m "descriptive message"
+		git push -u origin master
+		
+6. sudo apt install php-fpm
+	ставит последнюю стабильную версию
+7. настройки nginx php-fpm
+
+	/etc/nginx/sites-available/default
+
+  index index.php ...
+  location ~ \.php$ {
+	try_files $uri =404;
+	fastcgi_pass unix:/var/run/php7.2-fpm.sock;
+	fastcgi_index index.php;
+	fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+	include fastcgi_params;
+  }
+8. sudo apt install composer
+9. SSH timeout
+	a. /etc/ssh/sshd_config
+		ClientAliveInterval 120
+		ClientAliveCountMax 720
+	b. 120 seconds * 720 times = 86400 seconds = 24 hours
+10. sudo apt install python python-markdown dos2unix zip net-tools
+11. sudo apt install openvpn
+	(https://eax.me/openvpn/)

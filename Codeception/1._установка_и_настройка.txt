@@ -17,6 +17,7 @@ Created среда 18 Сентябрь 2019
 если установлен глобальный composer, то пропускаем этот пункт
 если нет, то устанавливаем например локальный, только для этой папки
 **curl -sS http://getcomposer.org/installer | php**
+(если не получается, то см. https://getcomposer.org/download/)
 
 -**если это будет проект** **yii2** то надо скачать пакет "fxp/composer-asset-plugin" для него
 **composer global require "fxp/composer-asset-plugin:*"**

@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-12-27T10:31:27+03:00
+
+====== Руководство для начинающих ======
+Created пятница 27 Декабрь 2019
+
+https://tproger.ru/translations/graphql-beginners-guide/

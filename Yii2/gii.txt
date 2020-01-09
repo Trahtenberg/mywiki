@@ -7,7 +7,7 @@ Created понедельник 26 Август 2019
 
 ЕСЛИ **GII** НЕ РАБОТАЕТ НА ПРОДАКШН ВЕРСИИ, ТО НАДО ДОБАВИТЬ РАЗРЕШЕННЫЕ **IP** АДРЕСА
 
-\common\config\main.php
+**\common\config\main.php**
 
 	'modules' => [
 		'gii' => [
@@ -20,3 +20,10 @@ Created понедельник 26 Август 2019
 			], // adjust this to your needs
 		],
 	]
+
+**А еще gii можно "завести" через консоль:**
+
+php yii gii/model --tableName=adr_raion --modelClass=Raion
+
+модель создается в [[/console/models/]]
+для [[/common/models/]] завести не удалось, но, можно просто переместить

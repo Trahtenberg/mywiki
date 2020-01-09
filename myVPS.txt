@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-01-09T16:06:16+03:00
+
+====== myVPS ======
+Created четверг 09 Январь 2020
+
+ЛК
+	оранжевое приглашение
+	https://bill.invs.ru/
+	dimastoy
+	789456123
+панель управления
+	синее приглашение
+	https://vmm.invs.ru/vmmgr
+	dimastoy
+	ZniAypGdGG93
+ssh
+	46.173.215.199
+	root xlMp2owCB2Ip
+	ds ds
+git
+	user: git pwd: 789456123

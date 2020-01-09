@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-12-27T11:18:54+03:00
+
+====== GitHub GraphQL API ======
+Created пятница 27 Декабрь 2019
+
+https://developer.github.com/v4/explorer/

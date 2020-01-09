@@ -10,3 +10,35 @@ Created пятница 20 Сентябрь 2019
 	//public const ENDPOINT_URL = 'http://api.webapp.loc/api/v1';
 	//public const ENDPOINT_URL = 'http://api.webapp.loc/api/v2';
 	//public const ENDPOINT_URL = 'http://10.10.10.10:8041/api/v1';
+
+**GraphQL API**
+
+https://graphql.org/
+
+Что же такое этот GraphQL?
+https://habr.com/ru/post/326986/
+
+построен на трёх основных строительных блоках
+
+схеме (schema)
+запросах (queries)
+распознавателях (resolvers)
+
+**GraphQL-tools**
+apollographql/graphql-tools
+https://github.com/apollographql/graphql-tools
+
+в базе данных может не существовать полей author или commentsCount, но мы можем "симулировать" их благодаря силе распознавателей
+
+**необходимо всего два компонента:**
+	Сервер GraphQL для обработки запросов к API
+	Клиент GraphQL, который будет подключаться к endpoint.
+
+GraphQL-JS (Node)
+https://github.com/graphql/graphql-js
+
+**GraphQL оперирует тремя основными концепциями:**
+
+queries, запросы — с их помощью получают данные с сервера.
+mutations, изменения — модификация данных на сервере и их обновление.
+subscriptions , подписки — методы поддержания постоянной связи с сервером.
